@@ -1,0 +1,565 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD_KEY_MULTIWRITER	data_plane/dpdk_tables.c	/^        ADD_KEY_MULTIWRITER,$/;"	e	enum:add_key_case	file:
+ADD_KEY_MULTIWRITER_TM	data_plane/dpdk_tables.c	/^        ADD_KEY_MULTIWRITER_TM,$/;"	e	enum:add_key_case	file:
+ADD_KEY_SINGLEWRITER	data_plane/dpdk_tables.c	/^        ADD_KEY_SINGLEWRITER = 0,$/;"	e	enum:add_key_case	file:
+BURST_TX_DRAIN_US	includes/dpdk_lib.h	81;"	d
+BURST_TX_DRAIN_US	ipv6_routing_test_main_loop.c	79;"	d	file:
+BURST_TX_DRAIN_US	l2_switch_test_main_loop.c	80;"	d	file:
+BURST_TX_DRAIN_US	l3_routing_test_main_loop.c	78;"	d	file:
+BURST_TX_DRAIN_US	main_loop.c	90;"	d	file:
+BURST_TX_DRAIN_US	main_loop_bkp.c	91;"	d	file:
+BURST_TX_DRAIN_US	ndn_routing_test_main_loop.c	82;"	d	file:
+CHANGE_TABLE	data_plane/dpdk_lib.c	642;"	d	file:
+CHECK_INTERVAL	data_plane/dpdk_lib.c	426;"	d	file:
+CMD_LINE_OPT_CONFIG	data_plane/dpdk_lib.c	319;"	d	file:
+CMD_LINE_OPT_ENABLE_JUMBO	data_plane/dpdk_lib.c	321;"	d	file:
+CMD_LINE_OPT_HASH_ENTRY_NUM	data_plane/dpdk_lib.c	322;"	d	file:
+CMD_LINE_OPT_NO_NUMA	data_plane/dpdk_lib.c	320;"	d	file:
+DEPARSE_BUFFER_SIZE	ipv6_routing_test_main_loop.c	84;"	d	file:
+DEPARSE_BUFFER_SIZE	l2_switch_test_main_loop.c	85;"	d	file:
+DEPARSE_BUFFER_SIZE	l3_routing_test_main_loop.c	83;"	d	file:
+DEPARSE_BUFFER_SIZE	main_loop.c	95;"	d	file:
+DEPARSE_BUFFER_SIZE	main_loop_bkp.c	96;"	d	file:
+DEPARSE_BUFFER_SIZE	ndn_routing_test_main_loop.c	87;"	d	file:
+DPDK_LIB_H	includes/dpdk_lib.h	15;"	d
+DPDK_PRIMITIVES_H	includes/dpdk_primitives.h	15;"	d
+DPDK_TABLES_H	includes/dpdk_tables.h	15;"	d
+ETH_ALEN	key.h	3;"	d
+EXTRACT_BYTEBUF	includes/dpdk_primitives.h	102;"	d
+EXTRACT_EGRESSPORT	ipv6_routing_test_main_loop.c	334;"	d	file:
+EXTRACT_EGRESSPORT	l2_switch_test_main_loop.c	333;"	d	file:
+EXTRACT_EGRESSPORT	l3_routing_test_main_loop.c	334;"	d	file:
+EXTRACT_EGRESSPORT	main_loop.c	327;"	d	file:
+EXTRACT_EGRESSPORT	main_loop_bkp.c	328;"	d	file:
+EXTRACT_EGRESSPORT	ndn_routing_test_main_loop.c	337;"	d	file:
+EXTRACT_INGRESSPORT	ipv6_routing_test_main_loop.c	335;"	d	file:
+EXTRACT_INGRESSPORT	l2_switch_test_main_loop.c	334;"	d	file:
+EXTRACT_INGRESSPORT	l3_routing_test_main_loop.c	335;"	d	file:
+EXTRACT_INGRESSPORT	main_loop.c	330;"	d	file:
+EXTRACT_INGRESSPORT	main_loop_bkp.c	331;"	d	file:
+EXTRACT_INGRESSPORT	ndn_routing_test_main_loop.c	338;"	d	file:
+EXTRACT_INT32_AUTO	includes/dpdk_primitives.h	97;"	d
+EXTRACT_INT32_BITS	includes/dpdk_primitives.h	75;"	d
+EXTRACT_INT32_NTOH	includes/dpdk_primitives.h	85;"	d
+FIELD_BYTE_ADDR	includes/dpdk_primitives.h	20;"	d
+FORALLNUMANODES	data_plane/dpdk_lib.c	653;"	d	file:
+GET_INT32_AUTO	includes/dpdk_primitives.h	70;"	d
+HASH_ENTRIES	includes/dpdk_tables.h	24;"	d
+HDR_MBUF_DATA_SIZE	ipv6_routing_test_main_loop.c	74;"	d	file:
+HDR_MBUF_DATA_SIZE	l2_switch_test_main_loop.c	75;"	d	file:
+HDR_MBUF_DATA_SIZE	l3_routing_test_main_loop.c	73;"	d	file:
+HDR_MBUF_DATA_SIZE	main_loop.c	85;"	d	file:
+HDR_MBUF_DATA_SIZE	main_loop_bkp.c	86;"	d	file:
+HDR_MBUF_DATA_SIZE	ndn_routing_test_main_loop.c	77;"	d	file:
+HTON_FIELD	includes/dpdk_primitives.h	28;"	d
+IPV6_ADDR_LEN	ipv6_routing_test_main_loop.c	385;"	d	file:
+IPV6_NUM_RAND_PREFIXES	ipv6_routing_test_main_loop.c	386;"	d	file:
+IPV6_NUM_TBL8	ipv6_routing_test_main_loop.c	387;"	d	file:
+IPV6_RAND_PREFIXES_SEED	ipv6_routing_test_main_loop.c	384;"	d	file:
+ISSET	ipv6_routing_test_main_loop.c	408;"	d	file:
+KEY_112_BYTES	data_plane/dpdk_tables.c	/^        KEY_112_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_128_BYTES	data_plane/dpdk_tables.c	/^        KEY_128_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_16_BYTES	data_plane/dpdk_tables.c	/^        KEY_16_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_32_BYTES	data_plane/dpdk_tables.c	/^        KEY_32_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_48_BYTES	data_plane/dpdk_tables.c	/^        KEY_48_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_64_BYTES	data_plane/dpdk_tables.c	/^        KEY_64_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_80_BYTES	data_plane/dpdk_tables.c	/^        KEY_80_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_96_BYTES	data_plane/dpdk_tables.c	/^        KEY_96_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_CUSTOM	data_plane/dpdk_tables.c	/^        KEY_CUSTOM = 0,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_OTHER_BYTES	data_plane/dpdk_tables.c	/^        KEY_OTHER_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+LPM6_NUMBER_TBL8S	includes/dpdk_tables.h	26;"	d
+LPM_MAX_RULES	includes/dpdk_tables.h	25;"	d
+MAX_CHECK_TIME	data_plane/dpdk_lib.c	427;"	d	file:
+MAX_ETHPORTS	includes/dpdk_lib.h	61;"	d
+MAX_JUMBO_PKT_LEN	data_plane/dpdk_lib.c	92;"	d	file:
+MAX_LCORE_PARAMS	data_plane/dpdk_lib.c	57;"	d	file:
+MAX_PKT_BURST	includes/dpdk_lib.h	80;"	d
+MAX_PORTS	ipv6_routing_test_main_loop.c	60;"	d	file:
+MAX_PORTS	l2_switch_test_main_loop.c	61;"	d	file:
+MAX_PORTS	l3_routing_test_main_loop.c	59;"	d	file:
+MAX_PORTS	main_loop.c	71;"	d	file:
+MAX_PORTS	main_loop_bkp.c	72;"	d	file:
+MAX_PORTS	ndn_routing_test_main_loop.c	63;"	d	file:
+MAX_RX_QUEUE_PER_LCORE	includes/dpdk_lib.h	89;"	d
+MAX_RX_QUEUE_PER_PORT	includes/dpdk_lib.h	91;"	d
+MAX_TIMER_PERIOD	ipv6_routing_test_main_loop.c	57;"	d	file:
+MAX_TIMER_PERIOD	l2_switch_test_main_loop.c	58;"	d	file:
+MAX_TIMER_PERIOD	l3_routing_test_main_loop.c	56;"	d	file:
+MAX_TIMER_PERIOD	main_loop.c	68;"	d	file:
+MAX_TIMER_PERIOD	main_loop_bkp.c	69;"	d	file:
+MAX_TIMER_PERIOD	ndn_routing_test_main_loop.c	60;"	d	file:
+MAX_TX_QUEUE_PER_PORT	includes/dpdk_lib.h	90;"	d
+MAX_URL_LEN	ndn_routing_test_main_loop.c	428;"	d	file:
+MBUF_SIZE	includes/dpdk_lib.h	74;"	d
+MCAST_CLONE_PORTS	ipv6_routing_test_main_loop.c	62;"	d	file:
+MCAST_CLONE_PORTS	l2_switch_test_main_loop.c	63;"	d	file:
+MCAST_CLONE_PORTS	l3_routing_test_main_loop.c	61;"	d	file:
+MCAST_CLONE_PORTS	main_loop.c	73;"	d	file:
+MCAST_CLONE_PORTS	main_loop_bkp.c	74;"	d	file:
+MCAST_CLONE_PORTS	ndn_routing_test_main_loop.c	65;"	d	file:
+MCAST_CLONE_SEGS	ipv6_routing_test_main_loop.c	63;"	d	file:
+MCAST_CLONE_SEGS	l2_switch_test_main_loop.c	64;"	d	file:
+MCAST_CLONE_SEGS	l3_routing_test_main_loop.c	62;"	d	file:
+MCAST_CLONE_SEGS	main_loop.c	74;"	d	file:
+MCAST_CLONE_SEGS	main_loop_bkp.c	75;"	d	file:
+MCAST_CLONE_SEGS	ndn_routing_test_main_loop.c	66;"	d	file:
+MEMPOOL_CACHE_SIZE	includes/dpdk_lib.h	78;"	d
+MODIFY_BYTEBUF_BYTEBUF	includes/dpdk_primitives.h	34;"	d
+MODIFY_INT32_BYTEBUF	includes/dpdk_primitives.h	40;"	d
+MODIFY_INT32_INT32_AUTO	includes/dpdk_primitives.h	65;"	d
+MODIFY_INT32_INT32_BITS	includes/dpdk_primitives.h	48;"	d
+MODIFY_INT32_INT32_HTON	includes/dpdk_primitives.h	55;"	d
+NB_CLONE_MBUF	ipv6_routing_test_main_loop.c	77;"	d	file:
+NB_CLONE_MBUF	l2_switch_test_main_loop.c	78;"	d	file:
+NB_CLONE_MBUF	l3_routing_test_main_loop.c	76;"	d	file:
+NB_CLONE_MBUF	main_loop.c	88;"	d	file:
+NB_CLONE_MBUF	main_loop_bkp.c	89;"	d	file:
+NB_CLONE_MBUF	ndn_routing_test_main_loop.c	80;"	d	file:
+NB_HDR_MBUF	ipv6_routing_test_main_loop.c	75;"	d	file:
+NB_HDR_MBUF	l2_switch_test_main_loop.c	76;"	d	file:
+NB_HDR_MBUF	l3_routing_test_main_loop.c	74;"	d	file:
+NB_HDR_MBUF	main_loop.c	86;"	d	file:
+NB_HDR_MBUF	main_loop_bkp.c	87;"	d	file:
+NB_HDR_MBUF	ndn_routing_test_main_loop.c	78;"	d	file:
+NB_MBUF	includes/dpdk_lib.h	77;"	d
+NB_PKT_MBUF	ipv6_routing_test_main_loop.c	72;"	d	file:
+NB_PKT_MBUF	l2_switch_test_main_loop.c	73;"	d	file:
+NB_PKT_MBUF	l3_routing_test_main_loop.c	71;"	d	file:
+NB_PKT_MBUF	main_loop.c	83;"	d	file:
+NB_PKT_MBUF	main_loop_bkp.c	84;"	d	file:
+NB_PKT_MBUF	ndn_routing_test_main_loop.c	75;"	d	file:
+NB_REPLICA	includes/dpdk_lib.h	105;"	d
+NB_SOCKETS	includes/dpdk_lib.h	93;"	d
+NB_TABLES	includes/dpdk_lib.h	97;"	d
+NTOH_FIELD	includes/dpdk_primitives.h	23;"	d
+NUM_KEY_CMP_CASES	data_plane/dpdk_tables.c	/^        NUM_KEY_CMP_CASES,$/;"	e	enum:cmp_jump_table_case	file:
+NUM_PORT	ipv6_routing_test_main_loop.c	431;"	d	file:
+NUM_PORT	l3_routing_test_main_loop.c	390;"	d	file:
+PKT_MBUF_DATA_SIZE	ipv6_routing_test_main_loop.c	71;"	d	file:
+PKT_MBUF_DATA_SIZE	l2_switch_test_main_loop.c	72;"	d	file:
+PKT_MBUF_DATA_SIZE	l3_routing_test_main_loop.c	70;"	d	file:
+PKT_MBUF_DATA_SIZE	main_loop.c	82;"	d	file:
+PKT_MBUF_DATA_SIZE	main_loop_bkp.c	83;"	d	file:
+PKT_MBUF_DATA_SIZE	ndn_routing_test_main_loop.c	74;"	d	file:
+PRINT_OPAQUE_STRUCT	includes/dpdk_lib.h	142;"	d
+RTE_HASH_BUCKET_ENTRIES	data_plane/dpdk_tables.c	34;"	d	file:
+RTE_LOGTYPE_L2FWD	includes/dpdk_lib.h	71;"	d
+RTE_LOGTYPE_L3FWD	includes/dpdk_lib.h	70;"	d
+RTE_LOGTYPE_P4_FWD	includes/dpdk_lib.h	72;"	d
+RTE_TEST_RX_DESC_DEFAULT	data_plane/dpdk_lib.c	93;"	d	file:
+RTE_TEST_RX_DESC_DEFAULT	ipv6_routing_test_main_loop.c	65;"	d	file:
+RTE_TEST_RX_DESC_DEFAULT	l2_switch_test_main_loop.c	66;"	d	file:
+RTE_TEST_RX_DESC_DEFAULT	l3_routing_test_main_loop.c	64;"	d	file:
+RTE_TEST_RX_DESC_DEFAULT	main_loop.c	76;"	d	file:
+RTE_TEST_RX_DESC_DEFAULT	main_loop_bkp.c	77;"	d	file:
+RTE_TEST_RX_DESC_DEFAULT	ndn_routing_test_main_loop.c	68;"	d	file:
+RTE_TEST_TX_DESC_DEFAULT	data_plane/dpdk_lib.c	94;"	d	file:
+RTE_TEST_TX_DESC_DEFAULT	ipv6_routing_test_main_loop.c	66;"	d	file:
+RTE_TEST_TX_DESC_DEFAULT	l2_switch_test_main_loop.c	67;"	d	file:
+RTE_TEST_TX_DESC_DEFAULT	l3_routing_test_main_loop.c	65;"	d	file:
+RTE_TEST_TX_DESC_DEFAULT	main_loop.c	77;"	d	file:
+RTE_TEST_TX_DESC_DEFAULT	main_loop_bkp.c	78;"	d	file:
+RTE_TEST_TX_DESC_DEFAULT	ndn_routing_test_main_loop.c	69;"	d	file:
+TABCHANGE_DELAY	includes/dpdk_lib.h	131;"	d
+TABLE_MAX	includes/dpdk_tables.h	27;"	d
+TIMER_MILLISECOND	ipv6_routing_test_main_loop.c	56;"	d	file:
+TIMER_MILLISECOND	l2_switch_test_main_loop.c	57;"	d	file:
+TIMER_MILLISECOND	l3_routing_test_main_loop.c	55;"	d	file:
+TIMER_MILLISECOND	main_loop.c	67;"	d	file:
+TIMER_MILLISECOND	main_loop_bkp.c	68;"	d	file:
+TIMER_MILLISECOND	ndn_routing_test_main_loop.c	59;"	d	file:
+UNUSED	data_plane/dpdk_lib.c	126;"	d	file:
+__ALIASES_H_	includes/aliases.h	15;"	d
+__rte_cache_aligned	data_plane/dpdk_lib.c	/^} __rte_cache_aligned;$/;"	v	typeref:struct:lcore_params
+__rte_cache_aligned	data_plane/dpdk_tables.c	/^} __rte_cache_aligned;$/;"	v	typeref:struct:rte_hash
+__rte_cache_aligned	data_plane/dpdk_tables.c	/^} __rte_cache_aligned;$/;"	v	typeref:struct:rte_hash_bucket
+__rte_cache_aligned	includes/dpdk_lib.h	/^} __rte_cache_aligned;$/;"	v	typeref:struct:l2fwd_port_statistics
+__rte_cache_aligned	includes/dpdk_lib.h	/^} __rte_cache_aligned;$/;"	v	typeref:struct:lcore_conf
+__rte_cache_aligned	includes/dpdk_lib.h	/^} __rte_cache_aligned;$/;"	v	typeref:struct:lcore_rx_queue
+active_replica	includes/dpdk_lib.h	/^    int              active_replica [NB_TABLES];$/;"	m	struct:socket_state
+add_header	data_plane/dpdk_primitives.c	/^add_header(packet_descriptor_t* p, header_reference_t h)$/;"	f
+add_index	data_plane/dpdk_tables.c	/^static uint8_t* add_index(uint8_t* value, int val_size, int index)$/;"	f	file:
+add_key	data_plane/dpdk_tables.c	/^        enum add_key_case add_key; \/**< Multi-writer hash add behavior *\/$/;"	m	struct:rte_hash	typeref:enum:rte_hash::add_key_case	file:
+add_key_case	data_plane/dpdk_tables.c	/^enum add_key_case {$/;"	g	file:
+addr	key.h	/^                        } addr;$/;"	m	struct:key::__anon10::__anon11	typeref:struct:key::__anon10::__anon11::__anon12
+addr	key.h	/^                        } addr;$/;"	m	struct:key::__anon10::__anon14	typeref:struct:key::__anon10::__anon14::__anon15
+alreadyPresent	ndn_routing_test_main_loop.c	/^int alreadyPresent(lookup_table_t** tables, char* key, struct ndn_fib_lpm_action value) {$/;"	f
+alt	data_plane/dpdk_tables.c	/^                        hash_sig_t alt;$/;"	m	struct:rte_hash_signatures::__anon1::__anon2	file:
+arp	key.h	/^                        } arp;$/;"	m	struct:key::__anon10::__anon11	typeref:struct:key::__anon10::__anon11::__anon13
+bitcnt	ipv6_routing_test_main_loop.c	/^bitcnt(uint32_t v)$/;"	f	file:
+bitcnt	l2_switch_test_main_loop.c	/^bitcnt(uint32_t v)$/;"	f	file:
+bitcnt	l3_routing_test_main_loop.c	/^bitcnt(uint32_t v)$/;"	f	file:
+bitcnt	main_loop.c	/^bitcnt(uint32_t v)$/;"	f	file:
+bitcnt	main_loop_bkp.c	/^bitcnt(uint32_t v)$/;"	f	file:
+bitcnt	ndn_routing_test_main_loop.c	/^bitcnt(uint32_t v)$/;"	f	file:
+bitcount	ipv6_routing_test_main_loop.c	/^int bitcount(int n)$/;"	f
+bucket_bitmask	data_plane/dpdk_tables.c	/^        uint32_t bucket_bitmask;        \/**< Bitmask for getting bucket index$/;"	m	struct:rte_hash	file:
+buckets	data_plane/dpdk_tables.c	/^        struct rte_hash_bucket *buckets;        \/**< Table with buckets storing all the$/;"	m	struct:rte_hash	typeref:struct:rte_hash::rte_hash_bucket	file:
+bulk_exact_lookup	data_plane/dpdk_tables.c	/^bulk_exact_lookup(lookup_table_t* t, int batch_size, int keysize, uint8_t key[][keysize], uint8_t **values)$/;"	f
+bytes	ipv6_routing_test_main_loop.c	/^        uint8_t bytes[IPV6_ADDR_LEN];$/;"	m	struct:ipv6_prefix	file:
+change_replica	data_plane/dpdk_lib.c	/^static void change_replica(int socketid, int tid, int replica) {$/;"	f	file:
+check_all_ports_link_status	data_plane/dpdk_lib.c	/^check_all_ports_link_status(uint8_t port_num, uint32_t port_mask)$/;"	f	file:
+check_lcore_params	data_plane/dpdk_lib.c	/^check_lcore_params(void)$/;"	f	file:
+check_port_config	data_plane/dpdk_lib.c	/^check_port_config(const unsigned nb_ports)$/;"	f	file:
+clone_pool	ipv6_routing_test_main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:
+clone_pool	l2_switch_test_main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:
+clone_pool	l3_routing_test_main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:
+clone_pool	main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:
+clone_pool	main_loop_bkp.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:
+clone_pool	ndn_routing_test_main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:
+cmp_jump_table_case	data_plane/dpdk_tables.c	/^enum cmp_jump_table_case {$/;"	g	file:
+cmp_jump_table_idx	data_plane/dpdk_tables.c	/^        enum cmp_jump_table_case cmp_jump_table_idx;$/;"	m	struct:rte_hash	typeref:enum:rte_hash::cmp_jump_table_case	file:
+compute_cross_product_table	main_loop.c	/^void compute_cross_product_table(lookup_table_t** tables, char* table1_name, char* table2_name){$/;"	f
+compute_cross_product_table	main_loop_bkp.c	/^void compute_cross_product_table(){$/;"	f
+content	includes/dpdk_tables.h	/^    uint8_t** content;$/;"	m	struct:extended_table_s
+copy_to_socket	data_plane/dpdk_tables.c	/^copy_to_socket(uint8_t* src, int length, int socketid) {$/;"	f	file:
+counters	includes/dpdk_lib.h	/^    counter_t      * counters       [NB_COUNTERS][RTE_MAX_LCORE];$/;"	m	struct:socket_state
+counters	includes/dpdk_lib.h	/^    counter_t      * counters [NB_COUNTERS];$/;"	m	struct:lcore_state
+crc32	data_plane/dpdk_tables.c	/^static uint32_t crc32(const void *data, uint32_t data_len, uint32_t init_val) {$/;"	f	file:
+create_counters_on_socket	data_plane/dpdk_lib.c	/^create_counters_on_socket(int socketid)$/;"	f	file:
+create_error	data_plane/dpdk_tables.c	/^void create_error(int socketid, char* table_type)$/;"	f
+create_error_text	data_plane/dpdk_tables.c	/^void create_error_text(int socketid, char* table_type, char* error_text)$/;"	f
+create_ext_table	data_plane/dpdk_tables.c	/^create_ext_table(lookup_table_t* t, void* rte_table, int socketid)$/;"	f	file:
+create_table	data_plane/dpdk_lib.c	/^create_table(lookup_table_t* t, int socketid)$/;"	f	file:
+create_tables_on_socket	data_plane/dpdk_lib.c	/^create_tables_on_socket(int socketid)$/;"	f	file:
+current	data_plane/dpdk_tables.c	/^                        hash_sig_t current;$/;"	m	struct:rte_hash_signatures::__anon1::__anon2	file:
+dbg_print_headers	ipv6_routing_test_main_loop.c	/^dbg_print_headers(packet_descriptor_t* pd)$/;"	f	file:
+dbg_print_headers	l2_switch_test_main_loop.c	/^dbg_print_headers(packet_descriptor_t* pd)$/;"	f	file:
+dbg_print_headers	l3_routing_test_main_loop.c	/^dbg_print_headers(packet_descriptor_t* pd)$/;"	f	file:
+dbg_print_headers	main_loop.c	/^dbg_print_headers(packet_descriptor_t* pd)$/;"	f	file:
+dbg_print_headers	main_loop_bkp.c	/^dbg_print_headers(packet_descriptor_t* pd)$/;"	f	file:
+dbg_print_headers	ndn_routing_test_main_loop.c	/^dbg_print_headers(packet_descriptor_t* pd)$/;"	f	file:
+deparse_headers	ipv6_routing_test_main_loop.c	/^deparse_headers(packet_descriptor_t* pd, int socketid)$/;"	f	file:
+deparse_headers	l2_switch_test_main_loop.c	/^deparse_headers(packet_descriptor_t* pd, int socketid)$/;"	f	file:
+deparse_headers	l3_routing_test_main_loop.c	/^deparse_headers(packet_descriptor_t* pd, int socketid)$/;"	f	file:
+deparse_headers	main_loop.c	/^deparse_headers(packet_descriptor_t* pd, int socketid)$/;"	f	file:
+deparse_headers	main_loop_bkp.c	/^deparse_headers(packet_descriptor_t* pd, int socketid)$/;"	f	file:
+deparse_headers	ndn_routing_test_main_loop.c	/^deparse_headers(packet_descriptor_t* pd, int socketid)$/;"	f	file:
+deparse_mbuf	ipv6_routing_test_main_loop.c	/^struct rte_mbuf* deparse_mbuf;$/;"	v	typeref:struct:rte_mbuf
+deparse_mbuf	l2_switch_test_main_loop.c	/^struct rte_mbuf* deparse_mbuf;$/;"	v	typeref:struct:rte_mbuf
+deparse_mbuf	l3_routing_test_main_loop.c	/^struct rte_mbuf* deparse_mbuf;$/;"	v	typeref:struct:rte_mbuf
+deparse_mbuf	main_loop.c	/^struct rte_mbuf* deparse_mbuf;$/;"	v	typeref:struct:rte_mbuf
+deparse_mbuf	main_loop_bkp.c	/^struct rte_mbuf* deparse_mbuf;$/;"	v	typeref:struct:rte_mbuf
+deparse_mbuf	ndn_routing_test_main_loop.c	/^struct rte_mbuf* deparse_mbuf;$/;"	v	typeref:struct:rte_mbuf
+depth	ipv6_routing_test_main_loop.c	/^        int depth;      \/**< Number of bits required to match exactly *\/$/;"	m	struct:ipv6_prefix	file:
+dpdk_bcast_packet	ipv6_routing_test_main_loop.c	/^dpdk_bcast_packet(struct rte_mbuf *m, uint8_t ingress_port, uint32_t lcore_id)$/;"	f	file:
+dpdk_bcast_packet	l2_switch_test_main_loop.c	/^dpdk_bcast_packet(struct rte_mbuf *m, uint8_t ingress_port, uint32_t lcore_id)$/;"	f	file:
+dpdk_bcast_packet	l3_routing_test_main_loop.c	/^dpdk_bcast_packet(struct rte_mbuf *m, uint8_t ingress_port, uint32_t lcore_id)$/;"	f	file:
+dpdk_bcast_packet	main_loop.c	/^dpdk_bcast_packet(struct rte_mbuf *m, uint8_t ingress_port, uint32_t lcore_id)$/;"	f	file:
+dpdk_bcast_packet	main_loop_bkp.c	/^dpdk_bcast_packet(struct rte_mbuf *m, uint8_t ingress_port, uint32_t lcore_id)$/;"	f	file:
+dpdk_bcast_packet	ndn_routing_test_main_loop.c	/^dpdk_bcast_packet(struct rte_mbuf *m, uint8_t ingress_port, uint32_t lcore_id)$/;"	f	file:
+dpdk_main_loop	ipv6_routing_test_main_loop.c	/^dpdk_main_loop(void)$/;"	f
+dpdk_main_loop	l2_switch_test_main_loop.c	/^dpdk_main_loop(void)$/;"	f
+dpdk_main_loop	l3_routing_test_main_loop.c	/^dpdk_main_loop(void)$/;"	f
+dpdk_main_loop	main_loop.c	/^dpdk_main_loop(void)$/;"	f
+dpdk_main_loop	main_loop_bkp.c	/^dpdk_main_loop(void)$/;"	f
+dpdk_main_loop	ndn_routing_test_main_loop.c	/^dpdk_main_loop(void)$/;"	f
+dpdk_mcast_packet	ipv6_routing_test_main_loop.c	/^dpdk_mcast_packet(struct rte_mbuf *m, uint32_t port_mask, uint32_t lcore_id)$/;"	f	file:
+dpdk_mcast_packet	l2_switch_test_main_loop.c	/^dpdk_mcast_packet(struct rte_mbuf *m, uint32_t port_mask, uint32_t lcore_id)$/;"	f	file:
+dpdk_mcast_packet	l3_routing_test_main_loop.c	/^dpdk_mcast_packet(struct rte_mbuf *m, uint32_t port_mask, uint32_t lcore_id)$/;"	f	file:
+dpdk_mcast_packet	main_loop.c	/^dpdk_mcast_packet(struct rte_mbuf *m, uint32_t port_mask, uint32_t lcore_id)$/;"	f	file:
+dpdk_mcast_packet	main_loop_bkp.c	/^dpdk_mcast_packet(struct rte_mbuf *m, uint32_t port_mask, uint32_t lcore_id)$/;"	f	file:
+dpdk_mcast_packet	ndn_routing_test_main_loop.c	/^dpdk_mcast_packet(struct rte_mbuf *m, uint32_t port_mask, uint32_t lcore_id)$/;"	f	file:
+dpdk_send_packet	ipv6_routing_test_main_loop.c	/^dpdk_send_packet(struct rte_mbuf *m, uint8_t port, uint32_t lcore_id)$/;"	f	file:
+dpdk_send_packet	l2_switch_test_main_loop.c	/^dpdk_send_packet(struct rte_mbuf *m, uint8_t port, uint32_t lcore_id)$/;"	f	file:
+dpdk_send_packet	l3_routing_test_main_loop.c	/^dpdk_send_packet(struct rte_mbuf *m, uint8_t port, uint32_t lcore_id)$/;"	f	file:
+dpdk_send_packet	main_loop.c	/^dpdk_send_packet(struct rte_mbuf *m, uint8_t port, uint32_t lcore_id)$/;"	f	file:
+dpdk_send_packet	main_loop_bkp.c	/^dpdk_send_packet(struct rte_mbuf *m, uint8_t port, uint32_t lcore_id)$/;"	f	file:
+dpdk_send_packet	ndn_routing_test_main_loop.c	/^dpdk_send_packet(struct rte_mbuf *m, uint8_t port, uint32_t lcore_id)$/;"	f	file:
+drop	data_plane/dpdk_primitives.c	/^void drop(packet_descriptor_t* p)$/;"	f
+dropped	includes/dpdk_lib.h	/^	uint64_t dropped;$/;"	m	struct:l2fwd_port_statistics
+dst	key.h	/^                                __be32 dst;     \/* IP destination address. *\/$/;"	m	struct:key::__anon10::__anon11::__anon12
+dst	key.h	/^                                struct in6_addr dst;    \/* IPv6 destination address. *\/$/;"	m	struct:key::__anon10::__anon14::__anon15	typeref:struct:key::__anon10::__anon14::__anon15::in6_addr
+dst	key.h	/^                __be16 dst;             \/* TCP\/UDP\/SCTP destination port. *\/$/;"	m	struct:key::__anon9
+dst	key.h	/^                u8     dst[ETH_ALEN];   \/* Ethernet destination address. *\/$/;"	m	struct:key::__anon6
+dst_port	ipv6_routing_test_main_loop.c	/^        int dst_port;$/;"	m	struct:ipv6_prefix	file:
+egress_port	key.h	/^		uint8_t egress_port;$/;"	m	struct:key::__anon5
+enabled_port_mask	ipv6_routing_test_main_loop.c	/^uint32_t enabled_port_mask = 0;$/;"	v
+enabled_port_mask	l2_switch_test_main_loop.c	/^uint32_t enabled_port_mask = 0;$/;"	v
+enabled_port_mask	l3_routing_test_main_loop.c	/^uint32_t enabled_port_mask = 0;$/;"	v
+enabled_port_mask	main_loop.c	/^uint32_t enabled_port_mask = 0;$/;"	v
+enabled_port_mask	main_loop_bkp.c	/^uint32_t enabled_port_mask = 0;$/;"	v
+enabled_port_mask	ndn_routing_test_main_loop.c	/^uint32_t enabled_port_mask = 0;$/;"	v
+entries	data_plane/dpdk_tables.c	/^        uint32_t entries;               \/**< Total table entries. *\/$/;"	m	struct:rte_hash	file:
+eth	key.h	/^        } eth;$/;"	m	struct:key	typeref:struct:key::__anon6
+exact_add	data_plane/dpdk_tables.c	/^exact_add(lookup_table_t* t, uint8_t* key, uint8_t* value)$/;"	f
+exact_add_promote	data_plane/dpdk_lib.c	/^exact_add_promote(int tableid, uint8_t* key, uint8_t* value) {$/;"	f
+exact_create	data_plane/dpdk_tables.c	/^exact_create(lookup_table_t* t, int socketid)$/;"	f
+exact_lookup	data_plane/dpdk_tables.c	/^exact_lookup(lookup_table_t* t, int batch_size, int keysize, uint8_t key[][keysize], uint8_t **values)$/;"	f
+extended_table_s	includes/dpdk_tables.h	/^typedef struct extended_table_s {$/;"	s
+extended_table_t	includes/dpdk_tables.h	/^} extended_table_t;$/;"	t	typeref:struct:extended_table_s
+flag	data_plane/dpdk_tables.c	/^        uint8_t flag[RTE_HASH_BUCKET_ENTRIES];$/;"	m	struct:rte_hash_bucket	file:
+flags	key.h	/^                __be16 flags;           \/* TCP flags. *\/$/;"	m	struct:key::__anon9
+frag	key.h	/^                        u8     frag;    \/* One of OVS_FRAG_TYPE_*. *\/$/;"	m	struct:key::__anon7::__anon8
+free_slots	data_plane/dpdk_tables.c	/^        struct rte_ring *free_slots;    \/**< Ring that stores all indexes$/;"	m	struct:rte_hash	typeref:struct:rte_hash::rte_ring	file:
+generate_digest	data_plane/dpdk_primitives.c	/^generate_digest(backend bg, char* name, int receiver, struct type_field_list* digest_field_list)$/;"	f
+get_active_bits	ipv6_routing_test_main_loop.c	/^int *get_active_bits(int mask)$/;"	f
+get_port_n_rx_queues	data_plane/dpdk_lib.c	/^get_port_n_rx_queues(const uint8_t port)$/;"	f	file:
+get_socketid	data_plane/dpdk_lib.c	/^get_socketid(unsigned lcore_id)$/;"	f	file:
+get_socketid	ipv6_routing_test_main_loop.c	/^get_socketid(unsigned lcore_id)$/;"	f	file:
+get_socketid	l2_switch_test_main_loop.c	/^get_socketid(unsigned lcore_id)$/;"	f	file:
+get_socketid	l3_routing_test_main_loop.c	/^get_socketid(unsigned lcore_id)$/;"	f	file:
+get_socketid	main_loop.c	/^get_socketid(unsigned lcore_id)$/;"	f	file:
+get_socketid	main_loop_bkp.c	/^get_socketid(unsigned lcore_id)$/;"	f	file:
+get_socketid	ndn_routing_test_main_loop.c	/^get_socketid(unsigned lcore_id)$/;"	f	file:
+hash_add_key	data_plane/dpdk_tables.c	/^hash_add_key(struct rte_hash* h, void *key)$/;"	f
+hash_create	data_plane/dpdk_tables.c	/^hash_create(int socketid, const char* name, uint32_t keylen, rte_hash_function hashfunc)$/;"	f
+hash_func	data_plane/dpdk_tables.c	/^        rte_hash_function hash_func;    \/**< Function used to calculate hash. *\/$/;"	m	struct:rte_hash	file:
+hash_func_init_val	data_plane/dpdk_tables.c	/^        uint32_t hash_func_init_val;    \/**< Init value used by hash_func. *\/$/;"	m	struct:rte_hash	file:
+header_pool	ipv6_routing_test_main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:rte_mempool
+header_pool	l2_switch_test_main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:rte_mempool
+header_pool	l3_routing_test_main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:rte_mempool
+header_pool	main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:rte_mempool
+header_pool	main_loop_bkp.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:rte_mempool
+header_pool	ndn_routing_test_main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:rte_mempool
+hw_trans_mem_support	data_plane/dpdk_tables.c	/^        uint8_t hw_trans_mem_support;   \/**< Hardware transactional$/;"	m	struct:rte_hash	file:
+id	main_loop.c	/^  int id;$/;"	m	struct:items	file:
+id	main_loop_bkp.c	/^  int id;$/;"	m	struct:items	file:
+in_port	key.h	/^                u16     in_port;        \/* Input switch port (or DP_MAX_PORTS). *\/$/;"	m	struct:key::__anon4
+increase_counter	data_plane/dpdk_lib.c	/^increase_counter(int counterid, int index) {$/;"	f
+ingress_port	key.h	/^		uint8_t ingress_port;$/;"	m	struct:key::__anon5
+init_lcore_confs	data_plane/dpdk_lib.c	/^int init_lcore_confs()$/;"	f
+init_lcore_rx_queues	data_plane/dpdk_lib.c	/^init_lcore_rx_queues(void)$/;"	f	file:
+init_mem	data_plane/dpdk_lib.c	/^init_mem(unsigned nb_mbuf)$/;"	f	file:
+init_memories	data_plane/dpdk_lib.c	/^int init_memories()$/;"	f
+init_tables	ipv6_routing_test_main_loop.c	/^init_tables(lookup_table_t** tables)$/;"	f
+init_tables	l3_routing_test_main_loop.c	/^init_tables(lookup_table_t** tables) $/;"	f
+init_tables2	ipv6_routing_test_main_loop.c	/^init_tables2(lookup_table_t** tables)$/;"	f
+init_tables3	ipv6_routing_test_main_loop.c	/^init_tables3(lookup_table_t** tables)$/;"	f
+init_tbl	l2_switch_test_main_loop.c	/^static int init_tbl = 0;$/;"	v	file:
+initialize	data_plane/dpdk_lib.c	/^initialize(int argc, char **argv)$/;"	f
+ip	key.h	/^                } ip;$/;"	m	union:key::__anon7	typeref:struct:key::__anon7::__anon8
+ipv4	key.h	/^                } ipv4;$/;"	m	union:key::__anon10	typeref:struct:key::__anon10::__anon11
+ipv6	key.h	/^  		} ipv6;$/;"	m	union:key::__anon10	typeref:struct:key::__anon10::__anon14
+ipv6_prefix	ipv6_routing_test_main_loop.c	/^struct ipv6_prefix {$/;"	s	file:
+items	main_loop.c	/^struct items$/;"	s	file:
+items	main_loop_bkp.c	/^struct items$/;"	s	file:
+items_list	main_loop.c	/^} items_list[] = {$/;"	v	typeref:struct:items
+items_list	main_loop_bkp.c	/^} items_list[] = {$/;"	v	typeref:struct:items
+key	key.h	/^struct key {$/;"	s
+key_entry_size	data_plane/dpdk_tables.c	/^        uint32_t key_entry_size;         \/**< Size of each key entry. *\/$/;"	m	struct:rte_hash	file:
+key_idx	data_plane/dpdk_tables.c	/^        uint32_t key_idx[RTE_HASH_BUCKET_ENTRIES + 1];$/;"	m	struct:rte_hash_bucket	file:
+key_len	data_plane/dpdk_tables.c	/^        uint32_t key_len;               \/**< Length of hash key. *\/$/;"	m	struct:rte_hash	file:
+key_store	data_plane/dpdk_tables.c	/^        void *key_store;                \/**< Table storing all keys and data *\/$/;"	m	struct:rte_hash	file:
+l2_init_table	l2_switch_test_main_loop.c	/^l2_init_table(lookup_table_t** tables) {$/;"	f
+l2fwd_port_statistics	includes/dpdk_lib.h	/^struct l2fwd_port_statistics {$/;"	s
+l2l3_acl_MAC_learning_init_table	main_loop.c	/^l2l3_acl_MAC_learning_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_MAC_learning_init_table	main_loop_bkp.c	/^l2l3_acl_MAC_learning_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_VLAN_egress_init_table	main_loop.c	/^l2l3_acl_VLAN_egress_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_VLAN_egress_init_table	main_loop_bkp.c	/^l2l3_acl_VLAN_egress_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_VLAN_ingress_init_table	main_loop.c	/^l2l3_acl_VLAN_ingress_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_VLAN_ingress_init_table	main_loop_bkp.c	/^l2l3_acl_VLAN_ingress_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_init_table	main_loop.c	/^l2l3_acl_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_init_table	main_loop_bkp.c	/^l2l3_acl_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_routable_init_table	main_loop.c	/^l2l3_acl_routable_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_routable_init_table	main_loop_bkp.c	/^l2l3_acl_routable_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_routing_init_table	main_loop.c	/^l2l3_acl_routing_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_routing_init_table	main_loop_bkp.c	/^l2l3_acl_routing_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_switching_init_table	main_loop.c	/^l2l3_acl_switching_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_switching_init_table	main_loop_bkp.c	/^l2l3_acl_switching_init_table(lookup_table_t** tables) {$/;"	f
+label	key.h	/^                        __be32 label;                   \/* IPv6 flow label. *\/$/;"	m	struct:key::__anon10::__anon14
+launch_dpdk	ipv6_routing_test_main_loop.c	/^int launch_dpdk()$/;"	f
+launch_dpdk	l2_switch_test_main_loop.c	/^int launch_dpdk()$/;"	f
+launch_dpdk	l3_routing_test_main_loop.c	/^int launch_dpdk()$/;"	f
+launch_dpdk	main_loop.c	/^int launch_dpdk()$/;"	f
+launch_dpdk	main_loop_bkp.c	/^int launch_dpdk()$/;"	f
+launch_dpdk	ndn_routing_test_main_loop.c	/^int launch_dpdk()$/;"	f
+launch_one_lcore	ipv6_routing_test_main_loop.c	/^launch_one_lcore(__attribute__((unused)) void *dummy)$/;"	f	file:
+launch_one_lcore	l2_switch_test_main_loop.c	/^launch_one_lcore(__attribute__((unused)) void *dummy)$/;"	f	file:
+launch_one_lcore	l3_routing_test_main_loop.c	/^launch_one_lcore(__attribute__((unused)) void *dummy)$/;"	f	file:
+launch_one_lcore	main_loop.c	/^launch_one_lcore(__attribute__((unused)) void *dummy)$/;"	f	file:
+launch_one_lcore	main_loop_bkp.c	/^launch_one_lcore(__attribute__((unused)) void *dummy)$/;"	f	file:
+launch_one_lcore	ndn_routing_test_main_loop.c	/^launch_one_lcore(__attribute__((unused)) void *dummy)$/;"	f	file:
+lcore_conf	includes/dpdk_lib.h	/^struct lcore_conf {$/;"	s
+lcore_conf	ipv6_routing_test_main_loop.c	/^struct lcore_conf lcore_conf[RTE_MAX_LCORE];$/;"	v	typeref:struct:lcore_conf
+lcore_conf	l2_switch_test_main_loop.c	/^struct lcore_conf lcore_conf[RTE_MAX_LCORE];$/;"	v	typeref:struct:lcore_conf
+lcore_conf	l3_routing_test_main_loop.c	/^struct lcore_conf lcore_conf[RTE_MAX_LCORE];$/;"	v	typeref:struct:lcore_conf
+lcore_conf	main_loop.c	/^struct lcore_conf lcore_conf[RTE_MAX_LCORE];$/;"	v	typeref:struct:lcore_conf
+lcore_conf	main_loop_bkp.c	/^struct lcore_conf lcore_conf[RTE_MAX_LCORE];$/;"	v	typeref:struct:lcore_conf
+lcore_conf	ndn_routing_test_main_loop.c	/^struct lcore_conf lcore_conf[RTE_MAX_LCORE];$/;"	v	typeref:struct:lcore_conf
+lcore_id	data_plane/dpdk_lib.c	/^	uint8_t lcore_id;$/;"	m	struct:lcore_params	file:
+lcore_params	data_plane/dpdk_lib.c	/^struct lcore_params * lcore_params = lcore_params_array_default;$/;"	v	typeref:struct:lcore_params
+lcore_params	data_plane/dpdk_lib.c	/^struct lcore_params * lcore_params;$/;"	v	typeref:struct:lcore_params
+lcore_params	data_plane/dpdk_lib.c	/^struct lcore_params {$/;"	s	file:
+lcore_params_array	data_plane/dpdk_lib.c	/^struct lcore_params lcore_params_array[MAX_LCORE_PARAMS];$/;"	v	typeref:struct:lcore_params
+lcore_params_array_default	data_plane/dpdk_lib.c	/^struct lcore_params lcore_params_array_default[] = {$/;"	v	typeref:struct:lcore_params
+lcore_params_array_default	data_plane/dpdk_lib.c	/^struct lcore_params lcore_params_array_default[];$/;"	v	typeref:struct:lcore_params
+lcore_rx_queue	includes/dpdk_lib.h	/^struct lcore_rx_queue {$/;"	s
+lcore_state	includes/dpdk_lib.h	/^struct lcore_state {$/;"	s
+len	includes/dpdk_lib.h	/^	uint16_t len;$/;"	m	struct:mbuf_table
+local_free_slots	data_plane/dpdk_tables.c	/^        struct lcore_cache *local_free_slots;$/;"	m	struct:rte_hash	typeref:struct:rte_hash::lcore_cache	file:
+locked	data_plane/dpdk_tables.c	/^        volatile int locked; \/**< lock status 0 = unlocked, 1 = locked *\/$/;"	m	struct:__anon3	file:
+lpm4_add	data_plane/dpdk_tables.c	/^lpm4_add(struct rte_lpm* l, uint32_t key, uint8_t depth, uint8_t value)$/;"	f
+lpm4_create	data_plane/dpdk_tables.c	/^lpm4_create(int socketid, const char* name, uint8_t max_size)$/;"	f
+lpm6_add	data_plane/dpdk_tables.c	/^lpm6_add(struct rte_lpm6* l, uint8_t key[16], uint8_t depth, uint8_t value)$/;"	f
+lpm6_create	data_plane/dpdk_tables.c	/^lpm6_create(int socketid, const char* name, uint8_t max_size)$/;"	f
+lpm_add	data_plane/dpdk_tables.c	/^lpm_add(lookup_table_t* t, uint8_t* key, uint8_t depth, uint8_t* value)$/;"	f
+lpm_add_promote	data_plane/dpdk_lib.c	/^lpm_add_promote(int tableid, uint8_t* key, uint8_t depth, uint8_t* value) {$/;"	f
+lpm_create	data_plane/dpdk_tables.c	/^lpm_create(lookup_table_t* t, int socketid)$/;"	f
+lpm_lookup	data_plane/dpdk_tables.c	/^lpm_lookup(lookup_table_t* t, int batch_size, int keysize, uint8_t key[][keysize], uint8_t* value[]) {$/;"	f
+m_table	includes/dpdk_lib.h	/^	struct rte_mbuf *m_table[MAX_PKT_BURST];$/;"	m	struct:mbuf_table	typeref:struct:mbuf_table::rte_mbuf
+main	main.c	/^int main(int argc, char** argv)$/;"	f
+mbuf_table	includes/dpdk_lib.h	/^struct mbuf_table {$/;"	s
+mcast_out_pkt	ipv6_routing_test_main_loop.c	/^mcast_out_pkt(struct rte_mbuf *pkt, int use_clone)$/;"	f	file:
+mcast_out_pkt	l2_switch_test_main_loop.c	/^mcast_out_pkt(struct rte_mbuf *pkt, int use_clone)$/;"	f	file:
+mcast_out_pkt	l3_routing_test_main_loop.c	/^mcast_out_pkt(struct rte_mbuf *pkt, int use_clone)$/;"	f	file:
+mcast_out_pkt	main_loop.c	/^mcast_out_pkt(struct rte_mbuf *pkt, int use_clone)$/;"	f	file:
+mcast_out_pkt	main_loop_bkp.c	/^mcast_out_pkt(struct rte_mbuf *pkt, int use_clone)$/;"	f	file:
+mcast_out_pkt	ndn_routing_test_main_loop.c	/^mcast_out_pkt(struct rte_mbuf *pkt, int use_clone)$/;"	f	file:
+multiwriter_lock	data_plane/dpdk_tables.c	/^        rte_spinlock_t *multiwriter_lock; \/**< Multi-writer spinlock for w\/o TM *\/$/;"	m	struct:rte_hash	file:
+n_rx_queue	includes/dpdk_lib.h	/^        uint16_t n_rx_queue;$/;"	m	struct:lcore_conf
+name	data_plane/dpdk_tables.c	/^        char name[RTE_HASH_NAMESIZE];   \/**< Name of the hash. *\/$/;"	m	struct:rte_hash	file:
+name	main_loop.c	/^  char *name;$/;"	m	struct:items	file:
+name	main_loop_bkp.c	/^  char *name;$/;"	m	struct:items	file:
+nb_lcore_params	data_plane/dpdk_lib.c	/^uint16_t nb_lcore_params = sizeof(lcore_params_array_default) \/$/;"	v
+nb_lcore_params	data_plane/dpdk_lib.c	/^uint16_t nb_lcore_params;$/;"	v
+nb_rxd	data_plane/dpdk_lib.c	/^static uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v	file:
+nb_rxd	ipv6_routing_test_main_loop.c	/^uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v
+nb_rxd	l2_switch_test_main_loop.c	/^uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v
+nb_rxd	l3_routing_test_main_loop.c	/^uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v
+nb_rxd	main_loop.c	/^uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v
+nb_rxd	main_loop_bkp.c	/^uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v
+nb_rxd	ndn_routing_test_main_loop.c	/^uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v
+nb_txd	data_plane/dpdk_lib.c	/^static uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v	file:
+nb_txd	ipv6_routing_test_main_loop.c	/^uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v
+nb_txd	l2_switch_test_main_loop.c	/^uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v
+nb_txd	l3_routing_test_main_loop.c	/^uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v
+nb_txd	main_loop.c	/^uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v
+nb_txd	main_loop_bkp.c	/^uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v
+nb_txd	ndn_routing_test_main_loop.c	/^uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v
+nd	key.h	/^                        } nd;$/;"	m	struct:key::__anon10::__anon14	typeref:struct:key::__anon10::__anon14::__anon16
+ndn_init_tables	ndn_routing_test_main_loop.c	/^ndn_init_tables(lookup_table_t** tables, unsigned lcore_id) {$/;"	f
+no_op	data_plane/dpdk_primitives.c	/^void no_op()$/;"	f
+num_buckets	data_plane/dpdk_tables.c	/^        uint32_t num_buckets;           \/**< Number of buckets in table. *\/$/;"	m	struct:rte_hash	file:
+numa_on	data_plane/dpdk_lib.c	/^int numa_on = 1; \/**< NUMA is enabled by default. *\/$/;"	v
+one_exact_lookup	data_plane/dpdk_tables.c	/^one_exact_lookup(lookup_table_t* t, uint8_t* key)$/;"	f
+packet	includes/aliases.h	/^typedef struct rte_mbuf packet;$/;"	t	typeref:struct:rte_mbuf
+packet_received	main_loop.c	/^packet_received(packet_descriptor_t* pd, packet *p, unsigned portid, struct lcore_conf *conf)$/;"	f
+packet_received	main_loop_bkp.c	/^packet_received(packet_descriptor_t* pd, packet *p, unsigned portid, struct lcore_conf *conf)$/;"	f
+packets_received	ipv6_routing_test_main_loop.c	/^packets_received(packet_descriptor_t* pd, int batch_size, packet **p, unsigned portid, struct lcore_conf *conf)$/;"	f
+packets_received	l2_switch_test_main_loop.c	/^packets_received(packet_descriptor_t* pd, int batch_size, packet **p, unsigned portid, struct lcore_conf *conf)$/;"	f
+packets_received	l3_routing_test_main_loop.c	/^packets_received(packet_descriptor_t* pd, int batch_size, packet **p, unsigned portid, struct lcore_conf *conf)$/;"	f
+packets_received	ndn_routing_test_main_loop.c	/^packets_received(packet_descriptor_t* pd, int batch_size, packet **p, unsigned portid, struct lcore_conf *conf)$/;"	f
+parse_args	data_plane/dpdk_lib.c	/^parse_args(int argc, char **argv)$/;"	f	file:
+parse_as	includes/dpdk_lib.h	60;"	d
+parse_config	data_plane/dpdk_lib.c	/^parse_config(const char *q_arg)$/;"	f	file:
+parse_max_pkt_len	data_plane/dpdk_lib.c	/^static int parse_max_pkt_len(const char *pktlen)$/;"	f	file:
+parse_portmask	data_plane/dpdk_lib.c	/^parse_portmask(const char *portmask)$/;"	f	file:
+phy	key.h	/^        } __packed phy; \/* Safe when right after 'tun_key'. *\/$/;"	m	struct:key	typeref:struct:key::__anon4
+pktmbuf_pool	ipv6_routing_test_main_loop.c	/^struct rte_mempool * pktmbuf_pool[NB_SOCKETS];$/;"	v	typeref:struct:rte_mempool
+pktmbuf_pool	l2_switch_test_main_loop.c	/^struct rte_mempool * pktmbuf_pool[NB_SOCKETS];$/;"	v	typeref:struct:rte_mempool
+pktmbuf_pool	l3_routing_test_main_loop.c	/^struct rte_mempool * pktmbuf_pool[NB_SOCKETS];$/;"	v	typeref:struct:rte_mempool
+pktmbuf_pool	main_loop.c	/^struct rte_mempool * pktmbuf_pool[NB_SOCKETS];$/;"	v	typeref:struct:rte_mempool
+pktmbuf_pool	main_loop_bkp.c	/^struct rte_mempool * pktmbuf_pool[NB_SOCKETS];$/;"	v	typeref:struct:rte_mempool
+pktmbuf_pool	ndn_routing_test_main_loop.c	/^struct rte_mempool * pktmbuf_pool[NB_SOCKETS];$/;"	v	typeref:struct:rte_mempool
+pop	data_plane/dpdk_primitives.c	/^pop(packet_descriptor_t* p, header_stack_t h)$/;"	f
+port_conf	data_plane/dpdk_lib.c	/^static struct rte_eth_conf port_conf = {$/;"	v	typeref:struct:rte_eth_conf	file:
+port_conf	ipv6_routing_test_main_loop.c	/^static const struct rte_eth_conf port_conf = {$/;"	v	typeref:struct:rte_eth_conf	file:
+port_conf	l2_switch_test_main_loop.c	/^static const struct rte_eth_conf port_conf = {$/;"	v	typeref:struct:rte_eth_conf	file:
+port_conf	l3_routing_test_main_loop.c	/^static const struct rte_eth_conf port_conf = {$/;"	v	typeref:struct:rte_eth_conf	file:
+port_conf	main_loop.c	/^static const struct rte_eth_conf port_conf = {$/;"	v	typeref:struct:rte_eth_conf	file:
+port_conf	main_loop_bkp.c	/^static const struct rte_eth_conf port_conf = {$/;"	v	typeref:struct:rte_eth_conf	file:
+port_conf	ndn_routing_test_main_loop.c	/^static const struct rte_eth_conf port_conf = {$/;"	v	typeref:struct:rte_eth_conf	file:
+port_id	data_plane/dpdk_lib.c	/^	uint8_t port_id;$/;"	m	struct:lcore_params	file:
+port_id	includes/dpdk_lib.h	/^	uint8_t port_id;$/;"	m	struct:lcore_rx_queue
+port_statistics	data_plane/dpdk_lib.c	/^struct l2fwd_port_statistics port_statistics[RTE_MAX_ETHPORTS];$/;"	v	typeref:struct:l2fwd_port_statistics
+ports_eth_addr	data_plane/dpdk_lib.c	/^struct ether_addr ports_eth_addr[RTE_MAX_ETHPORTS];$/;"	v	typeref:struct:ether_addr
+print_ethaddr	data_plane/dpdk_lib.c	/^print_ethaddr(const char *name, const struct ether_addr *eth_addr)$/;"	f	file:
+print_mem_bin	includes/dpdk_lib.h	/^static void print_mem_bin(void const * const ptr, size_t const size)$/;"	f
+print_mem_hex	includes/dpdk_lib.h	/^static void print_mem_hex(void const *vp, size_t n) {$/;"	f
+print_usage	data_plane/dpdk_lib.c	/^print_usage(const char *prgname)$/;"	f	file:
+priority	key.h	/^                u32     priority;       \/* Packet QoS priority. *\/$/;"	m	struct:key::__anon4
+promiscuous_on	data_plane/dpdk_lib.c	/^int promiscuous_on = 0; \/**< Ports set in promiscuous mode off by default. *\/$/;"	v
+proto	key.h	/^                        u8     proto;   \/* IP protocol or lower 8 bits of ARP opcode. *\/$/;"	m	struct:key::__anon7::__anon8
+push	data_plane/dpdk_primitives.c	/^push(packet_descriptor_t* p, header_stack_t h)$/;"	f
+queue_id	data_plane/dpdk_lib.c	/^	uint8_t queue_id;$/;"	m	struct:lcore_params	file:
+queue_id	includes/dpdk_lib.h	/^	uint8_t queue_id;$/;"	m	struct:lcore_rx_queue
+read_counter	data_plane/dpdk_lib.c	/^read_counter(int counterid, int index) {$/;"	f
+remove_header	data_plane/dpdk_primitives.c	/^remove_header(packet_descriptor_t* p, header_reference_t h)$/;"	f
+rte_hash	data_plane/dpdk_tables.c	/^struct rte_hash {$/;"	s	file:
+rte_hash_bucket	data_plane/dpdk_tables.c	/^struct rte_hash_bucket {$/;"	s	file:
+rte_hash_custom_cmp_eq	data_plane/dpdk_tables.c	/^        rte_hash_cmp_eq_t rte_hash_custom_cmp_eq;$/;"	m	struct:rte_hash	file:
+rte_hash_signatures	data_plane/dpdk_tables.c	/^struct rte_hash_signatures {$/;"	s	file:
+rte_spinlock_t	data_plane/dpdk_tables.c	/^} rte_spinlock_t;$/;"	t	typeref:struct:__anon3	file:
+rte_table	includes/dpdk_tables.h	/^    void*     rte_table;$/;"	m	struct:extended_table_s
+rx	includes/dpdk_lib.h	/^	uint64_t rx;$/;"	m	struct:l2fwd_port_statistics
+rx_conf	data_plane/dpdk_lib.c	/^static struct rte_eth_rxconf rx_conf = {$/;"	v	typeref:struct:rte_eth_rxconf	file:
+rx_queue_list	includes/dpdk_lib.h	/^        struct lcore_rx_queue rx_queue_list[MAX_RX_QUEUE_PER_LCORE];$/;"	m	struct:lcore_conf	typeref:struct:lcore_conf::lcore_rx_queue
+rx_queue_per_lcore	data_plane/dpdk_lib.c	/^unsigned int rx_queue_per_lcore = 1;$/;"	v
+send_burst	ipv6_routing_test_main_loop.c	/^send_burst(struct lcore_conf *qconf, uint16_t n, uint8_t port)$/;"	f	file:
+send_burst	l2_switch_test_main_loop.c	/^send_burst(struct lcore_conf *qconf, uint16_t n, uint8_t port)$/;"	f	file:
+send_burst	l3_routing_test_main_loop.c	/^send_burst(struct lcore_conf *qconf, uint16_t n, uint8_t port)$/;"	f	file:
+send_burst	main_loop.c	/^send_burst(struct lcore_conf *qconf, uint16_t n, uint8_t port)$/;"	f	file:
+send_burst	main_loop_bkp.c	/^send_burst(struct lcore_conf *qconf, uint16_t n, uint8_t port)$/;"	f	file:
+send_burst	ndn_routing_test_main_loop.c	/^send_burst(struct lcore_conf *qconf, uint16_t n, uint8_t port)$/;"	f	file:
+send_packet	ipv6_routing_test_main_loop.c	/^send_packet(packet_descriptor_t* pd)$/;"	f	file:
+send_packet	main_loop.c	/^send_packet(packet_descriptor_t* pd)$/;"	f	file:
+send_packet	main_loop_bkp.c	/^send_packet(packet_descriptor_t* pd)$/;"	f	file:
+send_packet	ndn_routing_test_main_loop.c	/^send_packet(packet_descriptor_t* pd)$/;"	f	file:
+send_packets	l2_switch_test_main_loop.c	/^send_packets(packet_descriptor_t* pd, int batch_size, int inport)$/;"	f	file:
+send_packets	l3_routing_test_main_loop.c	/^send_packets(packet_descriptor_t* pd, int batch_size, int inport)$/;"	f	file:
+send_packets	ndn_routing_test_main_loop.c	/^send_packets(packet_descriptor_t* pd, int batch_size)$/;"	f	file:
+send_timeout_burst	ipv6_routing_test_main_loop.c	/^send_timeout_burst(struct lcore_conf *qconf)$/;"	f	file:
+send_timeout_burst	l2_switch_test_main_loop.c	/^send_timeout_burst(struct lcore_conf *qconf)$/;"	f	file:
+send_timeout_burst	l3_routing_test_main_loop.c	/^send_timeout_burst(struct lcore_conf *qconf)$/;"	f	file:
+send_timeout_burst	main_loop.c	/^send_timeout_burst(struct lcore_conf *qconf)$/;"	f	file:
+send_timeout_burst	main_loop_bkp.c	/^send_timeout_burst(struct lcore_conf *qconf)$/;"	f	file:
+send_timeout_burst	ndn_routing_test_main_loop.c	/^send_timeout_burst(struct lcore_conf *qconf)$/;"	f	file:
+set_mac_entries	main_loop.c	/^void set_mac_entries(struct key* key, int entries){$/;"	f
+set_mac_entries	main_loop.c	/^void set_mac_entries(struct key** key, int entries, int min, int max){$/;"	f
+set_metadata_inport	ipv6_routing_test_main_loop.c	/^set_metadata_inport(packet_descriptor_t* packet_desc, uint32_t inport)$/;"	f	file:
+set_metadata_inport	l2_switch_test_main_loop.c	/^set_metadata_inport(packet_descriptor_t* packet_desc, uint32_t inport)$/;"	f	file:
+set_metadata_inport	l3_routing_test_main_loop.c	/^set_metadata_inport(packet_descriptor_t* packet_desc, uint32_t inport)$/;"	f	file:
+set_metadata_inport	main_loop.c	/^set_metadata_inport(packet_descriptor_t* packet_desc, uint32_t inport)$/;"	f	file:
+set_metadata_inport	main_loop_bkp.c	/^set_metadata_inport(packet_descriptor_t* packet_desc, uint32_t inport)$/;"	f	file:
+set_metadata_inport	ndn_routing_test_main_loop.c	/^set_metadata_inport(packet_descriptor_t* pd, uint32_t inport)$/;"	f	file:
+set_metadata_outport	ndn_routing_test_main_loop.c	/^set_metadata_outport(packet_descriptor_t* pd, int port[2]) {$/;"	f	file:
+set_vlan_entries	main_loop.c	/^void set_vlan_entries(struct key* key){$/;"	f
+sha	key.h	/^                                u8 sha[ETH_ALEN];       \/* ARP source hardware address. *\/$/;"	m	struct:key::__anon10::__anon11::__anon13
+sig	data_plane/dpdk_tables.c	/^                uint64_t sig;$/;"	m	union:rte_hash_signatures::__anon1	file:
+signatures	data_plane/dpdk_tables.c	/^        struct rte_hash_signatures signatures[RTE_HASH_BUCKET_ENTRIES];$/;"	m	struct:rte_hash_bucket	typeref:struct:rte_hash_bucket::rte_hash_signatures	file:
+size	includes/dpdk_tables.h	/^    uint8_t   size;$/;"	m	struct:extended_table_s
+skb_mark	key.h	/^                u32     skb_mark;       \/* SKB mark. *\/$/;"	m	struct:key::__anon4
+sll	key.h	/^                                u8 sll[ETH_ALEN];       \/* ND source link layer address. *\/$/;"	m	struct:key::__anon10::__anon14::__anon16
+socket_state	includes/dpdk_lib.h	/^struct socket_state {$/;"	s
+src	key.h	/^                                __be32 src;     \/* IP source address. *\/$/;"	m	struct:key::__anon10::__anon11::__anon12
+src	key.h	/^                                struct in6_addr src;    \/* IPv6 source address. *\/$/;"	m	struct:key::__anon10::__anon14::__anon15	typeref:struct:key::__anon10::__anon14::__anon15::in6_addr
+src	key.h	/^                __be16 src;             \/* TCP\/UDP\/SCTP source port. *\/$/;"	m	struct:key::__anon9
+src	key.h	/^                u8     src[ETH_ALEN];   \/* Ethernet source address. *\/$/;"	m	struct:key::__anon6
+state	data_plane/dpdk_lib.c	/^struct socket_state state[NB_SOCKETS];$/;"	v	typeref:struct:socket_state
+state	includes/dpdk_lib.h	/^        struct lcore_state state;$/;"	m	struct:lcore_conf	typeref:struct:lcore_conf::lcore_state
+table_mutex	ndn_routing_test_main_loop.c	/^pthread_mutex_t table_mutex;$/;"	v
+table_setdefault	data_plane/dpdk_tables.c	/^table_setdefault(lookup_table_t* t, uint8_t* value)$/;"	f
+table_setdefault_promote	data_plane/dpdk_lib.c	/^table_setdefault_promote(int tableid, uint8_t* value) {$/;"	f
+tables	includes/dpdk_lib.h	/^    lookup_table_t * tables         [NB_TABLES][NB_REPLICA];$/;"	m	struct:socket_state
+tables	includes/dpdk_lib.h	/^    lookup_table_t * tables   [NB_TABLES];$/;"	m	struct:lcore_state
+target	key.h	/^                                struct in6_addr target; \/* ND target address. *\/$/;"	m	struct:key::__anon10::__anon14::__anon16	typeref:struct:key::__anon10::__anon14::__anon16::in6_addr
+tci	key.h	/^                __be16 tci;             \/* 0 if no VLAN, VLAN_TAG_PRESENT set otherwise. *\/$/;"	m	struct:key::__anon6
+ternary_add	data_plane/dpdk_tables.c	/^ternary_add(lookup_table_t* t, uint8_t* key, uint8_t* mask, uint8_t* value)$/;"	f
+ternary_add_promote	data_plane/dpdk_lib.c	/^ternary_add_promote(int tableid, uint8_t* key, uint8_t* mask, uint8_t* value) {$/;"	f
+ternary_create	data_plane/dpdk_tables.c	/^ternary_create(lookup_table_t* t, int socketid)$/;"	f
+ternary_lookup	data_plane/dpdk_tables.c	/^ternary_lookup(lookup_table_t* t, uint8_t* key)$/;"	f
+tha	key.h	/^                                u8 tha[ETH_ALEN];       \/* ARP target hardware address. *\/$/;"	m	struct:key::__anon10::__anon11::__anon13
+timer_period	ipv6_routing_test_main_loop.c	/^int64_t timer_period = 10 * TIMER_MILLISECOND * 1000; \/* default period is 10 seconds *\/$/;"	v
+timer_period	l2_switch_test_main_loop.c	/^int64_t timer_period = 10 * TIMER_MILLISECOND * 1000; \/* default period is 10 seconds *\/$/;"	v
+timer_period	l3_routing_test_main_loop.c	/^int64_t timer_period = 10 * TIMER_MILLISECOND * 1000; \/* default period is 10 seconds *\/$/;"	v
+timer_period	main_loop.c	/^int64_t timer_period = 10 * TIMER_MILLISECOND * 1000; \/* default period is 10 seconds *\/$/;"	v
+timer_period	main_loop_bkp.c	/^int64_t timer_period = 10 * TIMER_MILLISECOND * 1000; \/* default period is 10 seconds *\/$/;"	v
+timer_period	ndn_routing_test_main_loop.c	/^int64_t timer_period = 10 * TIMER_MILLISECOND * 1000; \/* default period is 10 seconds *\/$/;"	v
+tll	key.h	/^                                u8 tll[ETH_ALEN];       \/* ND target link layer address. *\/$/;"	m	struct:key::__anon10::__anon14::__anon16
+tos	key.h	/^                        u8     tos;         \/* IP ToS. *\/$/;"	m	struct:key::__anon7::__anon8
+tp	key.h	/^        } tp;$/;"	m	struct:key	typeref:struct:key::__anon9
+ttl	key.h	/^                        u8     ttl;         \/* IP TTL\/hop limit. *\/$/;"	m	struct:key::__anon7::__anon8
+tx	includes/dpdk_lib.h	/^	uint64_t tx;$/;"	m	struct:l2fwd_port_statistics
+tx_conf	data_plane/dpdk_lib.c	/^static struct rte_eth_txconf tx_conf = {$/;"	v	typeref:struct:rte_eth_txconf	file:
+tx_mbufs	includes/dpdk_lib.h	/^        struct mbuf_table tx_mbufs[RTE_MAX_ETHPORTS];$/;"	m	struct:lcore_conf	typeref:struct:lcore_conf::mbuf_table
+tx_queue_id	includes/dpdk_lib.h	/^        uint16_t tx_queue_id[RTE_MAX_ETHPORTS];$/;"	m	struct:lcore_conf
+tx_tsc	includes/dpdk_lib.h	/^        uint64_t tx_tsc;$/;"	m	struct:lcore_conf
+type	key.h	/^                __be16 type;            \/* Ethernet frame type. *\/$/;"	m	struct:key::__anon6
+vid	key.h	/^		uint8_t vid;$/;"	m	struct:key::__anon5
+vlan	key.h	/^	} vlan;$/;"	m	struct:key	typeref:struct:key::__anon5

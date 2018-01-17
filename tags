@@ -1,0 +1,1273 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD_KEY_MULTIWRITER	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        ADD_KEY_MULTIWRITER,$/;"	e	enum:add_key_case	file:
+ADD_KEY_MULTIWRITER_TM	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        ADD_KEY_MULTIWRITER_TM,$/;"	e	enum:add_key_case	file:
+ADD_KEY_SINGLEWRITER	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        ADD_KEY_SINGLEWRITER = 0,$/;"	e	enum:add_key_case	file:
+APP	build/l2l3_acl/Makefile	/^APP = l2l3_acl$/;"	m
+APP	makefiles/Makefile	/^APP = example_dpdk1$/;"	m
+BURST_TX_DRAIN_US	src/hardware_dep/dpdk/includes/dpdk_lib.h	81;"	d
+BURST_TX_DRAIN_US	src/hardware_dep/dpdk/main_loop.c	84;"	d	file:
+BURST_TX_DRAIN_US	src/hardware_dep/dpdk/t4p4_loop_bkp.c	80;"	d	file:
+CC	src/hardware_dep/shared/ctrl_plane/Makefile	/^CC=gcc$/;"	m
+CDIR	build/l2l3_acl/dpdk_backend.mk	/^CDIR := $(dir $(lastword $(MAKEFILE_LIST)))$/;"	m
+CDIR	build/l2l3_acl/hw_independent.mk	/^CDIR := $(dir $(lastword $(MAKEFILE_LIST)))$/;"	m
+CDIR	makefiles/dpdk_backend.mk	/^CDIR := $(dir $(lastword $(MAKEFILE_LIST)))$/;"	m
+CDIR	makefiles/hw_independent.mk	/^CDIR := $(dir $(lastword $(MAKEFILE_LIST)))$/;"	m
+CFLAGS	src/hardware_dep/shared/ctrl_plane/Makefile	/^CFLAGS=-Wall -pthread -std=c99$/;"	m
+CHANGE_TABLE	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	643;"	d	file:
+CHECK_INTERVAL	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	426;"	d	file:
+CMD_LINE_OPT_CONFIG	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	319;"	d	file:
+CMD_LINE_OPT_ENABLE_JUMBO	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	321;"	d	file:
+CMD_LINE_OPT_HASH_ENTRY_NUM	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	322;"	d	file:
+CMD_LINE_OPT_NO_NUMA	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	320;"	d	file:
+COUNTER_	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ COUNTER_\/\/ sugar@32$/;"	e	enum:counter_names
+DATAPLANE_H	src/hardware_dep/shared/includes/dataplane.h	15;"	d
+DEPARSE_BUFFER_SIZE	src/hardware_dep/dpdk/main_loop.c	89;"	d	file:
+DEPARSE_BUFFER_SIZE	src/hardware_dep/dpdk/t4p4_loop_bkp.c	85;"	d	file:
+DPDK_LIB_H	src/hardware_dep/dpdk/includes/dpdk_lib.h	15;"	d
+DPDK_PRIMITIVES_H	src/hardware_dep/dpdk/includes/dpdk_primitives.h	15;"	d
+DPDK_TABLES_H	src/hardware_dep/dpdk/includes/dpdk_tables.h	15;"	d
+ETH_ALEN	build/l2l3_acl/src_hardware_indep/key.h	3;"	d
+ETH_ALEN	src/hardware_dep/dpdk/includes/key.h	3;"	d
+EXTRACT_BYTEBUF	src/hardware_dep/dpdk/includes/dpdk_primitives.h	102;"	d
+EXTRACT_EGRESSPORT	src/hardware_dep/dpdk/main_loop.c	337;"	d	file:
+EXTRACT_EGRESSPORT	src/hardware_dep/dpdk/t4p4_loop_bkp.c	317;"	d	file:
+EXTRACT_INGRESSPORT	src/hardware_dep/dpdk/main_loop.c	338;"	d	file:
+EXTRACT_INGRESSPORT	src/hardware_dep/dpdk/t4p4_loop_bkp.c	320;"	d	file:
+EXTRACT_INT32_AUTO	src/hardware_dep/dpdk/includes/dpdk_primitives.h	97;"	d
+EXTRACT_INT32_BITS	src/hardware_dep/dpdk/includes/dpdk_primitives.h	75;"	d
+EXTRACT_INT32_NTOH	src/hardware_dep/dpdk/includes/dpdk_primitives.h	85;"	d
+FIELD	build/l2l3_acl/src_hardware_indep/actions.h	5;"	d
+FIELD	src/hardware_dep/dpdk/includes/actions.h	5;"	d
+FIELD_BYTE_ADDR	src/hardware_dep/dpdk/includes/dpdk_primitives.h	20;"	d
+FIELD_INSTANCE_COUNT	build/l2l3_acl/src_hardware_indep/parser.h	6;"	d
+FORALLNUMANODES	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	654;"	d	file:
+GET_INT32_AUTO	src/hardware_dep/dpdk/includes/dpdk_primitives.h	70;"	d
+HASH_ENTRIES	src/hardware_dep/dpdk/includes/dpdk_tables.h	24;"	d
+HDR_MBUF_DATA_SIZE	src/hardware_dep/dpdk/main_loop.c	79;"	d	file:
+HDR_MBUF_DATA_SIZE	src/hardware_dep/dpdk/t4p4_loop_bkp.c	75;"	d	file:
+HEADER_INSTANCE_COUNT	build/l2l3_acl/src_hardware_indep/parser.h	4;"	d
+HEADER_STACK_COUNT	build/l2l3_acl/src_hardware_indep/parser.h	5;"	d
+HTON_FIELD	src/hardware_dep/dpdk/includes/dpdk_primitives.h	28;"	d
+KEY_112_BYTES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        KEY_112_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_128_BYTES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        KEY_128_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_16_BYTES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        KEY_16_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_32_BYTES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        KEY_32_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_48_BYTES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        KEY_48_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_64_BYTES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        KEY_64_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_80_BYTES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        KEY_80_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_96_BYTES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        KEY_96_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_CUSTOM	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        KEY_CUSTOM = 0,$/;"	e	enum:cmp_jump_table_case	file:
+KEY_OTHER_BYTES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        KEY_OTHER_BYTES,$/;"	e	enum:cmp_jump_table_case	file:
+LIB	src/hardware_dep/shared/ctrl_plane/Makefile	/^LIB=$/;"	m
+LOOKUP_EXACT	src/hardware_dep/shared/includes/dataplane.h	22;"	d
+LOOKUP_LPM	src/hardware_dep/shared/includes/dataplane.h	23;"	d
+LOOKUP_TERNARY	src/hardware_dep/shared/includes/dataplane.h	24;"	d
+LPM6_NUMBER_TBL8S	src/hardware_dep/dpdk/includes/dpdk_tables.h	26;"	d
+LPM_MAX_RULES	src/hardware_dep/dpdk/includes/dpdk_tables.h	25;"	d
+MAXT_IN_POOL	src/hardware_dep/shared/ctrl_plane/threadpool.h	22;"	d
+MAX_ACTION_PARAMETER_BITMAP_LENGTH	src/hardware_dep/shared/ctrl_plane/messages.h	147;"	d
+MAX_ACTION_PARAMETER_NAME_LENGTH	src/hardware_dep/shared/ctrl_plane/messages.h	146;"	d
+MAX_CHECK_TIME	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	427;"	d	file:
+MAX_ETHPORTS	src/hardware_dep/dpdk/includes/dpdk_lib.h	61;"	d
+MAX_FIELD_LENGTH	src/hardware_dep/shared/ctrl_plane/messages.h	173;"	d
+MAX_IPS	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	21;"	d	file:
+MAX_IPS	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	21;"	d	file:
+MAX_IPS	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	21;"	d	file:
+MAX_JUMBO_PKT_LEN	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	92;"	d	file:
+MAX_LCORE_PARAMS	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	57;"	d	file:
+MAX_PKT_BURST	src/hardware_dep/dpdk/includes/dpdk_lib.h	80;"	d
+MAX_PORTS	src/hardware_dep/dpdk/main_loop.c	65;"	d	file:
+MAX_PORTS	src/hardware_dep/dpdk/t4p4_loop_bkp.c	61;"	d	file:
+MAX_RX_QUEUE_PER_LCORE	src/hardware_dep/dpdk/includes/dpdk_lib.h	89;"	d
+MAX_RX_QUEUE_PER_PORT	src/hardware_dep/dpdk/includes/dpdk_lib.h	91;"	d
+MAX_TIMER_PERIOD	src/hardware_dep/dpdk/main_loop.c	62;"	d	file:
+MAX_TIMER_PERIOD	src/hardware_dep/dpdk/t4p4_loop_bkp.c	58;"	d	file:
+MAX_TX_QUEUE_PER_PORT	src/hardware_dep/dpdk/includes/dpdk_lib.h	90;"	d
+MBUF_SIZE	src/hardware_dep/dpdk/includes/dpdk_lib.h	74;"	d
+MCAST_CLONE_PORTS	src/hardware_dep/dpdk/main_loop.c	67;"	d	file:
+MCAST_CLONE_PORTS	src/hardware_dep/dpdk/t4p4_loop_bkp.c	63;"	d	file:
+MCAST_CLONE_SEGS	src/hardware_dep/dpdk/main_loop.c	68;"	d	file:
+MCAST_CLONE_SEGS	src/hardware_dep/dpdk/t4p4_loop_bkp.c	64;"	d	file:
+MEMPOOL_CACHE_SIZE	src/hardware_dep/dpdk/includes/dpdk_lib.h	78;"	d
+MIN	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	33;"	d	file:
+MODIFY_BYTEBUF_BYTEBUF	src/hardware_dep/dpdk/includes/dpdk_primitives.h	34;"	d
+MODIFY_INT32_BYTEBUF	src/hardware_dep/dpdk/includes/dpdk_primitives.h	40;"	d
+MODIFY_INT32_INT32_AUTO	src/hardware_dep/dpdk/includes/dpdk_primitives.h	65;"	d
+MODIFY_INT32_INT32_BITS	src/hardware_dep/dpdk/includes/dpdk_primitives.h	48;"	d
+MODIFY_INT32_INT32_HTON	src/hardware_dep/dpdk/includes/dpdk_primitives.h	55;"	d
+NB_CLONE_MBUF	src/hardware_dep/dpdk/main_loop.c	82;"	d	file:
+NB_CLONE_MBUF	src/hardware_dep/dpdk/t4p4_loop_bkp.c	78;"	d	file:
+NB_COUNTERS	build/l2l3_acl/src_hardware_indep/data_plane_data.h	21;"	d
+NB_HDR_MBUF	src/hardware_dep/dpdk/main_loop.c	80;"	d	file:
+NB_HDR_MBUF	src/hardware_dep/dpdk/t4p4_loop_bkp.c	76;"	d	file:
+NB_MBUF	src/hardware_dep/dpdk/includes/dpdk_lib.h	77;"	d
+NB_PKT_MBUF	src/hardware_dep/dpdk/main_loop.c	77;"	d	file:
+NB_PKT_MBUF	src/hardware_dep/dpdk/t4p4_loop_bkp.c	73;"	d	file:
+NB_REPLICA	src/hardware_dep/dpdk/includes/dpdk_lib.h	105;"	d
+NB_SOCKETS	src/hardware_dep/dpdk/includes/dpdk_lib.h	93;"	d
+NB_TABLES	build/l2l3_acl/src_hardware_indep/data_plane_data.h	6;"	d
+NB_TABLES	src/hardware_dep/dpdk/includes/dpdk_lib.h	97;"	d
+NTOH_FIELD	src/hardware_dep/dpdk/includes/dpdk_primitives.h	23;"	d
+NUM_KEY_CMP_CASES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        NUM_KEY_CMP_CASES,$/;"	e	enum:cmp_jump_table_case	file:
+OFPHET_VERSIONBITMAP	src/hardware_dep/shared/ctrl_plane/messages.h	/^	OFPHET_VERSIONBITMAP = 1 \/* Bitmap of version supported. *\/$/;"	e	enum:p4_hello_elem_type
+P4T_ADD_AP_MEMBER	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_ADD_AP_MEMBER = 108,$/;"	e	enum:p4_type
+P4T_ADD_TABLE_ENTRY	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_ADD_TABLE_ENTRY = 104, \/*with and without selector (action, action_profile)*\/$/;"	e	enum:p4_type
+P4T_DIGEST	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_DIGEST = 110$/;"	e	enum:p4_type
+P4T_DROP_TABLE_ENTRIES	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_DROP_TABLE_ENTRIES = 107,$/;"	e	enum:p4_type
+P4T_ECHO_REPLY	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_ECHO_REPLY = 3,$/;"	e	enum:p4_type
+P4T_ECHO_REQUEST	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_ECHO_REQUEST = 2,$/;"	e	enum:p4_type
+P4T_ERROR	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_ERROR = 1,$/;"	e	enum:p4_type
+P4T_GET_TABLE_COUNTERS	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_GET_TABLE_COUNTERS = 101,$/;"	e	enum:p4_type
+P4T_GET_TABLE_DEFINITIONS	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_GET_TABLE_DEFINITIONS = 100,$/;"	e	enum:p4_type
+P4T_GET_TABLE_ENTRIES	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_GET_TABLE_ENTRIES = 102,$/;"	e	enum:p4_type
+P4T_HELLO	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_HELLO = 0,$/;"	e	enum:p4_type
+P4T_MODIFY_TABLE_ENTRY	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_MODIFY_TABLE_ENTRY = 105,$/;"	e	enum:p4_type
+P4T_REMOVE_AP_MEMBER	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_REMOVE_AP_MEMBER = 109,$/;"	e	enum:p4_type
+P4T_REMOVE_TABLE_ENTRY	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_REMOVE_TABLE_ENTRY = 106,$/;"	e	enum:p4_type
+P4T_SET_DEFAULT_ACTION	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_SET_DEFAULT_ACTION = 103,$/;"	e	enum:p4_type
+P4T_SUCCESS	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4T_SUCCESS = 4,$/;"	e	enum:p4_type
+P4_AT_ACTION	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4_AT_ACTION = 0,$/;"	e	enum:p4_action_type
+P4_AT_ACTION_PROFILE	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4_AT_ACTION_PROFILE = 1$/;"	e	enum:p4_action_type
+P4_BG_MEM_CELL_SIZE	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	30;"	d	file:
+P4_BG_QUEUE_SIZE	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	31;"	d	file:
+P4_BG_QUEUE_SIZE	src/hardware_dep/shared/ctrl_plane/fifo.h	19;"	d
+P4_FMT_EXACT	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4_FMT_EXACT = 0,$/;"	e	enum:p4_field_match_type
+P4_FMT_LPM	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4_FMT_LPM = 2,$/;"	e	enum:p4_field_match_type
+P4_FMT_RANGE	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4_FMT_RANGE = 3,$/;"	e	enum:p4_field_match_type
+P4_FMT_TERNARY	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4_FMT_TERNARY = 1,$/;"	e	enum:p4_field_match_type
+P4_FMT_VALID	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4_FMT_VALID = 4$/;"	e	enum:p4_field_match_type
+P4_MAX_ACTION_NAME_LEN	src/hardware_dep/shared/ctrl_plane/messages.h	101;"	d
+P4_MAX_FIELD_LIST_NAME_LEN	src/hardware_dep/shared/ctrl_plane/messages.h	218;"	d
+P4_MAX_FIELD_NAME_LEN	src/hardware_dep/shared/ctrl_plane/messages.h	100;"	d
+P4_MAX_FIELD_NAME_LENGTH	src/hardware_dep/shared/ctrl_plane/messages.h	219;"	d
+P4_MAX_FIELD_VALUE_LENGTH	src/hardware_dep/shared/ctrl_plane/messages.h	220;"	d
+P4_MAX_NUMBER_OF_ACTION_PARAMETERS	src/hardware_dep/shared/ctrl_plane/handlers.h	19;"	d
+P4_MAX_NUMBER_OF_FIELD_MATCHES	src/hardware_dep/shared/ctrl_plane/handlers.h	20;"	d
+P4_MAX_TABLE_NAME_LEN	src/hardware_dep/shared/ctrl_plane/messages.h	99;"	d
+P4_SRCDIR	build/l2l3_acl/dpdk_backend.mk	/^P4_SRCDIR := $(dir $(lastword $(MAKEFILE_LIST)))\/..\/..\/src$/;"	m
+P4_SRCDIR	build/l2l3_acl/hw_independent.mk	/^P4_SRCDIR := $(dir $(lastword $(MAKEFILE_LIST)))\/..\/..\/src$/;"	m
+P4_SRCDIR	makefiles/dpdk_backend.mk	/^P4_SRCDIR := $(dir $(lastword $(MAKEFILE_LIST)))\/..\/..\/src$/;"	m
+P4_SRCDIR	makefiles/hw_independent.mk	/^P4_SRCDIR := $(dir $(lastword $(MAKEFILE_LIST)))\/..\/..\/src$/;"	m
+P4_STO_FALSE	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4_STO_FALSE = 0,$/;"	e	enum:p4_support_timeout
+P4_STO_TRUE	src/hardware_dep/shared/ctrl_plane/messages.h	/^	P4_STO_TRUE = 1$/;"	e	enum:p4_support_timeout
+P4_VERSION	src/hardware_dep/shared/ctrl_plane/messages.h	19;"	d
+PKT_MBUF_DATA_SIZE	src/hardware_dep/dpdk/main_loop.c	76;"	d	file:
+PKT_MBUF_DATA_SIZE	src/hardware_dep/dpdk/t4p4_loop_bkp.c	72;"	d	file:
+PRINT_OPAQUE_STRUCT	src/hardware_dep/dpdk/includes/dpdk_lib.h	142;"	d
+RTE_HASH_BUCKET_ENTRIES	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	35;"	d	file:
+RTE_LOGTYPE_L2FWD	src/hardware_dep/dpdk/includes/dpdk_lib.h	71;"	d
+RTE_LOGTYPE_L3FWD	src/hardware_dep/dpdk/includes/dpdk_lib.h	70;"	d
+RTE_LOGTYPE_P4_FWD	src/hardware_dep/dpdk/includes/dpdk_lib.h	72;"	d
+RTE_TARGET	build/l2l3_acl/Makefile	/^RTE_TARGET ?= x86_64-native-linuxapp-gcc$/;"	m
+RTE_TARGET	build/l2l3_acl/common.mk	/^RTE_TARGET ?= x86_64-native-linuxapp-gcc$/;"	m
+RTE_TARGET	makefiles/Makefile	/^RTE_TARGET ?= x86_64-native-linuxapp-gcc$/;"	m
+RTE_TARGET	makefiles/common.mk	/^RTE_TARGET ?= x86_64-native-linuxapp-gcc$/;"	m
+RTE_TEST_RX_DESC_DEFAULT	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	93;"	d	file:
+RTE_TEST_RX_DESC_DEFAULT	src/hardware_dep/dpdk/main_loop.c	70;"	d	file:
+RTE_TEST_RX_DESC_DEFAULT	src/hardware_dep/dpdk/t4p4_loop_bkp.c	66;"	d	file:
+RTE_TEST_TX_DESC_DEFAULT	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	94;"	d	file:
+RTE_TEST_TX_DESC_DEFAULT	src/hardware_dep/dpdk/main_loop.c	71;"	d	file:
+RTE_TEST_TX_DESC_DEFAULT	src/hardware_dep/dpdk/t4p4_loop_bkp.c	67;"	d	file:
+TABCHANGE_DELAY	src/hardware_dep/dpdk/includes/dpdk_lib.h	131;"	d
+TABLE_	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ TABLE_\/\/ sugar@24$/;"	e	enum:table_names
+TABLE_MAX	src/hardware_dep/dpdk/includes/dpdk_tables.h	27;"	d
+TABLE_acl	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ TABLE_acl,\/\/ sugar@23$/;"	e	enum:table_names
+TABLE_mac_learning	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ TABLE_mac_learning,\/\/ sugar@23$/;"	e	enum:table_names
+TABLE_mcast_src_pruning	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ TABLE_mcast_src_pruning,\/\/ sugar@23$/;"	e	enum:table_names
+TABLE_product	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ TABLE_product,\/\/ sugar@23$/;"	e	enum:table_names
+TABLE_routable	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ TABLE_routable,\/\/ sugar@23$/;"	e	enum:table_names
+TABLE_routing	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ TABLE_routing,\/\/ sugar@23$/;"	e	enum:table_names
+TABLE_switching	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ TABLE_switching,\/\/ sugar@23$/;"	e	enum:table_names
+TABLE_vlan_egress_proc	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ TABLE_vlan_egress_proc,\/\/ sugar@23$/;"	e	enum:table_names
+TABLE_vlan_ingress_proc	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ TABLE_vlan_ingress_proc,\/\/ sugar@23$/;"	e	enum:table_names
+TERNARY_NAIVE_H	src/hardware_dep/shared/includes/ternary_naive.h	15;"	d
+TIMER_MILLISECOND	src/hardware_dep/dpdk/main_loop.c	61;"	d	file:
+TIMER_MILLISECOND	src/hardware_dep/dpdk/t4p4_loop_bkp.c	57;"	d	file:
+UNUSED	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	126;"	d	file:
+VECTOR_H	src/hardware_dep/shared/includes/vector.h	15;"	d
+_MESSAGES_H_	src/hardware_dep/shared/ctrl_plane/messages.h	15;"	d
+__ACTION_INFO_GENERATED_H__	build/l2l3_acl/src_hardware_indep/actions.h	2;"	d
+__ACTION_INFO_GENERATED_H__	src/hardware_dep/dpdk/includes/actions.h	2;"	d
+__ALIASES_H_	src/hardware_dep/dpdk/includes/aliases.h	15;"	d
+__BACKEND_H_	src/hardware_dep/shared/includes/backend.h	15;"	d
+__BACKEND_H__	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.h	15;"	d
+__CONTROLLER_H__	src/hardware_dep/shared/ctrl_plane/controller.h	15;"	d
+__DATA_PLANE_DATA_H__	build/l2l3_acl/src_hardware_indep/data_plane_data.h	2;"	d
+__FIFO_H__	src/hardware_dep/shared/ctrl_plane/fifo.h	15;"	d
+__HANDLERS_H__	src/hardware_dep/shared/ctrl_plane/handlers.h	15;"	d
+__HEADER_INFO_H__	build/l2l3_acl/src_hardware_indep/parser.h	2;"	d
+__SOCK_HELPERS_H__	src/hardware_dep/shared/ctrl_plane/sock_helpers.h	15;"	d
+__rte_cache_aligned	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^} __rte_cache_aligned;$/;"	v	typeref:struct:lcore_params
+__rte_cache_aligned	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^} __rte_cache_aligned;$/;"	v	typeref:struct:rte_hash
+__rte_cache_aligned	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^} __rte_cache_aligned;$/;"	v	typeref:struct:rte_hash_bucket
+__rte_cache_aligned	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^} __rte_cache_aligned;$/;"	v	typeref:struct:l2fwd_port_statistics
+__rte_cache_aligned	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^} __rte_cache_aligned;$/;"	v	typeref:struct:lcore_conf
+__rte_cache_aligned	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^} __rte_cache_aligned;$/;"	v	typeref:struct:lcore_rx_queue
+_threadpool	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^} _threadpool;$/;"	t	typeref:struct:_threadpool_st	file:
+_threadpool_st	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^typedef struct _threadpool_st {$/;"	s	file:
+a	build/util/desugared_compiler/actions.h.desugared.py	/^a = []$/;"	v
+a	src/hardware_indep/actions.h.py	/^a = []$/;"	v
+acl_action	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct acl_action {\/\/ sugar@40$/;"	s
+acl_action	src/hardware_dep/dpdk/includes/actions.h	/^ struct acl_action {\/\/ sugar@40$/;"	s
+acl_add	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ acl_add(\/\/ sugar@39$/;"	f
+acl_add_table_entry	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ acl_add_table_entry(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@84$/;"	f
+acl_set_default_table_action	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ acl_set_default_table_action(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@114$/;"	f
+acl_setdefault	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ acl_setdefault(struct acl_action action)\/\/ sugar@76$/;"	f
+action	build/util/desugared_compiler/dataplane.c.desugared.py	/^        action = table.actions[0]$/;"	v
+action	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_action action; \/* Action or action profile instance *\/$/;"	m	struct:p4_set_default_action	typeref:struct:p4_set_default_action::p4_action
+action	src/hardware_indep/dataplane.c.py	/^        action = table.actions[0]$/;"	v
+action__drop	build/l2l3_acl/src_hardware_indep/actions.h	/^ action__drop,\/\/ sugar@27$/;"	e	enum:actions
+action__drop	src/hardware_dep/dpdk/includes/actions.h	/^ action__drop,\/\/ sugar@27$/;"	e	enum:actions
+action__nop	build/l2l3_acl/src_hardware_indep/actions.h	/^ action__nop,\/\/ sugar@27$/;"	e	enum:actions
+action__nop	src/hardware_dep/dpdk/includes/actions.h	/^ action__nop,\/\/ sugar@27$/;"	e	enum:actions
+action_add_vlan	build/l2l3_acl/src_hardware_indep/actions.h	/^ action_add_vlan,\/\/ sugar@27$/;"	e	enum:actions
+action_add_vlan	src/hardware_dep/dpdk/includes/actions.h	/^ action_add_vlan,\/\/ sugar@27$/;"	e	enum:actions
+action_broadcast	build/l2l3_acl/src_hardware_indep/actions.h	/^ action_broadcast,\/\/ sugar@27$/;"	e	enum:actions
+action_broadcast	src/hardware_dep/dpdk/includes/actions.h	/^ action_broadcast,\/\/ sugar@27$/;"	e	enum:actions
+action_code__drop	build/l2l3_acl/src_hardware_indep/actions.c	/^  void action_code__drop(packet_descriptor_t* pd, lookup_table_t** tables ) {\/\/ sugar@201$/;"	f
+action_code__nop	build/l2l3_acl/src_hardware_indep/actions.c	/^  void action_code__nop(packet_descriptor_t* pd, lookup_table_t** tables ) {\/\/ sugar@201$/;"	f
+action_code_add_vlan	build/l2l3_acl/src_hardware_indep/actions.c	/^  void action_code_add_vlan(packet_descriptor_t* pd, lookup_table_t** tables ) {\/\/ sugar@201$/;"	f
+action_code_broadcast	build/l2l3_acl/src_hardware_indep/actions.c	/^  void action_code_broadcast(packet_descriptor_t* pd, lookup_table_t** tables ) {\/\/ sugar@201$/;"	f
+action_code_forward	build/l2l3_acl/src_hardware_indep/actions.c	/^  void action_code_forward(packet_descriptor_t* pd, lookup_table_t** tables , struct action_forward_params parameters) {\/\/ sugar@201$/;"	f
+action_code_mac_learn	build/l2l3_acl/src_hardware_indep/actions.c	/^  void action_code_mac_learn(packet_descriptor_t* pd, lookup_table_t** tables ) {\/\/ sugar@201$/;"	f
+action_code_route	build/l2l3_acl/src_hardware_indep/actions.c	/^  void action_code_route(packet_descriptor_t* pd, lookup_table_t** tables ) {\/\/ sugar@201$/;"	f
+action_code_set_nhop	build/l2l3_acl/src_hardware_indep/actions.c	/^  void action_code_set_nhop(packet_descriptor_t* pd, lookup_table_t** tables , struct action_set_nhop_params parameters) {\/\/ sugar@201$/;"	f
+action_code_strip_vlan	build/l2l3_acl/src_hardware_indep/actions.c	/^  void action_code_strip_vlan(packet_descriptor_t* pd, lookup_table_t** tables ) {\/\/ sugar@201$/;"	f
+action_forward	build/l2l3_acl/src_hardware_indep/actions.h	/^ action_forward,\/\/ sugar@27$/;"	e	enum:actions
+action_forward	src/hardware_dep/dpdk/includes/actions.h	/^ action_forward,\/\/ sugar@27$/;"	e	enum:actions
+action_forward_params	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct action_forward_params {\/\/ sugar@33$/;"	s
+action_forward_params	src/hardware_dep/dpdk/includes/actions.h	/^ struct action_forward_params {\/\/ sugar@33$/;"	s
+action_id	build/l2l3_acl/src_hardware_indep/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:acl_action
+action_id	build/l2l3_acl/src_hardware_indep/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:mac_learning_action
+action_id	build/l2l3_acl/src_hardware_indep/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:mcast_src_pruning_action
+action_id	build/l2l3_acl/src_hardware_indep/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:product_action
+action_id	build/l2l3_acl/src_hardware_indep/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:routable_action
+action_id	build/l2l3_acl/src_hardware_indep/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:routing_action
+action_id	build/l2l3_acl/src_hardware_indep/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:switching_action
+action_id	build/l2l3_acl/src_hardware_indep/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:vlan_egress_proc_action
+action_id	build/l2l3_acl/src_hardware_indep/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:vlan_ingress_proc_action
+action_id	src/hardware_dep/dpdk/includes/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:acl_action
+action_id	src/hardware_dep/dpdk/includes/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:mac_learning_action
+action_id	src/hardware_dep/dpdk/includes/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:mcast_src_pruning_action
+action_id	src/hardware_dep/dpdk/includes/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:routable_action
+action_id	src/hardware_dep/dpdk/includes/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:routing_action
+action_id	src/hardware_dep/dpdk/includes/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:switching_action
+action_id	src/hardware_dep/dpdk/includes/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:vlan_egress_proc_action
+action_id	src/hardware_dep/dpdk/includes/actions.h	/^     int action_id;\/\/ sugar@41$/;"	m	struct:vlan_ingress_proc_action
+action_mac_learn	build/l2l3_acl/src_hardware_indep/actions.h	/^ action_mac_learn,\/\/ sugar@27$/;"	e	enum:actions
+action_mac_learn	src/hardware_dep/dpdk/includes/actions.h	/^ action_mac_learn,\/\/ sugar@27$/;"	e	enum:actions
+action_name	src/hardware_dep/shared/ctrl_plane/handlers.h	/^	char* action_name;$/;"	m	struct:p4_ctrl_msg
+action_params	src/hardware_dep/shared/ctrl_plane/handlers.h	/^	struct p4_action_parameter* action_params[P4_MAX_NUMBER_OF_ACTION_PARAMETERS];$/;"	m	struct:p4_ctrl_msg	typeref:struct:p4_ctrl_msg::p4_action_parameter
+action_route	build/l2l3_acl/src_hardware_indep/actions.h	/^ action_route,\/\/ sugar@27$/;"	e	enum:actions
+action_route	src/hardware_dep/dpdk/includes/actions.h	/^ action_route,\/\/ sugar@27$/;"	e	enum:actions
+action_set_nhop	build/l2l3_acl/src_hardware_indep/actions.h	/^ action_set_nhop,\/\/ sugar@27$/;"	e	enum:actions
+action_set_nhop	src/hardware_dep/dpdk/includes/actions.h	/^ action_set_nhop,\/\/ sugar@27$/;"	e	enum:actions
+action_set_nhop_params	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct action_set_nhop_params {\/\/ sugar@33$/;"	s
+action_set_nhop_params	src/hardware_dep/dpdk/includes/actions.h	/^ struct action_set_nhop_params {\/\/ sugar@33$/;"	s
+action_size	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t action_size; \/* number of actions *\/$/;"	m	struct:p4_table_definition
+action_strip_vlan	build/l2l3_acl/src_hardware_indep/actions.h	/^ action_strip_vlan,\/\/ sugar@27$/;"	e	enum:actions
+action_strip_vlan	src/hardware_dep/dpdk/includes/actions.h	/^ action_strip_vlan,\/\/ sugar@27$/;"	e	enum:actions
+action_type	src/hardware_dep/shared/ctrl_plane/handlers.h	/^	uint8_t action_type;$/;"	m	struct:p4_ctrl_msg
+actions	build/l2l3_acl/src_hardware_indep/actions.h	/^ enum actions {\/\/ sugar@21$/;"	g
+actions	build/util/desugared_compiler/actions.c.desugared.py	/^actions = hlir.p4_actions$/;"	v
+actions	src/hardware_dep/dpdk/includes/actions.h	/^ enum actions {\/\/ sugar@21$/;"	g
+actions	src/hardware_indep/actions.c.py	/^actions = hlir.p4_actions$/;"	v
+active_replica	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^    int              active_replica [NB_TABLES];$/;"	m	struct:socket_state
+addError	src/utils/misc.py	/^def addError(where, msg):$/;"	f
+addWarning	src/utils/misc.py	/^def addWarning(where, msg):$/;"	f
+add_digest_field	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^digest add_digest_field(digest d, void* value, uint32_t length)$/;"	f
+add_header	src/hardware_dep/dpdk/data_plane/dpdk_primitives.c	/^add_header(packet_descriptor_t* p, header_reference_t h)$/;"	f
+add_index	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^static uint8_t* add_index(uint8_t* value, int val_size, int index)$/;"	f	file:
+add_key	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        enum add_key_case add_key; \/**< Multi-writer hash add behavior *\/$/;"	m	struct:rte_hash	typeref:enum:rte_hash::add_key_case	file:
+add_key_case	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^enum add_key_case {$/;"	g	file:
+add_p4_action	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_action* add_p4_action(struct p4_header* header, uint16_t maxlength) {$/;"	f
+add_p4_action_parameter	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_action_parameter* add_p4_action_parameter(struct p4_header* header, struct p4_action* action, uint16_t maxlength) {$/;"	f
+add_p4_digest_field	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_digest_field* add_p4_digest_field(struct p4_digest* digest, uint16_t maxlength) {$/;"	f
+add_p4_field_match_exact	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_field_match_exact* add_p4_field_match_exact(struct p4_add_table_entry* add_table_entry, uint16_t maxlength) {$/;"	f
+add_p4_field_match_lpm	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_field_match_lpm* add_p4_field_match_lpm(struct p4_add_table_entry* add_table_entry, uint16_t maxlength) {$/;"	f
+add_p4_field_match_range	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_field_match_range* add_p4_field_match_range(struct p4_add_table_entry* add_table_entry, uint16_t maxlength) {$/;"	f
+add_p4_field_match_ternary	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_field_match_ternary* add_p4_field_match_ternary(struct p4_add_table_entry* add_table_entry, uint16_t maxlength) {$/;"	f
+add_p4_field_match_valid	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_field_match_valid* add_p4_field_match_valid(struct p4_add_table_entry* add_table_entry, uint16_t maxlength) {$/;"	f
+add_to_field	build/util/desugared_compiler/actions.c.desugared.py	/^def add_to_field(fun, call):$/;"	f
+add_to_field	src/hardware_indep/actions.c.py	/^def add_to_field(fun, call):$/;"	f
+alt	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^                        hash_sig_t alt;$/;"	m	struct:rte_hash_signatures::__anon15::__anon16	file:
+apply_table_acl	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void apply_table_acl(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@112$/;"	f
+apply_table_mac_learning	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void apply_table_mac_learning(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@112$/;"	f
+apply_table_mcast_src_pruning	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void apply_table_mcast_src_pruning(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@112$/;"	f
+apply_table_product	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void apply_table_product(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@112$/;"	f
+apply_table_routable	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void apply_table_routable(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@112$/;"	f
+apply_table_routing	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void apply_table_routing(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@112$/;"	f
+apply_table_switching	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void apply_table_switching(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@112$/;"	f
+apply_table_vlan_egress_proc	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void apply_table_vlan_egress_proc(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@112$/;"	f
+apply_table_vlan_ingress_proc	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void apply_table_vlan_ingress_proc(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@112$/;"	f
+arg	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	void * arg;$/;"	m	struct:work_st	file:
+backend	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.h	/^typedef void* backend;$/;"	t
+backend_processor	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^void backend_processor(void* bg)$/;"	f
+backend_st	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^typedef struct backend_st {$/;"	s	file:
+backend_t	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^} backend_t;$/;"	t	typeref:struct:backend_st	file:
+bg	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ backend bg;\/\/ sugar@151$/;"	v
+bitcnt	src/hardware_dep/dpdk/main_loop.c	/^bitcnt(uint32_t v)$/;"	f	file:
+bitcnt	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^bitcnt(uint32_t v)$/;"	f	file:
+bitmap	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char bitmap[MAX_ACTION_PARAMETER_BITMAP_LENGTH];$/;"	m	struct:p4_action_parameter
+bitmap	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char bitmap[MAX_FIELD_LENGTH];$/;"	m	struct:p4_field_match_exact
+bitmap	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char bitmap[MAX_FIELD_LENGTH];$/;"	m	struct:p4_field_match_lpm
+bitmap	src/hardware_dep/shared/ctrl_plane/messages.h	/^        char bitmap[MAX_FIELD_LENGTH];$/;"	m	struct:p4_field_match_ternary
+bitmap	src/hardware_dep/shared/ctrl_plane/messages.h	/^        char bitmap[MAX_FIELD_LENGTH];$/;"	m	struct:p4_field_match_valid
+bitmaps	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint32_t* bitmaps; \/* List of bitmaps - supported versions *\/$/;"	m	struct:p4_hello_elem_versionbitmap
+bitoffset	src/hardware_dep/shared/includes/dataplane.h	/^    int bitoffset;$/;"	m	struct:field_reference_s
+bitwidth	src/hardware_dep/shared/includes/dataplane.h	/^    int bitwidth;$/;"	m	struct:field_reference_s
+branch_on	build/util/desugared_compiler/parser.c.desugared.py	/^    branch_on = parse_state.branch_on$/;"	v
+branch_on	src/hardware_indep/parser.c.py	/^    branch_on = parse_state.branch_on$/;"	v
+bucket_bitmask	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        uint32_t bucket_bitmask;        \/**< Bitmask for getting bucket index$/;"	m	struct:rte_hash	file:
+buckets	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        struct rte_hash_bucket *buckets;        \/**< Table with buckets storing all the$/;"	m	struct:rte_hash	typeref:struct:rte_hash::rte_hash_bucket	file:
+build_hlir	src/utils/misc.py	/^def build_hlir(hlir):$/;"	f
+build_key_parse_ethernet	build/l2l3_acl/src_hardware_indep/parser.c	/^ static inline void build_key_parse_ethernet(packet_descriptor_t *pd, uint8_t *buf, uint8_t *key) {\/\/ sugar@104$/;"	f	file:
+build_key_parse_ipv4	build/l2l3_acl/src_hardware_indep/parser.c	/^ static inline void build_key_parse_ipv4(packet_descriptor_t *pd, uint8_t *buf, uint8_t *key) {\/\/ sugar@104$/;"	f	file:
+build_key_parse_vlan	build/l2l3_acl/src_hardware_indep/parser.c	/^ static inline void build_key_parse_vlan(packet_descriptor_t *pd, uint8_t *buf, uint8_t *key) {\/\/ sugar@104$/;"	f	file:
+bulk_exact_lookup	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^bulk_exact_lookup(lookup_table_t* t, int batch_size, int keysize, uint8_t key[][keysize], uint8_t **values)$/;"	f
+byte_width	build/util/desugared_compiler/parser.c.desugared.py	/^                byte_width = (field_instance.width + 7) \/ 8$/;"	v
+byte_width	src/hardware_indep/parser.c.py	/^                byte_width = (field_instance.width + 7) \/ 8$/;"	v
+bytecount	src/hardware_dep/shared/includes/dataplane.h	/^    int bytecount;$/;"	m	struct:field_reference_s
+byteoffset	src/hardware_dep/shared/includes/dataplane.h	/^    int byteoffset;$/;"	m	struct:field_reference_s
+bytewidth	src/hardware_dep/shared/includes/dataplane.h	/^    int bytewidth;$/;"	m	struct:field_reference_s
+bytewidth	src/hardware_dep/shared/includes/dataplane.h	/^    int bytewidth;$/;"	m	struct:header_reference_s
+c	src/hardware_dep/shared/ctrl_plane/dpdk_controller.c	/^controller c;$/;"	v
+c	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^controller c;$/;"	v
+c	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^controller c;$/;"	v
+c	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	/^controller c;$/;"	v
+c	src/hardware_dep/shared/ctrl_plane/dpdk_l3_controller.c	/^controller c;$/;"	v
+c_beautifier	src/compiler.py	/^c_beautifier = "clang-format-3.6"$/;"	v
+call_number	build/util/desugared_compiler/parser.c.desugared.py	/^        call_number = call_number + 1$/;"	v
+call_number	build/util/desugared_compiler/parser.c.desugared.py	/^call_number = 0$/;"	v
+call_number	src/hardware_indep/parser.c.py	/^        call_number = call_number + 1$/;"	v
+call_number	src/hardware_indep/parser.c.py	/^call_number = 0$/;"	v
+capacity	src/hardware_dep/shared/includes/vector.h	/^    int capacity;$/;"	m	struct:vector_s
+cb	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	p4_msg_callback cb;$/;"	m	struct:backend_st	file:
+change_replica	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^static void change_replica(int socketid, int tid, int replica) {$/;"	f	file:
+check_all_ports_link_status	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^check_all_ports_link_status(uint8_t port_num, uint32_t port_mask)$/;"	f	file:
+check_lcore_params	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^check_lcore_params(void)$/;"	f	file:
+check_p4_header	src/hardware_dep/shared/ctrl_plane/messages.c	/^void check_p4_header( struct p4_header* a, struct p4_header* b) {$/;"	f
+check_port_config	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^check_port_config(const unsigned nb_ports)$/;"	f	file:
+clone_pool	src/hardware_dep/dpdk/main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:
+clone_pool	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:
+cmp_jump_table_case	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^enum cmp_jump_table_case {$/;"	g	file:
+cmp_jump_table_idx	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        enum cmp_jump_table_case cmp_jump_table_idx;$/;"	m	struct:rte_hash	typeref:enum:rte_hash::cmp_jump_table_case	file:
+compute_cross_product_table	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^void compute_cross_product_table(lookup_table_t** tables, char* table1_name, char* table2_name){$/;"	f
+compute_cross_product_table_12	src/hardware_dep/dpdk/main_loop.c	/^void compute_cross_product_table_12(lookup_table_t** tables) $/;"	f
+compute_cross_product_table_123	src/hardware_dep/dpdk/main_loop.c	/^void compute_cross_product_table_123(lookup_table_t** tables) $/;"	f
+content	src/hardware_dep/dpdk/includes/dpdk_tables.h	/^    uint8_t** content;$/;"	m	struct:extended_table_s
+controller	src/hardware_dep/shared/ctrl_plane/controller.h	/^typedef void* controller;$/;"	t
+controller_addr	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	struct sockaddr_in controller_addr;  \/*Assuming single controller, digest-receiver TODO: EXTEND IT FOR HANDLING MULTIPLE receivers and\/or controllers *\/$/;"	m	struct:backend_st	typeref:struct:backend_st::sockaddr_in	file:
+controller_fd	src/hardware_dep/shared/ctrl_plane/controller.c	/^        int controller_fd;$/;"	m	struct:controller_st	file:
+controller_fd	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	int controller_fd;$/;"	m	struct:backend_st	file:
+controller_sock	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	int controller_sock;$/;"	m	struct:backend_st	file:
+controller_st	src/hardware_dep/shared/ctrl_plane/controller.c	/^typedef struct controller_st$/;"	s	file:
+controller_t	src/hardware_dep/shared/ctrl_plane/controller.c	/^} controller_t;$/;"	t	typeref:struct:controller_st	file:
+copy_to_socket	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^copy_to_socket(uint8_t* src, int length, int socketid) {$/;"	f	file:
+count	build/util/desugared_compiler/actions.c.desugared.py	/^def count(fun, call):$/;"	f
+count	src/hardware_indep/actions.c.py	/^def count(fun, call):$/;"	f
+counter	src/hardware_dep/shared/includes/dataplane.h	/^    int counter;$/;"	m	struct:lookup_table_s
+counter_config	build/l2l3_acl/src_hardware_indep/tables.c	/^ counter_t counter_config[NB_COUNTERS] = {\/\/ sugar@34$/;"	v
+counter_names	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ enum counter_names {\/\/ sugar@29$/;"	g
+counter_s	src/hardware_dep/shared/includes/dataplane.h	/^typedef struct counter_s {$/;"	s
+counter_t	src/hardware_dep/shared/includes/dataplane.h	/^} counter_t;$/;"	t	typeref:struct:counter_s
+counters	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^    counter_t      * counters       [NB_COUNTERS][RTE_MAX_LCORE];$/;"	m	struct:socket_state
+counters	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^    counter_t      * counters [NB_COUNTERS];$/;"	m	struct:lcore_state
+crc32	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^static uint32_t crc32(const void *data, uint32_t data_len, uint32_t init_val) {$/;"	f	file:
+create_backend	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^backend create_backend(int num_of_threads, int queue_size, char* controller_name, int controller_port, p4_msg_callback cb)$/;"	f
+create_controller	src/hardware_dep/shared/ctrl_plane/controller.c	/^controller create_controller(uint16_t port, int number_of_threads, digest_handler dh)$/;"	f
+create_controller_with_init	src/hardware_dep/shared/ctrl_plane/controller.c	/^controller create_controller_with_init(uint16_t port, int number_of_threads, digest_handler dh, initialize init)$/;"	f
+create_counters_on_socket	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^create_counters_on_socket(int socketid)$/;"	f	file:
+create_digest	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^digest create_digest(backend bg, char* name)$/;"	f
+create_error	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^void create_error(int socketid, char* table_type)$/;"	f
+create_error_text	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^void create_error_text(int socketid, char* table_type, char* error_text)$/;"	f
+create_ext_table	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^create_ext_table(lookup_table_t* t, void* rte_table, int socketid)$/;"	f	file:
+create_p4_add_table_entry	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_add_table_entry* create_p4_add_table_entry(char* buffer, uint16_t offset, uint16_t maxlength) {$/;"	f
+create_p4_digest	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_digest* create_p4_digest(char* buffer, uint16_t offset, uint16_t maxlength) {$/;"	f
+create_p4_header	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_header *create_p4_header(char* buffer, uint16_t offset, uint16_t maxlength) {$/;"	f
+create_p4_set_default_action	src/hardware_dep/shared/ctrl_plane/messages.c	/^struct p4_set_default_action* create_p4_set_default_action(char* buffer, uint16_t offset, uint16_t maxlength) {$/;"	f
+create_table	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^create_table(lookup_table_t* t, int socketid)$/;"	f	file:
+create_tables_on_socket	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^create_tables_on_socket(int socketid)$/;"	f	file:
+create_threadpool	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^threadpool create_threadpool(int num_threads_in_pool) {$/;"	f
+ct	src/hardware_dep/shared/ctrl_plane/controller.c	/^	controller_t* ct;$/;"	m	struct:threadinfo_st	file:
+current	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^                        hash_sig_t current;$/;"	m	struct:rte_hash_signatures::__anon15::__anon16	file:
+data	src/hardware_dep/shared/ctrl_plane/controller.c	/^	char data[2048]; \/* todo *\/$/;"	m	struct:msg_buf_st	file:
+data	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	char* data;$/;"	m	struct:mem_cell_st	file:
+data	src/hardware_dep/shared/includes/dataplane.h	/^    void *              data;$/;"	m	struct:packet_descriptor_s
+data	src/hardware_dep/shared/includes/vector.h	/^    void **data;$/;"	m	struct:vector_s
+data_size	src/hardware_dep/shared/includes/vector.h	/^    int data_size;$/;"	m	struct:vector_s
+dbg_print_headers	src/hardware_dep/dpdk/main_loop.c	/^dbg_print_headers(packet_descriptor_t* pd)$/;"	f	file:
+dbg_print_headers	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^dbg_print_headers(packet_descriptor_t* pd)$/;"	f	file:
+debug	src/hardware_dep/shared/includes/backend.h	24;"	d
+default_val	src/hardware_dep/shared/includes/dataplane.h	/^    void* default_val;$/;"	m	struct:lookup_table_s
+deparse_headers	src/hardware_dep/dpdk/main_loop.c	/^deparse_headers(packet_descriptor_t* pd, int socketid)$/;"	f	file:
+deparse_headers	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^deparse_headers(packet_descriptor_t* pd, int socketid)$/;"	f	file:
+deparse_mbuf	src/hardware_dep/dpdk/main_loop.c	/^struct rte_mbuf* deparse_mbuf;$/;"	v	typeref:struct:rte_mbuf
+deparse_mbuf	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^struct rte_mbuf* deparse_mbuf;$/;"	v	typeref:struct:rte_mbuf
+description	src/hardware_dep/shared/ctrl_plane/messages.h	/^        struct p4_table_action_desc description; \/* Action name of action profile name *\/$/;"	m	struct:p4_action	typeref:struct:p4_action::p4_table_action_desc
+destroy_backend	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^void destroy_backend(backend bg)$/;"	f
+destroy_controller	src/hardware_dep/shared/ctrl_plane/controller.c	/^void destroy_controller(controller c)$/;"	f
+destroy_threadpool	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^void destroy_threadpool(threadpool destroyme) {$/;"	f
+detouch_mem_cell	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^void detouch_mem_cell(backend_t* bgt, mem_cell_t* cell)$/;"	f
+dh	src/hardware_dep/shared/ctrl_plane/controller.c	/^	digest_handler dh;$/;"	m	struct:controller_st	file:
+dhf	src/hardware_dep/shared/ctrl_plane/dpdk_controller.c	/^void dhf(void* b) {$/;"	f
+dhf	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^void dhf(void* b) {$/;"	f
+dhf	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^void dhf(void* b) {$/;"	f
+dhf	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	/^void dhf(void* b) {$/;"	f
+dhf	src/hardware_dep/shared/ctrl_plane/dpdk_l3_controller.c	/^void dhf(void* b) {$/;"	f
+digest	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	struct p4_digest* digest;$/;"	m	struct:digest_st	typeref:struct:digest_st::p4_digest	file:
+digest	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.h	/^typedef void* digest;$/;"	t
+digest_handler	src/hardware_dep/shared/ctrl_plane/controller.h	/^typedef void (*digest_handler)(void*); \/* callback for handling a digest received from the switch*\/$/;"	t
+digest_st	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^typedef struct digest_st {$/;"	s	file:
+digest_t	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^} digest_t;$/;"	t	typeref:struct:digest_st	file:
+disable_hlir_messages	src/utils/misc.py	/^disable_hlir_messages = False$/;"	v
+dispatch	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^void dispatch(threadpool from_me, dispatch_fn dispatch_to_here,$/;"	f
+dispatch_fn	src/hardware_dep/shared/ctrl_plane/threadpool.h	/^typedef void (*dispatch_fn)(void *);$/;"	t
+do_work	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^void* do_work(threadpool p) {$/;"	f
+dont_accept	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^        int dont_accept;$/;"	m	struct:backend_st	file:
+dont_accept	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	int dont_accept;$/;"	m	struct:_threadpool_st	file:
+dpdk_bcast_packet	src/hardware_dep/dpdk/main_loop.c	/^dpdk_bcast_packet(struct rte_mbuf *m, uint8_t ingress_port, uint32_t lcore_id)$/;"	f	file:
+dpdk_bcast_packet	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^dpdk_bcast_packet(struct rte_mbuf *m, uint8_t ingress_port, uint32_t lcore_id)$/;"	f	file:
+dpdk_main_loop	src/hardware_dep/dpdk/main_loop.c	/^dpdk_main_loop(void)$/;"	f
+dpdk_main_loop	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^dpdk_main_loop(void)$/;"	f
+dpdk_mcast_packet	src/hardware_dep/dpdk/main_loop.c	/^dpdk_mcast_packet(struct rte_mbuf *m, uint32_t port_mask, uint32_t lcore_id)$/;"	f	file:
+dpdk_mcast_packet	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^dpdk_mcast_packet(struct rte_mbuf *m, uint32_t port_mask, uint32_t lcore_id)$/;"	f	file:
+dpdk_send_packet	src/hardware_dep/dpdk/main_loop.c	/^dpdk_send_packet(struct rte_mbuf *m, uint8_t port, uint32_t lcore_id)$/;"	f	file:
+dpdk_send_packet	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^dpdk_send_packet(struct rte_mbuf *m, uint8_t port, uint32_t lcore_id)$/;"	f	file:
+drop	build/util/desugared_compiler/actions.c.desugared.py	/^def drop(fun, call):$/;"	f
+drop	src/hardware_dep/dpdk/data_plane/dpdk_primitives.c	/^void drop(packet_descriptor_t* p)$/;"	f
+drop	src/hardware_indep/actions.c.py	/^def drop(fun, call):$/;"	f
+dropped	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^	uint64_t dropped;$/;"	m	struct:l2fwd_port_statistics
+dst	build/l2l3_acl/src_hardware_indep/key.h	/^		uint8_t dst[4];	 \/*Destination IP*\/	$/;"	m	struct:universal_key::__anon29
+dst	build/l2l3_acl/src_hardware_indep/key.h	/^                uint8_t dst[6];   \/* Ethernet destination address. *\/$/;"	m	struct:universal_key::__anon28
+dst	src/hardware_dep/dpdk/includes/key.h	/^		uint8_t dst[4];	 \/*Destination IP*\/	$/;"	m	struct:universal_key::__anon13
+dst	src/hardware_dep/dpdk/includes/key.h	/^                uint8_t dst[6];   \/* Ethernet destination address. *\/$/;"	m	struct:universal_key::__anon12
+dst_port	build/l2l3_acl/src_hardware_indep/key.h	/^                uint32_t dst_port;             \/* TCP\/UDP\/SCTP destination port. *\/$/;"	m	struct:universal_key::__anon30
+dst_port	src/hardware_dep/dpdk/includes/key.h	/^                uint16_t dst_port;             \/* TCP\/UDP\/SCTP destination port. *\/$/;"	m	struct:universal_key::__anon14
+egress_port	build/l2l3_acl/src_hardware_indep/key.h	/^		uint16_t egress_port;  \/\/vlan out port$/;"	m	struct:universal_key::__anon27
+egress_port	src/hardware_dep/dpdk/includes/key.h	/^		uint16_t egress_port;  \/\/vlan out port$/;"	m	struct:universal_key::__anon11
+elements	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_hello_elem_header *elements; \/* List of elements - 0 or more *\/$/;"	m	struct:p4_hello	typeref:struct:p4_hello::p4_hello_elem_header
+empty	src/hardware_dep/shared/ctrl_plane/fifo.h	/^        pthread_cond_t empty;$/;"	m	struct:fifo_st
+enabled_port_mask	src/hardware_dep/dpdk/main_loop.c	/^uint32_t enabled_port_mask = 0;$/;"	v
+enabled_port_mask	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^uint32_t enabled_port_mask = 0;$/;"	v
+entries	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        uint32_t entries;               \/**< Total table entries. *\/$/;"	m	struct:rte_hash	file:
+entries	src/hardware_dep/shared/includes/ternary_naive.h	/^    void**  entries;$/;"	m	struct:__anon2
+enum	build/util/desugared_compiler/parser.h.desugared.py	/^def enum(es):$/;"	f
+enum	src/hardware_indep/parser.h.py	/^def enum(es):$/;"	f
+error_code	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint16_t error_code;$/;"	m	struct:p4_error
+errors	src/utils/misc.py	/^errors = []$/;"	v
+eth	build/l2l3_acl/src_hardware_indep/key.h	/^        } eth;$/;"	m	struct:universal_key	typeref:struct:universal_key::__anon28
+eth	src/hardware_dep/dpdk/includes/key.h	/^        } eth;$/;"	m	struct:universal_key	typeref:struct:universal_key::__anon12
+exact_add	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^exact_add(lookup_table_t* t, uint8_t* key, uint8_t* value)$/;"	f
+exact_add_promote	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^exact_add_promote(int tableid, uint8_t* key, uint8_t* value) {$/;"	f
+exact_add_universal	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^exact_add_universal(lookup_table_t* t, struct universal_key key, uint8_t* value)$/;"	f
+exact_create	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^exact_create(lookup_table_t* t, int socketid)$/;"	f
+exact_lookup	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^exact_lookup(lookup_table_t* t, int batch_size, int keysize, struct universal_key key[], uint8_t **values)$/;"	f
+execute_controller	src/hardware_dep/shared/ctrl_plane/controller.c	/^void execute_controller(controller c)$/;"	f
+extended_table_s	src/hardware_dep/dpdk/includes/dpdk_tables.h	/^typedef struct extended_table_s {$/;"	s
+extended_table_t	src/hardware_dep/dpdk/includes/dpdk_tables.h	/^} extended_table_t;$/;"	t	typeref:struct:extended_table_s
+extract_header	build/l2l3_acl/src_hardware_indep/parser.c	/^ extract_header(uint8_t* buf, packet_descriptor_t* pd, header_instance_t h) {\/\/ sugar@79$/;"	f	file:
+false	src/hardware_dep/shared/ctrl_plane/messages.h	21;"	d
+farray	build/util/desugared_compiler/parser.h.desugared.py	/^def farray(t, es):$/;"	f
+farray	src/hardware_indep/parser.h.py	/^def farray(t, es):$/;"	f
+fc	build/util/desugared_compiler/parser.h.desugared.py	/^fc = len(field_instance_ids(hlir))$/;"	v
+fc	src/hardware_indep/parser.h.py	/^fc = len(field_instance_ids(hlir))$/;"	v
+field_desc	src/hardware_dep/shared/includes/dataplane.h	72;"	d
+field_instance	build/util/desugared_compiler/parser.c.desugared.py	/^                field_instance = switch_ref$/;"	v
+field_instance	src/hardware_indep/parser.c.py	/^                field_instance = switch_ref$/;"	v
+field_instance_bit_offset	build/l2l3_acl/src_hardware_indep/parser.h	/^ static const int field_instance_bit_offset[FIELD_INSTANCE_COUNT] = {$/;"	v
+field_instance_bit_offset	build/util/desugared_compiler/parser.h.desugared.py	/^def field_instance_bit_offset():$/;"	f
+field_instance_bit_offset	src/hardware_indep/parser.h.py	/^def field_instance_bit_offset():$/;"	f
+field_instance_bit_width	build/l2l3_acl/src_hardware_indep/parser.h	/^ static const int field_instance_bit_width[FIELD_INSTANCE_COUNT] = {$/;"	v
+field_instance_bit_width	build/util/desugared_compiler/parser.h.desugared.py	/^def field_instance_bit_width():$/;"	f
+field_instance_bit_width	src/hardware_indep/parser.h.py	/^def field_instance_bit_width():$/;"	f
+field_instance_byte_offset_hdr	build/l2l3_acl/src_hardware_indep/parser.h	/^ static const int field_instance_byte_offset_hdr[FIELD_INSTANCE_COUNT] = {$/;"	v
+field_instance_byte_offset_hdr	build/util/desugared_compiler/parser.h.desugared.py	/^def field_instance_byte_offset_hdr():$/;"	f
+field_instance_byte_offset_hdr	src/hardware_indep/parser.h.py	/^def field_instance_byte_offset_hdr():$/;"	f
+field_instance_e	build/l2l3_acl/src_hardware_indep/parser.h	/^ enum field_instance_e {$/;"	g
+field_instance_e	build/util/desugared_compiler/parser.h.desugared.py	/^def field_instance_e():$/;"	f
+field_instance_e	src/hardware_indep/parser.h.py	/^def field_instance_e():$/;"	f
+field_instance_ethernet__dstAddr	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ethernet__dstAddr,$/;"	e	enum:field_instance_e
+field_instance_ethernet__etherType	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ethernet__etherType,$/;"	e	enum:field_instance_e
+field_instance_ethernet__srcAddr	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ethernet__srcAddr,$/;"	e	enum:field_instance_e
+field_instance_header	build/l2l3_acl/src_hardware_indep/parser.h	/^ static const header_instance_t field_instance_header[FIELD_INSTANCE_COUNT] = {$/;"	v
+field_instance_header	build/util/desugared_compiler/parser.h.desugared.py	/^def field_instance_header():$/;"	f
+field_instance_header	src/hardware_indep/parser.h.py	/^def field_instance_header():$/;"	f
+field_instance_ids	src/utils/hlir.py	/^def field_instance_ids(hlir):$/;"	f
+field_instance_intrinsic_metadata_egress_rid	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_intrinsic_metadata_egress_rid,$/;"	e	enum:field_instance_e
+field_instance_intrinsic_metadata_lf_field_list	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_intrinsic_metadata_lf_field_list,$/;"	e	enum:field_instance_e
+field_instance_intrinsic_metadata_mcast_grp	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_intrinsic_metadata_mcast_grp,$/;"	e	enum:field_instance_e
+field_instance_intrinsic_metadata_mcast_hash	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_intrinsic_metadata_mcast_hash,$/;"	e	enum:field_instance_e
+field_instance_ipv4__diffserv	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__diffserv,$/;"	e	enum:field_instance_e
+field_instance_ipv4__dstAddr	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__dstAddr,$/;"	e	enum:field_instance_e
+field_instance_ipv4__flags	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__flags,$/;"	e	enum:field_instance_e
+field_instance_ipv4__fragOffset	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__fragOffset,$/;"	e	enum:field_instance_e
+field_instance_ipv4__hdrChecksum	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__hdrChecksum,$/;"	e	enum:field_instance_e
+field_instance_ipv4__identification	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__identification,$/;"	e	enum:field_instance_e
+field_instance_ipv4__ihl	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__ihl,$/;"	e	enum:field_instance_e
+field_instance_ipv4__protocol	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__protocol,$/;"	e	enum:field_instance_e
+field_instance_ipv4__srcAddr	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__srcAddr,$/;"	e	enum:field_instance_e
+field_instance_ipv4__totalLen	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__totalLen,$/;"	e	enum:field_instance_e
+field_instance_ipv4__ttl	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__ttl,$/;"	e	enum:field_instance_e
+field_instance_ipv4__version	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_ipv4__version,$/;"	e	enum:field_instance_e
+field_instance_l4_metadata__dstPort	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_l4_metadata__dstPort$/;"	e	enum:field_instance_e
+field_instance_l4_metadata__srcPort	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_l4_metadata__srcPort,$/;"	e	enum:field_instance_e
+field_instance_mask	build/l2l3_acl/src_hardware_indep/parser.h	/^ static const uint32_t field_instance_mask[FIELD_INSTANCE_COUNT] = {$/;"	v
+field_instance_mask	build/util/desugared_compiler/parser.h.desugared.py	/^def field_instance_mask():$/;"	f
+field_instance_mask	src/hardware_indep/parser.h.py	/^def field_instance_mask():$/;"	f
+field_instance_standard_metadata__padding	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_standard_metadata__padding,$/;"	e	enum:field_instance_e
+field_instance_standard_metadata_clone_spec	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_standard_metadata_clone_spec,$/;"	e	enum:field_instance_e
+field_instance_standard_metadata_egress_instance	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_standard_metadata_egress_instance,$/;"	e	enum:field_instance_e
+field_instance_standard_metadata_egress_port	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_standard_metadata_egress_port,$/;"	e	enum:field_instance_e
+field_instance_standard_metadata_egress_spec	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_standard_metadata_egress_spec,$/;"	e	enum:field_instance_e
+field_instance_standard_metadata_ingress_port	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_standard_metadata_ingress_port,$/;"	e	enum:field_instance_e
+field_instance_standard_metadata_instance_type	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_standard_metadata_instance_type,$/;"	e	enum:field_instance_e
+field_instance_standard_metadata_packet_length	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_standard_metadata_packet_length,$/;"	e	enum:field_instance_e
+field_instance_t	build/l2l3_acl/src_hardware_indep/parser.h	/^ typedef enum field_instance_e field_instance_t;\/\/ sugar@103$/;"	t	typeref:enum:field_instance_e
+field_instance_tcp__ackNo	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_tcp__ackNo,$/;"	e	enum:field_instance_e
+field_instance_tcp__checksum	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_tcp__checksum,$/;"	e	enum:field_instance_e
+field_instance_tcp__dataOffset	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_tcp__dataOffset,$/;"	e	enum:field_instance_e
+field_instance_tcp__dstPort	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_tcp__dstPort,$/;"	e	enum:field_instance_e
+field_instance_tcp__flags	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_tcp__flags,$/;"	e	enum:field_instance_e
+field_instance_tcp__res	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_tcp__res,$/;"	e	enum:field_instance_e
+field_instance_tcp__seqNo	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_tcp__seqNo,$/;"	e	enum:field_instance_e
+field_instance_tcp__srcPort	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_tcp__srcPort,$/;"	e	enum:field_instance_e
+field_instance_tcp__urgentPtr	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_tcp__urgentPtr,$/;"	e	enum:field_instance_e
+field_instance_tcp__window	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_tcp__window,$/;"	e	enum:field_instance_e
+field_instance_udp__checksum	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_udp__checksum,$/;"	e	enum:field_instance_e
+field_instance_udp__dstPort	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_udp__dstPort,$/;"	e	enum:field_instance_e
+field_instance_udp__length_	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_udp__length_,$/;"	e	enum:field_instance_e
+field_instance_udp__srcPort	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_udp__srcPort,$/;"	e	enum:field_instance_e
+field_instance_universal_key_eth_dst	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_universal_key_eth_dst,$/;"	e	enum:field_instance_e
+field_instance_universal_key_eth_proto	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_universal_key_eth_proto,$/;"	e	enum:field_instance_e
+field_instance_universal_key_eth_src	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_universal_key_eth_src,$/;"	e	enum:field_instance_e
+field_instance_universal_key_ip_dst	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_universal_key_ip_dst,$/;"	e	enum:field_instance_e
+field_instance_universal_key_ip_src	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_universal_key_ip_src,$/;"	e	enum:field_instance_e
+field_instance_universal_key_tp_dst	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_universal_key_tp_dst,$/;"	e	enum:field_instance_e
+field_instance_universal_key_tp_src	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_universal_key_tp_src,$/;"	e	enum:field_instance_e
+field_instance_universal_key_vid	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_universal_key_vid,$/;"	e	enum:field_instance_e
+field_instance_universal_key_vlan_egress	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_universal_key_vlan_egress,$/;"	e	enum:field_instance_e
+field_instance_universal_key_vlan_ingress	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_universal_key_vlan_ingress,$/;"	e	enum:field_instance_e
+field_instance_vlan__cfi	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_vlan__cfi,$/;"	e	enum:field_instance_e
+field_instance_vlan__etherType	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_vlan__etherType,$/;"	e	enum:field_instance_e
+field_instance_vlan__pcp	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_vlan__pcp,$/;"	e	enum:field_instance_e
+field_instance_vlan__vid	build/l2l3_acl/src_hardware_indep/parser.h	/^  field_instance_vlan__vid,$/;"	e	enum:field_instance_e
+field_list_name	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char field_list_name[P4_MAX_FIELD_LIST_NAME_LEN];$/;"	m	struct:p4_digest
+field_mask	src/utils/hlir.py	/^def field_mask(bitoffset, bitwidth):$/;"	f
+field_matches	src/hardware_dep/shared/ctrl_plane/handlers.h	/^	struct p4_field_match_header* field_matches[P4_MAX_NUMBER_OF_FIELD_MATCHES];$/;"	m	struct:p4_ctrl_msg	typeref:struct:p4_ctrl_msg::p4_field_match_header
+field_offsets	src/hardware_dep/shared/includes/dataplane.h	/^    uint8_t** field_offsets;$/;"	m	struct:type_field_list
+field_offsets	src/utils/hlir.py	/^def field_offsets(header_type):$/;"	f
+field_reference_s	src/hardware_dep/shared/includes/dataplane.h	/^typedef struct field_reference_s {$/;"	s
+field_reference_t	src/hardware_dep/shared/includes/backend.h	/^typedef struct field_reference_s   field_reference_t;$/;"	t	typeref:struct:field_reference_s
+field_reference_t	src/hardware_dep/shared/includes/dataplane.h	/^} field_reference_t;$/;"	t	typeref:struct:field_reference_s
+field_widths	src/hardware_dep/shared/includes/dataplane.h	/^    uint8_t* field_widths;$/;"	m	struct:type_field_list
+fields_quantity	src/hardware_dep/shared/includes/dataplane.h	/^    uint8_t fields_quantity;$/;"	m	struct:type_field_list
+fifo_add_msg	src/hardware_dep/shared/ctrl_plane/fifo.c	/^fifo_t* fifo_add_msg( fifo_t* queue, void* element)$/;"	f
+fifo_destroy	src/hardware_dep/shared/ctrl_plane/fifo.c	/^void fifo_destroy( fifo_t* queue )$/;"	f
+fifo_init	src/hardware_dep/shared/ctrl_plane/fifo.c	/^fifo_t* fifo_init( fifo_t* queue)$/;"	f
+fifo_remove_msg	src/hardware_dep/shared/ctrl_plane/fifo.c	/^void* fifo_remove_msg( fifo_t* queue )$/;"	f
+fifo_size	src/hardware_dep/shared/ctrl_plane/fifo.c	/^int fifo_size( fifo_t* queue )$/;"	f
+fifo_st	src/hardware_dep/shared/ctrl_plane/fifo.h	/^typedef struct fifo_st {$/;"	s
+fifo_t	src/hardware_dep/shared/ctrl_plane/fifo.h	/^} fifo_t;$/;"	t	typeref:struct:fifo_st
+fifo_wait	src/hardware_dep/shared/ctrl_plane/fifo.c	/^void fifo_wait( fifo_t* queue)$/;"	f
+fill_dmac_table	src/hardware_dep/shared/ctrl_plane/dpdk_controller.c	/^void fill_dmac_table(uint8_t port, uint8_t mac[6])$/;"	f
+fill_dmac_table	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^void fill_dmac_table(uint8_t port, uint8_t mac[6])$/;"	f
+fill_ipv4_fib_lpm_table	src/hardware_dep/shared/ctrl_plane/dpdk_l3_controller.c	/^void fill_ipv4_fib_lpm_table(uint8_t ip[4], uint8_t port, uint8_t mac[6])$/;"	f
+fill_ipv4_lpm_table	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^void fill_ipv4_lpm_table(uint8_t ip[4], uint32_t nhgrp)$/;"	f
+fill_ipv4_lpm_table	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^void fill_ipv4_lpm_table(uint8_t ip[4], uint32_t nhgrp)$/;"	f
+fill_ipv4_lpm_table	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	/^void fill_ipv4_lpm_table(uint8_t ip[4], uint32_t nhgrp)$/;"	f
+fill_nexthops_table	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^void fill_nexthops_table(uint32_t nhgroup, uint8_t port, uint8_t smac[6], uint8_t dmac[6])$/;"	f
+fill_nexthops_table	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^void fill_nexthops_table(uint32_t nhgroup, uint8_t port, uint8_t smac[6], uint8_t dmac[6])$/;"	f
+fill_nexthops_table	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	/^void fill_nexthops_table(uint32_t nhgroup, uint8_t port, uint8_t smac[6], uint8_t dmac[6])$/;"	f
+fill_smac_table	src/hardware_dep/shared/ctrl_plane/dpdk_controller.c	/^void fill_smac_table(uint8_t port, uint8_t mac[6])$/;"	f
+fill_smac_table	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^void fill_smac_table(uint8_t port, uint8_t mac[6])$/;"	f
+flag	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        uint8_t flag[RTE_HASH_BUCKET_ENTRIES];$/;"	m	struct:rte_hash_bucket	file:
+fld_id	src/utils/hlir.py	/^def fld_id(f):$/;"	f
+fld_prefix	src/utils/hlir.py	/^def fld_prefix(name): return "field_instance_"+name$/;"	f
+format_expr	src/utils/hlir.py	/^def format_expr(e):$/;"	f
+format_op	src/utils/hlir.py	/^def format_op(op):$/;"	f
+format_p4_node	src/utils/hlir.py	/^def format_p4_node(node):$/;"	f
+format_state	build/util/desugared_compiler/parser.c.desugared.py	/^def format_state(state):$/;"	f
+format_state	src/hardware_indep/parser.c.py	/^def format_state(state):$/;"	f
+forward_params	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct action_forward_params forward_params;\/\/ sugar@45$/;"	m	union:product_action::__anon26	typeref:struct:product_action::__anon26::action_forward_params
+forward_params	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct action_forward_params forward_params;\/\/ sugar@45$/;"	m	union:switching_action::__anon21	typeref:struct:switching_action::__anon21::action_forward_params
+forward_params	src/hardware_dep/dpdk/includes/actions.h	/^ struct action_forward_params forward_params;\/\/ sugar@45$/;"	m	union:switching_action::__anon6	typeref:struct:switching_action::__anon6::action_forward_params
+free_slots	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        struct rte_ring *free_slots;    \/**< Ring that stores all indexes$/;"	m	struct:rte_hash	typeref:struct:rte_hash::rte_ring	file:
+generate_all_in_dir	src/compiler.py	/^def generate_all_in_dir(dir, gendir, outdir, hlir):$/;"	f
+generate_code	src/compiler.py	/^def generate_code(file, genfile, localvars={}):$/;"	f
+generate_code_files	src/compiler.py	/^generate_code_files = True$/;"	v
+generate_digest	build/util/desugared_compiler/actions.c.desugared.py	/^def generate_digest(fun, call):$/;"	f
+generate_digest	src/hardware_dep/dpdk/data_plane/dpdk_primitives.c	/^generate_digest(backend bg, char* name, int receiver, struct type_field_list* digest_field_list)$/;"	f
+generate_digest	src/hardware_indep/actions.c.py	/^def generate_digest(fun, call):$/;"	f
+generate_orig_lines	src/compiler.py	/^generate_orig_lines = "comment"$/;"	v
+getTypeAndLength	src/utils/hlir.py	/^def getTypeAndLength(table) : $/;"	f
+get_key_byte_width	build/util/desugared_compiler/parser.c.desugared.py	/^def get_key_byte_width(branch_on):$/;"	f
+get_key_byte_width	src/hardware_indep/parser.c.py	/^def get_key_byte_width(branch_on):$/;"	f
+get_port_n_rx_queues	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^get_port_n_rx_queues(const uint8_t port)$/;"	f	file:
+get_socketid	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^get_socketid(unsigned lcore_id)$/;"	f	file:
+get_socketid	src/hardware_dep/dpdk/main_loop.c	/^get_socketid(unsigned lcore_id)$/;"	f	file:
+get_socketid	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^get_socketid(unsigned lcore_id)$/;"	f	file:
+handle_p4_add_table_entry	src/hardware_dep/shared/ctrl_plane/handlers.c	/^int handle_p4_add_table_entry(struct p4_add_table_entry* m, struct p4_ctrl_msg* ctrl_m)$/;"	f
+handle_p4_msg	src/hardware_dep/shared/ctrl_plane/handlers.c	/^int handle_p4_msg(char* buffer, int length, p4_msg_callback cb)$/;"	f
+handle_p4_set_default_action	src/hardware_dep/shared/ctrl_plane/handlers.c	/^int handle_p4_set_default_action(struct p4_set_default_action* m, struct p4_ctrl_msg* ctrl_m)$/;"	f
+handle_packets	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void handle_packets(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@193$/;"	f
+harray	build/util/desugared_compiler/parser.h.desugared.py	/^def harray(t, es):$/;"	f
+harray	src/hardware_indep/parser.h.py	/^def harray(t, es):$/;"	f
+hasParam	build/util/desugared_compiler/actions.c.desugared.py	/^    hasParam = fun.signature$/;"	v
+hasParam	src/hardware_indep/actions.c.py	/^    hasParam = fun.signature$/;"	v
+has_default_case	build/util/desugared_compiler/parser.c.desugared.py	/^                has_default_case = True$/;"	v
+has_default_case	build/util/desugared_compiler/parser.c.desugared.py	/^        has_default_case = False$/;"	v
+has_default_case	src/hardware_indep/parser.c.py	/^                has_default_case = True$/;"	v
+has_default_case	src/hardware_indep/parser.c.py	/^        has_default_case = False$/;"	v
+hash_add_key	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^hash_add_key(struct rte_hash* h, void *key)$/;"	f
+hash_create	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^hash_create(int socketid, const char* name, uint32_t keylen, rte_hash_function hashfunc)$/;"	f
+hash_func	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        rte_hash_function hash_func;    \/**< Function used to calculate hash. *\/$/;"	m	struct:rte_hash	file:
+hash_func_init_val	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        uint32_t hash_func_init_val;    \/**< Init value used by hash_func. *\/$/;"	m	struct:rte_hash	file:
+hc	build/util/desugared_compiler/parser.h.desugared.py	/^hc = len(header_instance_ids(hlir))$/;"	v
+hc	src/hardware_indep/parser.h.py	/^hc = len(header_instance_ids(hlir))$/;"	v
+hdr_name	src/utils/hlir.py	/^def hdr_name(name): return re.sub(r'\\[([0-9]+)\\]', r'_\\1', name)$/;"	f
+hdr_prefix	src/utils/hlir.py	/^def hdr_prefix(name): return re.sub(r'\\[([0-9]+)\\]', r'_\\1', "header_instance_"+name)$/;"	f
+head	src/hardware_dep/shared/ctrl_plane/fifo.h	/^        int head;$/;"	m	struct:fifo_st
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_field_match_header header;$/;"	m	struct:p4_field_match_exact	typeref:struct:p4_field_match_exact::p4_field_match_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_field_match_header header;$/;"	m	struct:p4_field_match_lpm	typeref:struct:p4_field_match_lpm::p4_field_match_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_field_match_header header;$/;"	m	struct:p4_field_match_range	typeref:struct:p4_field_match_range::p4_field_match_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_field_match_header header;$/;"	m	struct:p4_field_match_ternary	typeref:struct:p4_field_match_ternary::p4_field_match_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_field_match_header header;$/;"	m	struct:p4_field_match_valid	typeref:struct:p4_field_match_valid::p4_field_match_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_header header;$/;"	m	struct:p4_add_table_entry	typeref:struct:p4_add_table_entry::p4_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_header header;$/;"	m	struct:p4_digest	typeref:struct:p4_digest::p4_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_header header;$/;"	m	struct:p4_error	typeref:struct:p4_error::p4_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_header header;$/;"	m	struct:p4_hello	typeref:struct:p4_hello::p4_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_header header;$/;"	m	struct:p4_set_default_action	typeref:struct:p4_set_default_action::p4_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_header header;$/;"	m	struct:p4_success	typeref:struct:p4_success::p4_header
+header	src/hardware_dep/shared/ctrl_plane/messages.h	/^	struct p4_header header;$/;"	m	struct:p4_table_definition	typeref:struct:p4_table_definition::p4_header
+header	src/hardware_dep/shared/includes/dataplane.h	/^    header_instance_t header;$/;"	m	struct:field_reference_s
+header_desc	src/hardware_dep/shared/includes/dataplane.h	84;"	d
+header_descriptor_s	src/hardware_dep/shared/includes/dataplane.h	/^typedef struct header_descriptor_s {$/;"	s
+header_descriptor_t	src/hardware_dep/shared/includes/backend.h	/^typedef struct header_descriptor_s header_descriptor_t;$/;"	t	typeref:struct:header_descriptor_s
+header_descriptor_t	src/hardware_dep/shared/includes/dataplane.h	/^} header_descriptor_t;$/;"	t	typeref:struct:header_descriptor_s
+header_instance	src/hardware_dep/shared/includes/dataplane.h	/^    header_instance_t header_instance;$/;"	m	struct:header_reference_s
+header_instance_byte_width	build/l2l3_acl/src_hardware_indep/parser.h	/^ static const int header_instance_byte_width[HEADER_INSTANCE_COUNT] = {$/;"	v
+header_instance_byte_width	build/util/desugared_compiler/parser.h.desugared.py	/^def header_instance_byte_width():$/;"	f
+header_instance_byte_width	src/hardware_indep/parser.h.py	/^def header_instance_byte_width():$/;"	f
+header_instance_e	build/l2l3_acl/src_hardware_indep/parser.h	/^ enum header_instance_e {$/;"	g
+header_instance_e	build/util/desugared_compiler/parser.h.desugared.py	/^def header_instance_e():$/;"	f
+header_instance_e	src/hardware_indep/parser.h.py	/^def header_instance_e():$/;"	f
+header_instance_ethernet_	build/l2l3_acl/src_hardware_indep/parser.h	/^  header_instance_ethernet_,$/;"	e	enum:header_instance_e
+header_instance_ids	src/utils/hlir.py	/^def header_instance_ids(hlir):$/;"	f
+header_instance_intrinsic_metadata	build/l2l3_acl/src_hardware_indep/parser.h	/^  header_instance_intrinsic_metadata,$/;"	e	enum:header_instance_e
+header_instance_ipv4_	build/l2l3_acl/src_hardware_indep/parser.h	/^  header_instance_ipv4_,$/;"	e	enum:header_instance_e
+header_instance_is_metadata	build/l2l3_acl/src_hardware_indep/parser.h	/^ static const int header_instance_is_metadata[HEADER_INSTANCE_COUNT] = {$/;"	v
+header_instance_is_metadata	build/util/desugared_compiler/parser.h.desugared.py	/^def header_instance_is_metadata():$/;"	f
+header_instance_is_metadata	src/hardware_indep/parser.h.py	/^def header_instance_is_metadata():$/;"	f
+header_instance_l4_metadata_	build/l2l3_acl/src_hardware_indep/parser.h	/^  header_instance_l4_metadata_$/;"	e	enum:header_instance_e
+header_instance_name	build/util/desugared_compiler/parser.c.desugared.py	/^            header_instance_name = hdr_prefix(call[1].name)$/;"	v
+header_instance_name	src/hardware_indep/parser.c.py	/^            header_instance_name = hdr_prefix(call[1].name)$/;"	v
+header_instance_name1	build/util/desugared_compiler/parser.c.desugared.py	/^                            header_instance_name1 = hdr_prefix(call1[1].name)$/;"	v
+header_instance_name1	src/hardware_indep/parser.c.py	/^                            header_instance_name1 = hdr_prefix(call1[1].name)$/;"	v
+header_instance_standard_metadata	build/l2l3_acl/src_hardware_indep/parser.h	/^  header_instance_standard_metadata,$/;"	e	enum:header_instance_e
+header_instance_t	build/l2l3_acl/src_hardware_indep/parser.h	/^ typedef enum header_instance_e header_instance_t;\/\/ sugar@102$/;"	t	typeref:enum:header_instance_e
+header_instance_tcp_	build/l2l3_acl/src_hardware_indep/parser.h	/^  header_instance_tcp_,$/;"	e	enum:header_instance_e
+header_instance_udp_	build/l2l3_acl/src_hardware_indep/parser.h	/^  header_instance_udp_,$/;"	e	enum:header_instance_e
+header_instance_universal_key	build/l2l3_acl/src_hardware_indep/parser.h	/^  header_instance_universal_key,$/;"	e	enum:header_instance_e
+header_instance_vlan_	build/l2l3_acl/src_hardware_indep/parser.h	/^  header_instance_vlan_,$/;"	e	enum:header_instance_e
+header_instances	src/utils/hlir.py	/^def header_instances(hlir): $/;"	f
+header_pool	src/hardware_dep/dpdk/main_loop.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:rte_mempool
+header_pool	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^struct rte_mempool *header_pool, *clone_pool;$/;"	v	typeref:struct:rte_mempool
+header_reference_s	src/hardware_dep/shared/includes/dataplane.h	/^typedef struct header_reference_s {$/;"	s
+header_reference_t	src/hardware_dep/shared/includes/backend.h	/^typedef struct header_reference_s  header_reference_t;$/;"	t	typeref:struct:header_reference_s
+header_reference_t	src/hardware_dep/shared/includes/dataplane.h	/^} header_reference_t;$/;"	t	typeref:struct:header_reference_s
+header_stack_	build/l2l3_acl/src_hardware_indep/parser.h	/^  header_stack_$/;"	e	enum:header_stack_e
+header_stack_e	build/l2l3_acl/src_hardware_indep/parser.h	/^ enum header_stack_e {$/;"	g
+header_stack_e	build/util/desugared_compiler/parser.h.desugared.py	/^def header_stack_e():$/;"	f
+header_stack_e	src/hardware_indep/parser.h.py	/^def header_stack_e():$/;"	f
+header_stack_elements	build/l2l3_acl/src_hardware_indep/parser.h	/^ static const header_instance_t header_stack_elements[HEADER_STACK_COUNT][10] = {$/;"	v
+header_stack_elements	build/util/desugared_compiler/parser.h.desugared.py	/^def header_stack_elements():$/;"	f
+header_stack_elements	src/hardware_indep/parser.h.py	/^def header_stack_elements():$/;"	f
+header_stack_ids	src/utils/hlir.py	/^def header_stack_ids(hlir):$/;"	f
+header_stack_size	build/l2l3_acl/src_hardware_indep/parser.h	/^ static const unsigned header_stack_size[HEADER_STACK_COUNT] = {$/;"	v
+header_stack_size	build/util/desugared_compiler/parser.h.desugared.py	/^def header_stack_size():$/;"	f
+header_stack_size	src/hardware_indep/parser.h.py	/^def header_stack_size():$/;"	f
+header_stack_t	build/l2l3_acl/src_hardware_indep/parser.h	/^ typedef enum header_stack_e header_stack_t;\/\/ sugar@114$/;"	t	typeref:enum:header_stack_e
+headers	src/hardware_dep/shared/includes/dataplane.h	/^    header_descriptor_t headers[HEADER_INSTANCE_COUNT+1];$/;"	m	struct:packet_descriptor_s
+hsarray	build/util/desugared_compiler/parser.h.desugared.py	/^def hsarray(t, es):$/;"	f
+hsarray	src/hardware_indep/parser.h.py	/^def hsarray(t, es):$/;"	f
+hsarrayarray	build/util/desugared_compiler/parser.h.desugared.py	/^def hsarrayarray(t, es):$/;"	f
+hsarrayarray	src/hardware_indep/parser.h.py	/^def hsarrayarray(t, es):$/;"	f
+hstack	src/utils/hlir.py	/^def hstack(name): return re.find(r'\\[([0-9]+)\\]', name)$/;"	f
+hw_trans_mem_support	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        uint8_t hw_trans_mem_support;   \/**< Hardware transactional$/;"	m	struct:rte_hash	file:
+id	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint32_t id;$/;"	m	struct:p4_success
+increase_counter	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^increase_counter(int counterid, int index) {$/;"	f
+ingress_port	build/l2l3_acl/src_hardware_indep/key.h	/^		uint16_t ingress_port; \/\/vlan in port$/;"	m	struct:universal_key::__anon27
+ingress_port	src/hardware_dep/dpdk/includes/key.h	/^		uint16_t ingress_port; \/\/vlan in port$/;"	m	struct:universal_key::__anon11
+init	src/hardware_dep/shared/ctrl_plane/controller.c	/^	initialize init;$/;"	m	struct:controller_st	file:
+init	src/hardware_dep/shared/ctrl_plane/dpdk_controller.c	/^void init() {$/;"	f
+init_acl	src/hardware_dep/dpdk/main_loop.c	/^void init_acl(lookup_table_t** tables) $/;"	f
+init_complex	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^void init_complex() {$/;"	f
+init_complex	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^void init_complex() {$/;"	f
+init_complex	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	/^void init_complex() {$/;"	f
+init_control_plane	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ void init_control_plane()\/\/ sugar@152$/;"	f
+init_dataplane	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void init_dataplane(packet_descriptor_t* pd, lookup_table_t** tables) {\/\/ sugar@187$/;"	f
+init_headers	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void init_headers(packet_descriptor_t* packet_desc) {\/\/ sugar@161$/;"	f
+init_keyless_tables	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void init_keyless_tables() {\/\/ sugar@177$/;"	f
+init_lcore_confs	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^int init_lcore_confs()$/;"	f
+init_lcore_rx_queues	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^init_lcore_rx_queues(void)$/;"	f	file:
+init_mac	src/hardware_dep/dpdk/main_loop.c	/^void init_mac(lookup_table_t** tables){$/;"	f
+init_mem	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^init_mem(unsigned nb_mbuf)$/;"	f	file:
+init_memories	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^int init_memories()$/;"	f
+init_routable	src/hardware_dep/dpdk/main_loop.c	/^void init_routable(lookup_table_t** tables){$/;"	f
+init_simple	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^void init_simple() {$/;"	f
+init_simple	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^void init_simple() {$/;"	f
+init_simple	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	/^void init_simple() {$/;"	f
+init_switching	src/hardware_dep/dpdk/main_loop.c	/^void init_switching(lookup_table_t** tables){$/;"	f
+init_vlan_egress	src/hardware_dep/dpdk/main_loop.c	/^void init_vlan_egress(lookup_table_t** tables){$/;"	f
+init_vlan_ingress	src/hardware_dep/dpdk/main_loop.c	/^void init_vlan_ingress(lookup_table_t** tables){$/;"	f
+initialize	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^initialize(int argc, char **argv)$/;"	f
+initialize	src/hardware_dep/shared/ctrl_plane/controller.h	/^typedef void (*initialize)(); \/* Init script that delegates rules when a switch connects to the controller *\/$/;"	t
+input_processor	src/hardware_dep/shared/ctrl_plane/controller.c	/^void input_processor(void *t)$/;"	f
+input_processor	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^void input_processor(void *bg)$/;"	f
+input_queue	src/hardware_dep/shared/ctrl_plane/controller.c	/^        fifo_t input_queue;$/;"	m	struct:controller_st	file:
+input_queue	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	fifo_t input_queue; \/* one queue per controller should be needed *\/$/;"	m	struct:backend_st	file:
+instance	src/hardware_dep/shared/includes/dataplane.h	/^    int instance;$/;"	m	struct:lookup_table_s
+instances4stack	src/utils/hlir.py	/^def instances4stack(hlir, s):$/;"	f
+int_to_byte_array	build/util/desugared_compiler/parser.c.desugared.py	/^def int_to_byte_array(val): # CAUTION: big endian!$/;"	f
+int_to_byte_array	src/hardware_indep/parser.c.py	/^def int_to_byte_array(val): # CAUTION: big endian!$/;"	f
+ip	build/l2l3_acl/src_hardware_indep/key.h	/^	} ip;$/;"	m	struct:universal_key	typeref:struct:universal_key::__anon29
+ip	src/hardware_dep/dpdk/includes/key.h	/^	} ip;$/;"	m	struct:universal_key	typeref:struct:universal_key::__anon13
+ip_array	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^uint32_t ip_array[MAX_IPS];$/;"	v
+ip_array	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^uint32_t ip_array[MAX_IPS];$/;"	v
+ip_array	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	/^uint32_t ip_array[MAX_IPS];$/;"	v
+ip_count	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^int ip_count = -1;$/;"	v
+ip_count	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^int ip_count = -1;$/;"	v
+ip_count	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	/^int ip_count = -1;$/;"	v
+is_Terminal	build/l2l3_acl/src_hardware_indep/actions.h	/^    int is_Terminal;\/\/ sugar@36$/;"	m	struct:action_forward_params
+is_Terminal	build/l2l3_acl/src_hardware_indep/actions.h	/^    int is_Terminal;\/\/ sugar@36$/;"	m	struct:action_set_nhop_params
+is_Terminal	src/hardware_dep/dpdk/includes/actions.h	/^    int is_Terminal;\/\/ sugar@36$/;"	m	struct:action_forward_params
+is_Terminal	src/hardware_dep/dpdk/includes/actions.h	/^    int is_Terminal;\/\/ sugar@36$/;"	m	struct:action_set_nhop_params
+is_beautifiable	src/compiler.py	/^def is_beautifiable(filename):$/;"	f
+is_signed	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t is_signed; \/* boolean variable *\/$/;"	m	struct:p4_field_match_range
+is_valid	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t is_valid; \/* could be true or false - boolean variable *\/$/;"	m	struct:p4_field_match_valid
+key	src/hardware_dep/shared/includes/ternary_naive.h	/^    uint8_t* key;$/;"	m	struct:__anon1
+key_byte_width	build/util/desugared_compiler/parser.c.desugared.py	/^        key_byte_width = get_key_byte_width(branch_on)$/;"	v
+key_byte_width	src/hardware_indep/parser.c.py	/^        key_byte_width = get_key_byte_width(branch_on)$/;"	v
+key_entry_size	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        uint32_t key_entry_size;         \/**< Size of each key entry. *\/$/;"	m	struct:rte_hash	file:
+key_idx	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        uint32_t key_idx[RTE_HASH_BUCKET_ENTRIES + 1];$/;"	m	struct:rte_hash_bucket	file:
+key_len	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        uint32_t key_len;               \/**< Length of hash key. *\/$/;"	m	struct:rte_hash	file:
+key_size	src/hardware_dep/shared/includes/dataplane.h	/^    uint8_t key_size;$/;"	m	struct:lookup_table_s
+key_store	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        void *key_store;                \/**< Table storing all keys and data *\/$/;"	m	struct:rte_hash	file:
+keylen	src/hardware_dep/shared/includes/ternary_naive.h	/^    uint8_t keylen;$/;"	m	struct:__anon2
+l2fwd_port_statistics	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^struct l2fwd_port_statistics {$/;"	s
+l2l3_acl_MAC_learning_init_table	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^l2l3_acl_MAC_learning_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_VLAN_egress_init_table	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^l2l3_acl_VLAN_egress_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_VLAN_ingress_init_table	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^l2l3_acl_VLAN_ingress_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_acl_init_table	src/hardware_dep/dpdk/main_loop.c	/^l2l3_acl_acl_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_init_table	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^l2l3_acl_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_routable_init_table	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^l2l3_acl_routable_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_routing_init_table	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^l2l3_acl_routing_init_table(lookup_table_t** tables) {$/;"	f
+l2l3_acl_switching_init_table	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^l2l3_acl_switching_init_table(lookup_table_t** tables) {$/;"	f
+launch_backend	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^void launch_backend(backend bg)$/;"	f
+launch_dpdk	src/hardware_dep/dpdk/main_loop.c	/^int launch_dpdk()$/;"	f
+launch_dpdk	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^int launch_dpdk()$/;"	f
+launch_one_lcore	src/hardware_dep/dpdk/main_loop.c	/^launch_one_lcore(__attribute__((unused)) void *dummy)$/;"	f	file:
+launch_one_lcore	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^launch_one_lcore(__attribute__((unused)) void *dummy)$/;"	f	file:
+lcore_conf	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^struct lcore_conf {$/;"	s
+lcore_conf	src/hardware_dep/dpdk/main_loop.c	/^struct lcore_conf lcore_conf[RTE_MAX_LCORE];$/;"	v	typeref:struct:lcore_conf
+lcore_conf	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^struct lcore_conf lcore_conf[RTE_MAX_LCORE];$/;"	v	typeref:struct:lcore_conf
+lcore_id	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^	uint8_t lcore_id;$/;"	m	struct:lcore_params	file:
+lcore_params	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^struct lcore_params * lcore_params = lcore_params_array_default;$/;"	v	typeref:struct:lcore_params
+lcore_params	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^struct lcore_params * lcore_params;$/;"	v	typeref:struct:lcore_params
+lcore_params	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^struct lcore_params {$/;"	s	file:
+lcore_params_array	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^struct lcore_params lcore_params_array[MAX_LCORE_PARAMS];$/;"	v	typeref:struct:lcore_params
+lcore_params_array_default	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^struct lcore_params lcore_params_array_default[] = {$/;"	v	typeref:struct:lcore_params
+lcore_params_array_default	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^struct lcore_params lcore_params_array_default[];$/;"	v	typeref:struct:lcore_params
+lcore_rx_queue	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^struct lcore_rx_queue {$/;"	s
+lcore_state	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^struct lcore_state {$/;"	s
+len	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^	uint16_t len;$/;"	m	struct:mbuf_table
+length	src/hardware_dep/shared/ctrl_plane/controller.c	/^	int length;$/;"	m	struct:msg_buf_st	file:
+length	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	uint16_t length;$/;"	m	struct:mem_cell_st	file:
+length	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint16_t length;	\/* Length including this header *\/$/;"	m	struct:p4_header
+length	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint16_t length; \/* Length in bytes of the element,$/;"	m	struct:p4_hello_elem_header
+length	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint16_t length; \/* Length in bytes of this element,$/;"	m	struct:p4_hello_elem_versionbitmap
+length	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint32_t length; \/* TODO: How can we figure this out?????Controller should know this in advance! P4 does not handle it. *\/$/;"	m	struct:p4_action_parameter
+length	src/hardware_dep/shared/ctrl_plane/messages.h	/^        uint16_t length;$/;"	m	struct:p4_field_match_exact
+length	src/hardware_dep/shared/ctrl_plane/messages.h	/^        uint16_t length;$/;"	m	struct:p4_field_match_range
+length	src/hardware_dep/shared/ctrl_plane/messages.h	/^        uint16_t length;$/;"	m	struct:p4_field_match_ternary
+length	src/hardware_dep/shared/ctrl_plane/messages.h	/^        uint16_t length;$/;"	m	struct:p4_field_match_valid
+length	src/hardware_dep/shared/ctrl_plane/messages.h	/^        uint32_t length; \/* TODO: How can we figure this out?????Controller should know this in advance! P4 does not handle it. *\/$/;"	m	struct:p4_digest_field
+length	src/hardware_dep/shared/includes/dataplane.h	/^    uint32_t            length;$/;"	m	struct:header_descriptor_s
+list_size	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t list_size;$/;"	m	struct:p4_digest
+local_free_slots	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        struct lcore_cache *local_free_slots;$/;"	m	struct:rte_hash	typeref:struct:rte_hash::lcore_cache	file:
+lock	src/hardware_dep/shared/ctrl_plane/fifo.h	/^        pthread_mutex_t lock;$/;"	m	struct:fifo_st
+locked	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        volatile int locked; \/**< lock status 0 = unlocked, 1 = locked *\/$/;"	m	struct:__anon17	file:
+lookup_table_s	src/hardware_dep/shared/includes/dataplane.h	/^typedef struct lookup_table_s {$/;"	s
+lookup_table_t	src/hardware_dep/shared/includes/backend.h	/^typedef struct lookup_table_s lookup_table_t;$/;"	t	typeref:struct:lookup_table_s
+lookup_table_t	src/hardware_dep/shared/includes/dataplane.h	/^} lookup_table_t;$/;"	t	typeref:struct:lookup_table_s
+lookupfun	build/util/desugared_compiler/dataplane.c.desugared.py	/^    lookupfun = {'LOOKUP_LPM':'lpm_lookup', 'LOOKUP_EXACT':'exact_lookup', 'LOOKUP_TERNARY':'ternary_lookup'}$/;"	v
+lookupfun	src/hardware_indep/dataplane.c.py	/^    lookupfun = {'LOOKUP_LPM':'lpm_lookup', 'LOOKUP_EXACT':'exact_lookup', 'LOOKUP_TERNARY':'ternary_lookup'}$/;"	v
+lpm4_add	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^lpm4_add(struct rte_lpm* l, uint32_t key, uint8_t depth, uint8_t value)$/;"	f
+lpm4_create	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^lpm4_create(int socketid, const char* name, uint8_t max_size)$/;"	f
+lpm6_add	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^lpm6_add(struct rte_lpm6* l, uint8_t key[16], uint8_t depth, uint8_t value)$/;"	f
+lpm6_create	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^lpm6_create(int socketid, const char* name, uint8_t max_size)$/;"	f
+lpm_add	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^lpm_add(lookup_table_t* t, uint8_t* key, uint8_t depth, uint8_t* value)$/;"	f
+lpm_add_promote	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^lpm_add_promote(int tableid, uint8_t* key, uint8_t depth, uint8_t* value) {$/;"	f
+lpm_create	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^lpm_create(lookup_table_t* t, int socketid)$/;"	f
+lpm_lookup	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^lpm_lookup(lookup_table_t* t, int batch_size, int keysize, uint8_t key[][keysize], uint8_t* value[]) {$/;"	f
+m_table	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^	struct rte_mbuf *m_table[MAX_PKT_BURST];$/;"	m	struct:mbuf_table	typeref:struct:mbuf_table::rte_mbuf
+mac_learn_digest	src/hardware_dep/shared/ctrl_plane/dpdk_controller.c	/^void mac_learn_digest(void* b) {$/;"	f
+mac_learn_digest	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^void mac_learn_digest(void* b) {$/;"	f
+mac_learn_digest	src/hardware_dep/shared/ctrl_plane/dpdk_l3_controller.c	/^void mac_learn_digest(void* b) {$/;"	f
+mac_learning_action	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct mac_learning_action {\/\/ sugar@40$/;"	s
+mac_learning_action	src/hardware_dep/dpdk/includes/actions.h	/^ struct mac_learning_action {\/\/ sugar@40$/;"	s
+mac_learning_add	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ mac_learning_add(\/\/ sugar@39$/;"	f
+mac_learning_add_table_entry	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ mac_learning_add_table_entry(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@84$/;"	f
+mac_learning_set_default_table_action	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ mac_learning_set_default_table_action(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@114$/;"	f
+mac_learning_setdefault	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ mac_learning_setdefault(struct mac_learning_action action)\/\/ sugar@76$/;"	f
+main	src/compiler.py	/^def main():$/;"	f
+main	src/compiler1.py	/^def main():$/;"	f
+main	src/hardware_dep/dpdk/main.c	/^int main(int argc, char** argv)$/;"	f
+main	src/hardware_dep/shared/ctrl_plane/dpdk_controller.c	/^int main() $/;"	f
+main	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^int main(int argc, char* argv[]) $/;"	f
+main	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^int main(int argc, char* argv[]) $/;"	f
+main	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	/^int main(int argc, char* argv[]) $/;"	f
+main	src/hardware_dep/shared/ctrl_plane/dpdk_l3_controller.c	/^int main() $/;"	f
+make_dirs	src/compiler.py	/^def make_dirs(compiler_files_path, desugared_path, generated_path):$/;"	f
+mask	build/util/desugared_compiler/parser.c.desugared.py	/^                mask = branch_case[1]$/;"	v
+mask	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char mask[MAX_FIELD_LENGTH];$/;"	m	struct:p4_field_match_ternary
+mask	src/hardware_dep/shared/includes/dataplane.h	/^    uint32_t mask;$/;"	m	struct:field_reference_s
+mask	src/hardware_dep/shared/includes/ternary_naive.h	/^    uint8_t* mask;$/;"	m	struct:__anon1
+mask	src/hardware_indep/parser.c.py	/^                mask = branch_case[1]$/;"	v
+mask_name	build/util/desugared_compiler/parser.c.desugared.py	/^            mask_name  = "mask_value_%d" % case_num$/;"	v
+mask_name	src/hardware_indep/parser.c.py	/^            mask_name  = "mask_value_%d" % case_num$/;"	v
+match_type_order	build/util/desugared_compiler/controlplane.c.desugared.py	/^def match_type_order(t):$/;"	f
+match_type_order	build/util/desugared_compiler/dataplane.c.desugared.py	/^def match_type_order(t):$/;"	f
+match_type_order	src/hardware_indep/controlplane.c.py	/^def match_type_order(t):$/;"	f
+match_type_order	src/hardware_indep/dataplane.c.py	/^def match_type_order(t):$/;"	f
+max_bitmap	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char max_bitmap[MAX_FIELD_LENGTH];$/;"	m	struct:p4_field_match_range
+max_size	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint16_t max_size;$/;"	m	struct:p4_table_definition
+max_size	src/hardware_dep/shared/includes/dataplane.h	/^    int max_size;$/;"	m	struct:lookup_table_s
+mbuf_table	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^struct mbuf_table {$/;"	s
+mcast_out_pkt	src/hardware_dep/dpdk/main_loop.c	/^mcast_out_pkt(struct rte_mbuf *pkt, int use_clone)$/;"	f	file:
+mcast_out_pkt	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^mcast_out_pkt(struct rte_mbuf *pkt, int use_clone)$/;"	f	file:
+mcast_src_pruning_action	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct mcast_src_pruning_action {\/\/ sugar@40$/;"	s
+mcast_src_pruning_action	src/hardware_dep/dpdk/includes/actions.h	/^ struct mcast_src_pruning_action {\/\/ sugar@40$/;"	s
+mcast_src_pruning_add	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ mcast_src_pruning_add(\/\/ sugar@39$/;"	f
+mcast_src_pruning_add_table_entry	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ mcast_src_pruning_add_table_entry(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@84$/;"	f
+mcast_src_pruning_set_default_table_action	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ mcast_src_pruning_set_default_table_action(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@114$/;"	f
+mcast_src_pruning_setdefault	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ mcast_src_pruning_setdefault(struct mcast_src_pruning_action action)\/\/ sugar@76$/;"	f
+mem_cell	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	mem_cell_t* mem_cell;$/;"	m	struct:digest_st	file:
+mem_cell_st	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^typedef struct mem_cell_st {$/;"	s	file:
+mem_cell_t	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^} mem_cell_t;$/;"	t	typeref:struct:mem_cell_st	file:
+mem_empty	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^        pthread_cond_t mem_empty;$/;"	m	struct:backend_st	file:
+mem_not_empty	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	pthread_cond_t mem_not_empty;     \/*non empty and empty condidtion variables*\/$/;"	m	struct:backend_st	file:
+memlock	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	pthread_mutex_t memlock;$/;"	m	struct:backend_st	file:
+meta	src/hardware_dep/shared/includes/dataplane.h	/^    int meta;$/;"	m	struct:field_reference_s
+min_bitmap	src/hardware_dep/shared/ctrl_plane/messages.h	/^        char min_bitmap[MAX_FIELD_LENGTH];$/;"	m	struct:p4_field_match_range
+min_size	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint16_t min_size;$/;"	m	struct:p4_table_definition
+min_size	src/hardware_dep/shared/includes/dataplane.h	/^    int min_size;$/;"	m	struct:lookup_table_s
+min_width	src/hardware_dep/shared/includes/dataplane.h	/^    uint8_t min_width;$/;"	m	struct:counter_s
+miss_on_iplookup_digest	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^void miss_on_iplookup_digest(void* b) {$/;"	f
+modifiers	build/util/desugared_compiler/actions.c.desugared.py	/^    modifiers = ""$/;"	v
+modifiers	src/hardware_indep/actions.c.py	/^    modifiers = ""$/;"	v
+modify_field	build/util/desugared_compiler/actions.c.desugared.py	/^def modify_field(fun, call):$/;"	f
+modify_field	src/hardware_indep/actions.c.py	/^def modify_field(fun, call):$/;"	f
+msg_buf_st	src/hardware_dep/shared/ctrl_plane/controller.c	/^typedef struct msg_buf_st$/;"	s	file:
+msg_buf_t	src/hardware_dep/shared/ctrl_plane/controller.c	/^} msg_buf_t;$/;"	t	typeref:struct:msg_buf_st	file:
+msg_buffer	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	char* msg_buffer; \/* Slow memory allcoted for storing outgoing digest and incoming controll messages *\/$/;"	m	struct:backend_st	file:
+multiwriter_lock	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        rte_spinlock_t *multiwriter_lock; \/**< Multi-writer spinlock for w\/o TM *\/$/;"	m	struct:rte_hash	file:
+n	build/util/desugared_compiler/dataplane.c.desugared.py	/^    n = hdr_prefix(hi.name)$/;"	v
+n	src/hardware_indep/dataplane.c.py	/^    n = hdr_prefix(hi.name)$/;"	v
+n_rx_queue	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^        uint16_t n_rx_queue;$/;"	m	struct:lcore_conf
+naive_ternary_add	src/hardware_dep/shared/data_plane/ternary_naive.c	/^naive_ternary_add(ternary_table* t, uint8_t* key, uint8_t* mask, uint8_t* value)$/;"	f
+naive_ternary_create	src/hardware_dep/shared/data_plane/ternary_naive.c	/^naive_ternary_create(uint8_t keylen, uint8_t max_size)$/;"	f
+naive_ternary_destroy	src/hardware_dep/shared/data_plane/ternary_naive.c	/^naive_ternary_destroy(ternary_table* t)$/;"	f
+naive_ternary_lookup	src/hardware_dep/shared/data_plane/ternary_naive.c	/^naive_ternary_lookup(ternary_table* t, uint8_t* key)$/;"	f
+name	build/util/desugared_compiler/actions.c.desugared.py	/^        name = call[0].name $/;"	v
+name	build/util/desugared_compiler/actions.c.desugared.py	/^    name = fun.name$/;"	v
+name	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        char name[RTE_HASH_NAMESIZE];   \/**< Name of the hash. *\/$/;"	m	struct:rte_hash	file:
+name	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char name[MAX_ACTION_PARAMETER_NAME_LENGTH];$/;"	m	struct:p4_action_parameter
+name	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char name[P4_MAX_ACTION_NAME_LEN];$/;"	m	struct:p4_table_action_desc
+name	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char name[P4_MAX_FIELD_NAME_LEN];$/;"	m	struct:p4_field_match_desc
+name	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char name[P4_MAX_FIELD_NAME_LEN];$/;"	m	struct:p4_field_match_header
+name	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char name[P4_MAX_TABLE_NAME_LEN];$/;"	m	struct:p4_table_definition
+name	src/hardware_dep/shared/ctrl_plane/messages.h	/^        char name[P4_MAX_FIELD_NAME_LENGTH];$/;"	m	struct:p4_digest_field
+name	src/hardware_dep/shared/includes/dataplane.h	/^    char* name;$/;"	m	struct:counter_s
+name	src/hardware_dep/shared/includes/dataplane.h	/^    char* name;$/;"	m	struct:lookup_table_s
+name	src/hardware_indep/actions.c.py	/^        name = call[0].name $/;"	v
+name	src/hardware_indep/actions.c.py	/^    name = fun.name$/;"	v
+nb_lcore_params	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^uint16_t nb_lcore_params = sizeof(lcore_params_array_default) \/$/;"	v
+nb_lcore_params	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^uint16_t nb_lcore_params;$/;"	v
+nb_rxd	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^static uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v	file:
+nb_rxd	src/hardware_dep/dpdk/main_loop.c	/^uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v
+nb_rxd	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v
+nb_txd	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^static uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v	file:
+nb_txd	src/hardware_dep/dpdk/main_loop.c	/^uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v
+nb_txd	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v
+netconv_p4_action	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_action* netconv_p4_action( struct p4_action* m) {$/;"	f
+netconv_p4_action_parameter	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_action_parameter* netconv_p4_action_parameter(struct p4_action_parameter* m) {$/;"	f
+netconv_p4_add_table_entry	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_add_table_entry* netconv_p4_add_table_entry(struct p4_add_table_entry* m) {$/;"	f
+netconv_p4_digest_field	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_digest_field* netconv_p4_digest_field(struct p4_digest_field* m) {$/;"	f
+netconv_p4_field_match_complex	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_header* netconv_p4_field_match_complex(struct p4_field_match_header *m, int* size) {$/;"	f
+netconv_p4_field_match_exact	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_exact* netconv_p4_field_match_exact(struct p4_field_match_exact* m) {$/;"	f
+netconv_p4_field_match_lpm	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_lpm* netconv_p4_field_match_lpm(struct p4_field_match_lpm* m) {$/;"	f
+netconv_p4_field_match_range	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_range* netconv_p4_field_match_range(struct p4_field_match_range* m) {$/;"	f
+netconv_p4_field_match_ternary	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_ternary* netconv_p4_field_match_ternary(struct p4_field_match_ternary* m) {$/;"	f
+netconv_p4_field_match_valid	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_valid* netconv_p4_field_match_valid(struct p4_field_match_valid* m) {$/;"	f
+netconv_p4_header	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_header* netconv_p4_header(struct p4_header* m)$/;"	f
+netconv_p4_set_default_action	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_set_default_action* netconv_p4_set_default_action(struct p4_set_default_action* m) {$/;"	f
+next	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	struct mem_cell_st* next;$/;"	m	struct:mem_cell_st	typeref:struct:mem_cell_st::mem_cell_st	file:
+next	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	struct work_st* next;$/;"	m	struct:work_st	typeref:struct:work_st::work_st	file:
+no_op	src/hardware_dep/dpdk/data_plane/dpdk_primitives.c	/^void no_op()$/;"	f
+notPrimitive	src/utils/hlir.py	/^def notPrimitive(action):$/;"	f
+not_empty	src/hardware_dep/shared/ctrl_plane/fifo.h	/^        pthread_cond_t not_empty;     \/*non empty and empty condidtion variables*\/$/;"	m	struct:fifo_st
+num_action_params	src/hardware_dep/shared/ctrl_plane/handlers.h	/^	int num_action_params;$/;"	m	struct:p4_ctrl_msg
+num_buckets	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        uint32_t num_buckets;           \/**< Number of buckets in table. *\/$/;"	m	struct:rte_hash	file:
+num_field_matches	src/hardware_dep/shared/ctrl_plane/handlers.h	/^	int num_field_matches;$/;"	m	struct:p4_ctrl_msg
+num_threads	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	int num_threads;	$/;"	m	struct:_threadpool_st	file:
+numa_on	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^int numa_on = 1; \/**< NUMA is enabled by default. *\/$/;"	v
+one_exact_lookup	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^one_exact_lookup(lookup_table_t* t, uint8_t* key)$/;"	f
+output_processor	src/hardware_dep/shared/ctrl_plane/controller.c	/^void output_processor(void *t)$/;"	f
+output_processor	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^void output_processor(void *bg)$/;"	f
+output_queue	src/hardware_dep/shared/ctrl_plane/controller.c	/^        fifo_t output_queue;$/;"	m	struct:controller_st	file:
+output_queue	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	fifo_t output_queue; \/* one queue per digest-receiver should be needed *\/$/;"	m	struct:backend_st	file:
+p4_action	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_action {$/;"	s
+p4_action_parameter	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_action_parameter {$/;"	s
+p4_action_type	src/hardware_dep/shared/ctrl_plane/messages.h	/^enum p4_action_type {$/;"	g
+p4_add_table_entry	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_add_table_entry {$/;"	s
+p4_ctrl_msg	src/hardware_dep/shared/ctrl_plane/handlers.h	/^struct p4_ctrl_msg {$/;"	s
+p4_digest	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_digest {$/;"	s
+p4_digest_field	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_digest_field {$/;"	s
+p4_error	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_error {$/;"	s
+p4_field_match_desc	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_field_match_desc {$/;"	s
+p4_field_match_exact	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_field_match_exact {$/;"	s
+p4_field_match_header	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_field_match_header {$/;"	s
+p4_field_match_lpm	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_field_match_lpm {$/;"	s
+p4_field_match_range	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_field_match_range {$/;"	s
+p4_field_match_ternary	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_field_match_ternary {$/;"	s
+p4_field_match_type	src/hardware_dep/shared/ctrl_plane/messages.h	/^enum p4_field_match_type {$/;"	g
+p4_field_match_valid	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_field_match_valid {$/;"	s
+p4_header	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_header {$/;"	s
+p4_hello	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_hello {$/;"	s
+p4_hello_elem_header	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_hello_elem_header {$/;"	s
+p4_hello_elem_type	src/hardware_dep/shared/ctrl_plane/messages.h	/^enum p4_hello_elem_type {$/;"	g
+p4_hello_elem_versionbitmap	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_hello_elem_versionbitmap {$/;"	s
+p4_msg_callback	src/hardware_dep/shared/ctrl_plane/handlers.h	/^typedef void (*p4_msg_callback)(struct p4_ctrl_msg*);$/;"	t
+p4_pe_checksum	build/l2l3_acl/src_hardware_indep/parser.c	/^ static inline void p4_pe_checksum(packet_descriptor_t *pd) {\/\/ sugar@90$/;"	f	file:
+p4_pe_default	build/l2l3_acl/src_hardware_indep/parser.c	/^ static inline void p4_pe_default(packet_descriptor_t *pd) {\/\/ sugar@90$/;"	f	file:
+p4_pe_header_too_long	build/l2l3_acl/src_hardware_indep/parser.c	/^ static inline void p4_pe_header_too_long(packet_descriptor_t *pd) {\/\/ sugar@90$/;"	f	file:
+p4_pe_header_too_short	build/l2l3_acl/src_hardware_indep/parser.c	/^ static inline void p4_pe_header_too_short(packet_descriptor_t *pd) {\/\/ sugar@90$/;"	f	file:
+p4_pe_index_out_of_bounds	build/l2l3_acl/src_hardware_indep/parser.c	/^ static inline void p4_pe_index_out_of_bounds(packet_descriptor_t *pd) {\/\/ sugar@90$/;"	f	file:
+p4_pe_out_of_packet	build/l2l3_acl/src_hardware_indep/parser.c	/^ static inline void p4_pe_out_of_packet(packet_descriptor_t *pd) {\/\/ sugar@90$/;"	f	file:
+p4_pe_unhandled_select	build/l2l3_acl/src_hardware_indep/parser.c	/^ static inline void p4_pe_unhandled_select(packet_descriptor_t *pd) {\/\/ sugar@90$/;"	f	file:
+p4_set_default_action	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_set_default_action {$/;"	s
+p4_success	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_success {$/;"	s
+p4_support_timeout	src/hardware_dep/shared/ctrl_plane/messages.h	/^enum p4_support_timeout {$/;"	g
+p4_table_action_desc	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_table_action_desc {$/;"	s
+p4_table_definition	src/hardware_dep/shared/ctrl_plane/messages.h	/^struct p4_table_definition {$/;"	s
+p4_type	src/hardware_dep/shared/ctrl_plane/messages.h	/^enum p4_type {$/;"	g
+packet	src/hardware_dep/dpdk/includes/aliases.h	/^typedef struct rte_mbuf packet;$/;"	t	typeref:struct:rte_mbuf
+packet_descriptor_s	src/hardware_dep/shared/includes/dataplane.h	/^typedef struct packet_descriptor_s {$/;"	s
+packet_descriptor_t	src/hardware_dep/shared/includes/backend.h	/^typedef struct packet_descriptor_s packet_descriptor_t;$/;"	t	typeref:struct:packet_descriptor_s
+packet_descriptor_t	src/hardware_dep/shared/includes/dataplane.h	/^} packet_descriptor_t;$/;"	t	typeref:struct:packet_descriptor_s
+packet_received	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^packet_received(packet_descriptor_t* pd, packet *p, unsigned portid, struct lcore_conf *conf)$/;"	f
+packets_received	src/hardware_dep/dpdk/main_loop.c	/^packets_received(packet_descriptor_t* pd, int batch_size, packet **p, unsigned portid, struct lcore_conf *conf)$/;"	f
+param_size	src/hardware_dep/shared/ctrl_plane/messages.h	/^        uint8_t param_size;$/;"	m	struct:p4_action
+params	build/util/desugared_compiler/actions.c.desugared.py	/^    params = ", struct action_%s_params parameters" % (name) if hasParam else ""$/;"	v
+params	src/hardware_indep/actions.c.py	/^    params = ", struct action_%s_params parameters" % (name) if hasParam else ""$/;"	v
+parse_args	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^parse_args(int argc, char **argv)$/;"	f	file:
+parse_as	src/hardware_dep/dpdk/includes/dpdk_lib.h	60;"	d
+parse_config	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^parse_config(const char *q_arg)$/;"	f	file:
+parse_max_pkt_len	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^static int parse_max_pkt_len(const char *pktlen)$/;"	f	file:
+parse_packets	build/l2l3_acl/src_hardware_indep/parser.c	/^ void parse_packets(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables) {\/\/ sugar@200$/;"	f
+parse_portmask	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^parse_portmask(const char *portmask)$/;"	f	file:
+parse_state_parse_ethernet	build/l2l3_acl/src_hardware_indep/parser.c	/^ static void parse_state_parse_ethernet(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@124$/;"	f	file:
+parse_state_parse_ipv4	build/l2l3_acl/src_hardware_indep/parser.c	/^ static void parse_state_parse_ipv4(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@124$/;"	f	file:
+parse_state_parse_tcp	build/l2l3_acl/src_hardware_indep/parser.c	/^ static void parse_state_parse_tcp(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@124$/;"	f	file:
+parse_state_parse_udp	build/l2l3_acl/src_hardware_indep/parser.c	/^ static void parse_state_parse_udp(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@124$/;"	f	file:
+parse_state_parse_vlan	build/l2l3_acl/src_hardware_indep/parser.c	/^ static void parse_state_parse_vlan(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@124$/;"	f	file:
+parse_state_start	build/l2l3_acl/src_hardware_indep/parser.c	/^ static void parse_state_start(packet_descriptor_t* pd, int batch_size, lookup_table_t** tables)\/\/ sugar@124$/;"	f	file:
+pe_default	build/util/desugared_compiler/parser.c.desugared.py	/^pe_default = p4.p4_parser_exception(None, None)$/;"	v
+pe_default	src/hardware_indep/parser.c.py	/^pe_default = p4.p4_parser_exception(None, None)$/;"	v
+pe_dict	build/util/desugared_compiler/parser.c.desugared.py	/^pe_dict = { "p4_pe_index_out_of_bounds" : None,$/;"	v
+pe_dict	src/hardware_indep/parser.c.py	/^pe_dict = { "p4_pe_index_out_of_bounds" : None,$/;"	v
+pktmbuf_pool	src/hardware_dep/dpdk/main_loop.c	/^struct rte_mempool * pktmbuf_pool[NB_SOCKETS];$/;"	v	typeref:struct:rte_mempool
+pktmbuf_pool	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^struct rte_mempool * pktmbuf_pool[NB_SOCKETS];$/;"	v	typeref:struct:rte_mempool
+pointer	src/hardware_dep/shared/includes/dataplane.h	/^    void *              pointer;$/;"	m	struct:header_descriptor_s
+pop	build/util/desugared_compiler/actions.c.desugared.py	/^def pop(fun, call):$/;"	f
+pop	src/hardware_dep/dpdk/data_plane/dpdk_primitives.c	/^pop(packet_descriptor_t* p, header_stack_t h)$/;"	f
+pop	src/hardware_indep/actions.c.py	/^def pop(fun, call):$/;"	f
+port	src/hardware_dep/shared/ctrl_plane/controller.c	/^	int port;$/;"	m	struct:controller_st	file:
+port_conf	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^static struct rte_eth_conf port_conf = {$/;"	v	typeref:struct:rte_eth_conf	file:
+port_conf	src/hardware_dep/dpdk/main_loop.c	/^static const struct rte_eth_conf port_conf = {$/;"	v	typeref:struct:rte_eth_conf	file:
+port_conf	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^static const struct rte_eth_conf port_conf = {$/;"	v	typeref:struct:rte_eth_conf	file:
+port_id	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^	uint8_t port_id;$/;"	m	struct:lcore_params	file:
+port_id	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^	uint8_t port_id;$/;"	m	struct:lcore_rx_queue
+port_statistics	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^struct l2fwd_port_statistics port_statistics[RTE_MAX_ETHPORTS];$/;"	v	typeref:struct:l2fwd_port_statistics
+ports_eth_addr	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^struct ether_addr ports_eth_addr[RTE_MAX_ETHPORTS];$/;"	v	typeref:struct:ether_addr
+prefix_length	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint16_t prefix_length;$/;"	m	struct:p4_field_match_lpm
+prev	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	struct mem_cell_st* prev;$/;"	m	struct:mem_cell_st	typeref:struct:mem_cell_st::mem_cell_st	file:
+print_ethaddr	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^print_ethaddr(const char *name, const struct ether_addr *eth_addr)$/;"	f	file:
+print_ip	build/l2l3_acl/src_hardware_indep/parser.c	/^ void print_ip(uint8_t* v) { printf("%d.%d.%d.%d\\n",v[0],v[1],v[2],v[3]); }\/\/ sugar@76$/;"	f
+print_mac	build/l2l3_acl/src_hardware_indep/parser.c	/^ void print_mac(uint8_t* v) { printf("%02hhX:%02hhX:%02hhX:%02hhX:%02hhX:%02hhX\\n", v[0], v[1], v[2], v[3], v[4], v[5]); }\/\/ sugar@75$/;"	f
+print_mem_bin	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^static void print_mem_bin(void const * const ptr, size_t const size)$/;"	f
+print_mem_hex	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^static void print_mem_hex(void const *vp, size_t n) {$/;"	f
+print_usage	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^print_usage(const char *prgname)$/;"	f	file:
+print_usage_and_exit	launch.sh	/^print_usage_and_exit() {$/;"	f
+print_usage_and_exit	run.sh	/^print_usage_and_exit() {$/;"	f
+priority	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t priority;$/;"	m	struct:p4_field_match_ternary
+product_action	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct product_action {\/\/ sugar@40$/;"	s
+product_add	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ product_add(\/\/ sugar@39$/;"	f
+product_add_table_entry	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ product_add_table_entry(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@84$/;"	f
+product_set_default_table_action	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ product_set_default_table_action(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@114$/;"	f
+product_setdefault	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ product_setdefault(struct product_action action)\/\/ sugar@76$/;"	f
+promiscuous_on	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^int promiscuous_on = 0; \/**< Ports set in promiscuous mode off by default. *\/$/;"	v
+proto	build/l2l3_acl/src_hardware_indep/key.h	/^                uint8_t proto;   \/* IP protocol or lower 8 bits of ARP opcode. *\/$/;"	m	struct:universal_key::__anon29
+proto	src/hardware_dep/dpdk/includes/key.h	/^                uint8_t proto;   \/* IP protocol or lower 8 bits of ARP opcode. *\/$/;"	m	struct:universal_key::__anon13
+push	build/util/desugared_compiler/actions.c.desugared.py	/^def push(fun, call):$/;"	f
+push	src/hardware_dep/dpdk/data_plane/dpdk_primitives.c	/^push(packet_descriptor_t* p, header_stack_t h)$/;"	f
+push	src/hardware_indep/actions.c.py	/^def push(fun, call):$/;"	f
+q_empty	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	pthread_cond_t q_empty;$/;"	m	struct:_threadpool_st	file:
+q_not_empty	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	pthread_cond_t q_not_empty;	$/;"	m	struct:_threadpool_st	file:
+qhead	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	work_t* qhead;		$/;"	m	struct:_threadpool_st	file:
+qlock	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	pthread_mutex_t qlock;		$/;"	m	struct:_threadpool_st	file:
+qsize	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	int qsize;			$/;"	m	struct:_threadpool_st	file:
+qtail	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	work_t* qtail;		$/;"	m	struct:_threadpool_st	file:
+queue	src/hardware_dep/shared/ctrl_plane/fifo.h	/^        void* queue[P4_BG_QUEUE_SIZE];$/;"	m	struct:fifo_st
+queue_id	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^	uint8_t queue_id;$/;"	m	struct:lcore_params	file:
+queue_id	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^	uint8_t queue_id;$/;"	m	struct:lcore_rx_queue
+read_counter	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^read_counter(int counterid, int index) {$/;"	f
+read_fix	src/hardware_dep/shared/ctrl_plane/sock_helpers.c	/^int read_fix(int sock, char* buffer, int nbytes)$/;"	f
+read_ip_prefixes_from_file	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^int read_ip_prefixes_from_file(char *filename) {$/;"	f
+read_ip_prefixes_from_file	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^int read_ip_prefixes_from_file(char *filename) {$/;"	f
+read_ip_prefixes_from_file	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full_controller.c	/^int read_ip_prefixes_from_file(char *filename) {$/;"	f
+read_p4_msg	src/hardware_dep/shared/ctrl_plane/sock_helpers.c	/^int read_p4_msg(int sock, char* buffer, int length)$/;"	f
+read_size	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t read_size; \/* number of rules in reads *\/$/;"	m	struct:p4_table_definition
+read_size	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t read_size;$/;"	m	struct:p4_add_table_entry
+reads	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t reads;$/;"	m	struct:p4_table_definition
+recv_from_controller	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ void recv_from_controller(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@131$/;"	f
+remove_header	src/hardware_dep/dpdk/data_plane/dpdk_primitives.c	/^remove_header(packet_descriptor_t* p, header_reference_t h)$/;"	f
+ret_val_type	build/util/desugared_compiler/actions.c.desugared.py	/^    ret_val_type = "void"$/;"	v
+ret_val_type	src/hardware_indep/actions.c.py	/^    ret_val_type = "void"$/;"	v
+reverse_buffer	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ uint8_t reverse_buffer[14];\/\/ sugar@34$/;"	v
+reverse_buffer	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ uint8_t reverse_buffer[14];\/\/ sugar@31$/;"	v
+routable_action	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct routable_action {\/\/ sugar@40$/;"	s
+routable_action	src/hardware_dep/dpdk/includes/actions.h	/^ struct routable_action {\/\/ sugar@40$/;"	s
+routable_add	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ routable_add(\/\/ sugar@39$/;"	f
+routable_add_table_entry	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ routable_add_table_entry(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@84$/;"	f
+routable_set_default_table_action	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ routable_set_default_table_action(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@114$/;"	f
+routable_setdefault	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ routable_setdefault(struct routable_action action)\/\/ sugar@76$/;"	f
+routine	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	void (*routine) (void*);$/;"	m	struct:work_st	file:
+routing_action	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct routing_action {\/\/ sugar@40$/;"	s
+routing_action	src/hardware_dep/dpdk/includes/actions.h	/^ struct routing_action {\/\/ sugar@40$/;"	s
+routing_add	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ routing_add(\/\/ sugar@39$/;"	f
+routing_add_table_entry	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ routing_add_table_entry(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@84$/;"	f
+routing_set_default_table_action	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ routing_set_default_table_action(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@114$/;"	f
+routing_setdefault	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ routing_setdefault(struct routing_action action)\/\/ sugar@76$/;"	f
+rte_hash	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^struct rte_hash {$/;"	s	file:
+rte_hash_bucket	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^struct rte_hash_bucket {$/;"	s	file:
+rte_hash_custom_cmp_eq	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        rte_hash_cmp_eq_t rte_hash_custom_cmp_eq;$/;"	m	struct:rte_hash	file:
+rte_hash_signatures	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^struct rte_hash_signatures {$/;"	s	file:
+rte_spinlock_t	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^} rte_spinlock_t;$/;"	t	typeref:struct:__anon17	file:
+rte_table	src/hardware_dep/dpdk/includes/dpdk_tables.h	/^    void*     rte_table;$/;"	m	struct:extended_table_s
+rx	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^	uint64_t rx;$/;"	m	struct:l2fwd_port_statistics
+rx_conf	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^static struct rte_eth_rxconf rx_conf = {$/;"	v	typeref:struct:rte_eth_rxconf	file:
+rx_queue_list	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^        struct lcore_rx_queue rx_queue_list[MAX_RX_QUEUE_PER_LCORE];$/;"	m	struct:lcore_conf	typeref:struct:lcore_conf::lcore_rx_queue
+rx_queue_per_lcore	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^unsigned int rx_queue_per_lcore = 1;$/;"	v
+saturating	src/hardware_dep/shared/includes/dataplane.h	/^    uint8_t saturating;$/;"	m	struct:counter_s
+sc	build/util/desugared_compiler/parser.h.desugared.py	/^sc = len(header_stack_ids(hlir))$/;"	v
+sc	src/hardware_indep/parser.h.py	/^sc = len(header_stack_ids(hlir))$/;"	v
+send_burst	src/hardware_dep/dpdk/main_loop.c	/^send_burst(struct lcore_conf *qconf, uint16_t n, uint8_t port)$/;"	f	file:
+send_burst	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^send_burst(struct lcore_conf *qconf, uint16_t n, uint8_t port)$/;"	f	file:
+send_digest	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^int send_digest(backend bg, digest d, uint32_t receiver_id)$/;"	f
+send_p4_msg	src/hardware_dep/shared/ctrl_plane/controller.c	/^int send_p4_msg(controller c, char* buffer, int length)$/;"	f
+send_packet	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^send_packet(packet_descriptor_t* pd)$/;"	f	file:
+send_packets	src/hardware_dep/dpdk/main_loop.c	/^send_packets(packet_descriptor_t* pd, int batch_size, int inport)$/;"	f	file:
+send_timeout_burst	src/hardware_dep/dpdk/main_loop.c	/^send_timeout_burst(struct lcore_conf *qconf)$/;"	f	file:
+send_timeout_burst	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^send_timeout_burst(struct lcore_conf *qconf)$/;"	f	file:
+set_default_action_dmac	src/hardware_dep/shared/ctrl_plane/dpdk_controller.c	/^void set_default_action_dmac()$/;"	f
+set_default_action_dmac	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^void set_default_action_dmac()$/;"	f
+set_default_action_ipv4_lpm	src/hardware_dep/shared/ctrl_plane/dpdk_l3-full-with-digest_controller.c	/^void set_default_action_ipv4_lpm()$/;"	f
+set_default_action_smac	src/hardware_dep/shared/ctrl_plane/dpdk_controller.c	/^void set_default_action_smac()$/;"	f
+set_default_action_smac	src/hardware_dep/shared/ctrl_plane/dpdk_l2_l3_controller.c	/^void set_default_action_smac()$/;"	f
+set_ip_entries	src/hardware_dep/dpdk/main_loop.c	/^void set_ip_entries(struct universal_key* key, int entries){$/;"	f
+set_ip_entries	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^void set_ip_entries(struct universal_key* key, int entries){$/;"	f
+set_mac_entries	src/hardware_dep/dpdk/main_loop.c	/^void set_mac_entries(struct universal_key* key, int entries){$/;"	f
+set_mac_entries	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^void set_mac_entries(struct universal_key* key, int entries){$/;"	f
+set_metadata_inport	src/hardware_dep/dpdk/main_loop.c	/^set_metadata_inport(packet_descriptor_t* packet_desc, uint32_t inport)$/;"	f	file:
+set_metadata_inport	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^set_metadata_inport(packet_descriptor_t* packet_desc, uint32_t inport)$/;"	f	file:
+set_nhop_params	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct action_set_nhop_params set_nhop_params;\/\/ sugar@45$/;"	m	union:routing_action::__anon22	typeref:struct:routing_action::__anon22::action_set_nhop_params
+set_nhop_params	src/hardware_dep/dpdk/includes/actions.h	/^ struct action_set_nhop_params set_nhop_params;\/\/ sugar@45$/;"	m	union:routing_action::__anon7	typeref:struct:routing_action::__anon7::action_set_nhop_params
+set_tp_entries	src/hardware_dep/dpdk/main_loop.c	/^void set_tp_entries(struct universal_key* key, int entries){$/;"	f
+set_tp_entries	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^void set_tp_entries(struct universal_key* key, int entries){$/;"	f
+set_vlan_entries	src/hardware_dep/dpdk/main_loop.c	/^void set_vlan_entries(struct universal_key* key){$/;"	f
+set_vlan_entries	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^void set_vlan_entries(struct universal_key* key){$/;"	f
+setup_paths	src/compiler.py	/^def setup_paths():$/;"	f
+showErrors	src/utils/misc.py	/^def showErrors():$/;"	f
+showWarnings	src/utils/misc.py	/^def showWarnings():$/;"	f
+show_code	src/compiler.py	/^show_code = False$/;"	v
+shutdown	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^        int shutdown;$/;"	m	struct:backend_st	file:
+shutdown	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	int shutdown;$/;"	m	struct:_threadpool_st	file:
+sig	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^                uint64_t sig;$/;"	m	union:rte_hash_signatures::__anon15	file:
+signatures	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^        struct rte_hash_signatures signatures[RTE_HASH_BUCKET_ENTRIES];$/;"	m	struct:rte_hash_bucket	typeref:struct:rte_hash_bucket::rte_hash_signatures	file:
+simplePrimitives	src/utils/hlir.py	/^simplePrimitives = set(["drop", "no_op"])$/;"	v
+size	src/hardware_dep/dpdk/includes/dpdk_tables.h	/^    uint8_t   size;$/;"	m	struct:extended_table_s
+size	src/hardware_dep/shared/ctrl_plane/fifo.h	/^        int size;$/;"	m	struct:fifo_st
+size	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint16_t size;$/;"	m	struct:p4_table_definition
+size	src/hardware_dep/shared/includes/dataplane.h	/^    int size;$/;"	m	struct:counter_s
+size	src/hardware_dep/shared/includes/ternary_naive.h	/^    uint8_t size;$/;"	m	struct:__anon2
+size	src/hardware_dep/shared/includes/vector.h	/^    int size;$/;"	m	struct:vector_s
+sock_fd	src/hardware_dep/shared/ctrl_plane/controller.c	/^	int sock_fd;$/;"	m	struct:threadinfo_st	file:
+socket_state	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^struct socket_state {$/;"	s
+socketid	src/hardware_dep/shared/includes/dataplane.h	/^    int socketid;$/;"	m	struct:counter_s
+socketid	src/hardware_dep/shared/includes/dataplane.h	/^    int socketid;$/;"	m	struct:lookup_table_s
+socketid	src/hardware_dep/shared/includes/vector.h	/^    int socketid;$/;"	m	struct:vector_s
+src	build/l2l3_acl/src_hardware_indep/key.h	/^        	uint8_t src[4];  \/*Source IP*\/$/;"	m	struct:universal_key::__anon29
+src	build/l2l3_acl/src_hardware_indep/key.h	/^                uint8_t src[6];   \/* Ethernet source address. *\/$/;"	m	struct:universal_key::__anon28
+src	src/hardware_dep/dpdk/includes/key.h	/^        	uint8_t src[4];  \/*Source IP*\/$/;"	m	struct:universal_key::__anon13
+src	src/hardware_dep/dpdk/includes/key.h	/^                uint8_t src[6];   \/* Ethernet source address. *\/$/;"	m	struct:universal_key::__anon12
+src_port	build/l2l3_acl/src_hardware_indep/key.h	/^                uint32_t src_port;             \/* TCP\/UDP\/SCTP source port. *\/$/;"	m	struct:universal_key::__anon30
+src_port	src/hardware_dep/dpdk/includes/key.h	/^                uint16_t src_port;             \/* TCP\/UDP\/SCTP source port. *\/$/;"	m	struct:universal_key::__anon14
+stack_instance_ids	src/utils/hlir.py	/^def stack_instance_ids(hlir):$/;"	f
+state	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^struct socket_state state[NB_SOCKETS];$/;"	v	typeref:struct:socket_state
+state	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^        struct lcore_state state;$/;"	m	struct:lcore_conf	typeref:struct:lcore_conf::lcore_state
+stop_backend	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^void stop_backend(backend bg)$/;"	f
+support_timeout	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t support_timeout;$/;"	m	struct:p4_table_definition
+switching_action	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct switching_action {\/\/ sugar@40$/;"	s
+switching_action	src/hardware_dep/dpdk/includes/actions.h	/^ struct switching_action {\/\/ sugar@40$/;"	s
+switching_add	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ switching_add(\/\/ sugar@39$/;"	f
+switching_add_table_entry	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ switching_add_table_entry(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@84$/;"	f
+switching_set_default_table_action	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ switching_set_default_table_action(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@114$/;"	f
+switching_setdefault	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ switching_setdefault(struct switching_action action)\/\/ sugar@76$/;"	f
+table	src/hardware_dep/shared/includes/dataplane.h	/^    void* table;$/;"	m	struct:lookup_table_s
+table_acl_key	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void table_acl_key(packet_descriptor_t* pd, int batch_size, uint8_t key[batch_size][13], uint16_t* len) {\/\/ sugar@68$/;"	f
+table_config	build/l2l3_acl/src_hardware_indep/tables.c	/^ lookup_table_t table_config[NB_TABLES] = {\/\/ sugar@21$/;"	v
+table_mac_learning_key	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void table_mac_learning_key(packet_descriptor_t* pd, int batch_size, struct universal_key key[batch_size], uint16_t* len) {\/\/ sugar@68$/;"	f
+table_mcast_src_pruning_key	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void table_mcast_src_pruning_key(packet_descriptor_t* pd, int batch_size, uint8_t key[][4], uint16_t* len) {\/\/ sugar@68$/;"	f
+table_name	src/hardware_dep/shared/ctrl_plane/handlers.h	/^	char* table_name;$/;"	m	struct:p4_ctrl_msg
+table_name	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char table_name[P4_MAX_TABLE_NAME_LEN];$/;"	m	struct:p4_add_table_entry
+table_name	src/hardware_dep/shared/ctrl_plane/messages.h	/^	char table_name[P4_MAX_TABLE_NAME_LEN];$/;"	m	struct:p4_set_default_action
+table_names	build/l2l3_acl/src_hardware_indep/data_plane_data.h	/^ enum table_names {\/\/ sugar@21$/;"	g
+table_product_key	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void table_product_key(packet_descriptor_t* pd, int batch_size, struct universal_key key[batch_size], uint16_t* len) {\/\/ sugar@68$/;"	f
+table_routable_key	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void table_routable_key(packet_descriptor_t* pd, int batch_size, struct universal_key key[batch_size], uint16_t* len) {\/\/ sugar@68$/;"	f
+table_routing_key	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void table_routing_key(packet_descriptor_t* pd, int batch_size, uint8_t* key[batch_size], uint16_t* len) {\/\/ sugar@68$/;"	f
+table_setdefault	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^table_setdefault(lookup_table_t* t, uint8_t* value)$/;"	f
+table_setdefault_promote	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^table_setdefault_promote(int tableid, uint8_t* value) {$/;"	f
+table_switching_key	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void table_switching_key(packet_descriptor_t* pd, int batch_size, struct universal_key key[batch_size], uint16_t* len) {\/\/ sugar@68$/;"	f
+table_vlan_egress_proc_key	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void table_vlan_egress_proc_key(packet_descriptor_t* pd, int batch_size, struct universal_key key[batch_size], uint16_t* len) {\/\/ sugar@68$/;"	f
+table_vlan_ingress_proc_key	build/l2l3_acl/src_hardware_indep/dataplane.c	/^ void table_vlan_ingress_proc_key(packet_descriptor_t* pd, int batch_size, struct universal_key key[batch_size], uint16_t* len) {\/\/ sugar@68$/;"	f
+tables	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^    lookup_table_t * tables         [NB_TABLES][NB_REPLICA];$/;"	m	struct:socket_state
+tables	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^    lookup_table_t * tables   [NB_TABLES];$/;"	m	struct:lcore_state
+tail	src/hardware_dep/shared/ctrl_plane/fifo.h	/^        int tail;$/;"	m	struct:fifo_st
+ternary_add	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^ternary_add(lookup_table_t* t, uint8_t* key, uint8_t* mask, uint8_t* value)$/;"	f
+ternary_add_promote	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^ternary_add_promote(int tableid, uint8_t* key, uint8_t* mask, uint8_t* value) {$/;"	f
+ternary_create	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^ternary_create(lookup_table_t* t, int socketid)$/;"	f
+ternary_entry	src/hardware_dep/shared/includes/ternary_naive.h	/^} ternary_entry;$/;"	t	typeref:struct:__anon1
+ternary_lookup	src/hardware_dep/dpdk/data_plane/dpdk_tables.c	/^ternary_lookup(lookup_table_t* t, uint8_t* key)$/;"	f
+ternary_table	src/hardware_dep/shared/includes/ternary_naive.h	/^} ternary_table;$/;"	t	typeref:struct:__anon2
+test_learn_ip	src/hardware_dep/shared/ctrl_plane/dpdk_controller.c	/^void test_learn_ip(void* b) {$/;"	f
+test_learn_ip	src/hardware_dep/shared/ctrl_plane/dpdk_l3_controller.c	/^void test_learn_ip(void* b) {$/;"	f
+threadinfo_st	src/hardware_dep/shared/ctrl_plane/controller.c	/^typedef struct threadinfo_st {$/;"	s	file:
+threadinfo_t	src/hardware_dep/shared/ctrl_plane/controller.c	/^} threadinfo_t;$/;"	t	typeref:struct:threadinfo_st	file:
+threadpool	src/hardware_dep/shared/ctrl_plane/threadpool.h	/^typedef void *threadpool;$/;"	t
+threads	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^	pthread_t *threads;	$/;"	m	struct:_threadpool_st	file:
+timer_period	src/hardware_dep/dpdk/main_loop.c	/^int64_t timer_period = 10 * TIMER_MILLISECOND * 1000; \/* default period is 10 seconds *\/$/;"	v
+timer_period	src/hardware_dep/dpdk/t4p4_loop_bkp.c	/^int64_t timer_period = 10 * TIMER_MILLISECOND * 1000; \/* default period is 10 seconds *\/$/;"	v
+touch_mem_cell	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^mem_cell_t* touch_mem_cell(backend_t* bgt)$/;"	f
+tp	build/l2l3_acl/src_hardware_indep/key.h	/^        } tp; $/;"	m	struct:universal_key	typeref:struct:universal_key::__anon30
+tp	src/hardware_dep/dpdk/includes/key.h	/^        } tp; $/;"	m	struct:universal_key	typeref:struct:universal_key::__anon14
+tpool	src/hardware_dep/shared/ctrl_plane/controller.c	/^        threadpool tpool;$/;"	m	struct:controller_st	file:
+tpool	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	threadpool tpool;$/;"	m	struct:backend_st	file:
+translate_file_contents	src/compiler.py	/^def translate_file_contents(file, code):$/;"	f
+translate_line_with_insert	src/compiler.py	/^def translate_line_with_insert(file, line_idx, line):$/;"	f
+true	src/hardware_dep/shared/ctrl_plane/messages.h	20;"	d
+tx	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^	uint64_t tx;$/;"	m	struct:l2fwd_port_statistics
+tx_conf	src/hardware_dep/dpdk/data_plane/dpdk_lib.c	/^static struct rte_eth_txconf tx_conf = {$/;"	v	typeref:struct:rte_eth_txconf	file:
+tx_mbufs	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^        struct mbuf_table tx_mbufs[RTE_MAX_ETHPORTS];$/;"	m	struct:lcore_conf	typeref:struct:lcore_conf::mbuf_table
+tx_queue_id	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^        uint16_t tx_queue_id[RTE_MAX_ETHPORTS];$/;"	m	struct:lcore_conf
+tx_tsc	src/hardware_dep/dpdk/includes/dpdk_lib.h	/^        uint64_t tx_tsc;$/;"	m	struct:lcore_conf
+type	src/hardware_dep/shared/ctrl_plane/handlers.h	/^	uint8_t type;$/;"	m	struct:p4_ctrl_msg
+type	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint16_t type; \/* OFPHET_VERSIONBITMAP. *\/$/;"	m	struct:p4_hello_elem_versionbitmap
+type	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint16_t type; \/* One of OFPHET_*. *\/$/;"	m	struct:p4_hello_elem_header
+type	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t type;		\/* P4T constants *\/$/;"	m	struct:p4_header
+type	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t type; \/* p4_field_match_type *\/$/;"	m	struct:p4_field_match_header
+type	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t type;$/;"	m	struct:p4_field_match_desc
+type	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t type;$/;"	m	struct:p4_table_action_desc
+type	src/hardware_dep/shared/includes/dataplane.h	/^    header_instance_t   type;$/;"	m	struct:header_descriptor_s
+type	src/hardware_dep/shared/includes/dataplane.h	/^    uint8_t type;$/;"	m	struct:counter_s
+type	src/hardware_dep/shared/includes/dataplane.h	/^    uint8_t type;$/;"	m	struct:lookup_table_s
+type_field_list	src/hardware_dep/shared/includes/dataplane.h	/^struct type_field_list {$/;"	s
+universal_key	build/l2l3_acl/src_hardware_indep/key.h	/^struct universal_key {$/;"	s
+universal_key	src/hardware_dep/dpdk/includes/key.h	/^struct universal_key {$/;"	s
+universal_key_default	build/l2l3_acl/src_hardware_indep/key.h	/^struct universal_key inline universal_key_default(void) {$/;"	f
+universal_key_default	src/hardware_dep/dpdk/includes/key.h	/^struct universal_key inline universal_key_default(void) {$/;"	f
+unpack_p4_action	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_action* unpack_p4_action(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_action_parameter	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_action_parameter* unpack_p4_action_parameter(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_add_table_entry	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_add_table_entry* unpack_p4_add_table_entry(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_digest	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_digest* unpack_p4_digest(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_digest_field	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_digest_field* unpack_p4_digest_field(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_field_match_exact	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_exact* unpack_p4_field_match_exact(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_field_match_header	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_header* unpack_p4_field_match_header(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_field_match_lpm	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_lpm* unpack_p4_field_match_lpm(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_field_match_range	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_range* unpack_p4_field_match_range(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_field_match_ternary	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_ternary* unpack_p4_field_match_ternary(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_field_match_valid	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_field_match_valid* unpack_p4_field_match_valid(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_header	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_header *unpack_p4_header(char* buffer, uint16_t offset) {$/;"	f
+unpack_p4_set_default_action	src/hardware_dep/shared/ctrl_plane/messages.c	/^inline struct p4_set_default_action* unpack_p4_set_default_action(char* buffer, uint16_t offset) {$/;"	f
+unused_head	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	mem_cell_t* unused_head;$/;"	m	struct:backend_st	file:
+used_head	src/hardware_dep/shared/ctrl_plane/ctrl_plane_backend.c	/^	mem_cell_t* used_head;$/;"	m	struct:backend_st	file:
+userActions	src/utils/hlir.py	/^def userActions(actions):$/;"	f
+useraction_objs	build/util/desugared_compiler/actions.c.desugared.py	/^useraction_objs = [(actions[act_key]) for act_key in useractions ]$/;"	v
+useraction_objs	src/hardware_indep/actions.c.py	/^useraction_objs = [(actions[act_key]) for act_key in useractions ]$/;"	v
+useractions	build/util/desugared_compiler/actions.c.desugared.py	/^useractions = userActions(actions)$/;"	v
+useractions	src/hardware_indep/actions.c.py	/^useractions = userActions(actions)$/;"	v
+val_size	src/hardware_dep/shared/includes/dataplane.h	/^    uint8_t val_size;$/;"	m	struct:lookup_table_s
+value	build/util/desugared_compiler/parser.c.desugared.py	/^                value = branch_case$/;"	v
+value	build/util/desugared_compiler/parser.c.desugared.py	/^                value = branch_case[0]$/;"	v
+value	src/hardware_dep/shared/ctrl_plane/messages.h	/^        char value[P4_MAX_FIELD_VALUE_LENGTH];	$/;"	m	struct:p4_digest_field
+value	src/hardware_dep/shared/includes/ternary_naive.h	/^    uint8_t* value;$/;"	m	struct:__anon1
+value	src/hardware_indep/parser.c.py	/^                value = branch_case$/;"	v
+value	src/hardware_indep/parser.c.py	/^                value = branch_case[0]$/;"	v
+value_init	src/hardware_dep/shared/includes/vector.h	/^    void (*value_init)(void *);$/;"	m	struct:vector_s
+value_name	build/util/desugared_compiler/parser.c.desugared.py	/^            value_name  = "case_value_%d" % case_num$/;"	v
+value_name	src/hardware_indep/parser.c.py	/^            value_name  = "case_value_%d" % case_num$/;"	v
+value_set	build/util/desugared_compiler/parser.c.desugared.py	/^                value_set = branch_case$/;"	v
+value_set	src/hardware_indep/parser.c.py	/^                value_set = branch_case$/;"	v
+values	src/hardware_dep/shared/includes/dataplane.h	/^    vector_t *values; \/\/rte_atomic32_t *cnt; \/\/ volatile ints$/;"	m	struct:counter_s
+vector_append	src/hardware_dep/shared/data_plane/vector.c	/^void vector_append(vector_t *vector, void* value) {$/;"	f
+vector_double_capacity_if_full	src/hardware_dep/shared/data_plane/vector.c	/^void vector_double_capacity_if_full(vector_t *vector) {$/;"	f
+vector_free	src/hardware_dep/shared/data_plane/vector.c	/^void vector_free(vector_t *vector) {$/;"	f
+vector_get	src/hardware_dep/shared/data_plane/vector.c	/^void* vector_get(vector_t *vector, int index) {$/;"	f
+vector_init	src/hardware_dep/shared/data_plane/vector.c	/^void vector_init(vector_t *vector, int size, int capacity, int data_size, void (*value_init)(void *), int socketid) {$/;"	f
+vector_init_elements	src/hardware_dep/shared/data_plane/vector.c	/^static void vector_init_elements(vector_t* vector, int from, int to) {$/;"	f	file:
+vector_s	src/hardware_dep/shared/includes/vector.h	/^typedef struct vector_s {$/;"	s
+vector_set	src/hardware_dep/shared/data_plane/vector.c	/^void vector_set(vector_t *vector, int index, void* value) {$/;"	f
+vector_t	src/hardware_dep/shared/includes/vector.h	/^} vector_t;$/;"	t	typeref:struct:vector_s
+version	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint8_t version;	\/* version *\/$/;"	m	struct:p4_header
+vid	build/l2l3_acl/src_hardware_indep/key.h	/^		uint8_t vid; \/\/vlan id$/;"	m	struct:universal_key::__anon27
+vid	src/hardware_dep/dpdk/includes/key.h	/^		uint16_t vid; \/\/vlan id$/;"	m	struct:universal_key::__anon11
+vlan	build/l2l3_acl/src_hardware_indep/key.h	/^	} vlan;$/;"	m	struct:universal_key	typeref:struct:universal_key::__anon27
+vlan	src/hardware_dep/dpdk/includes/key.h	/^	} vlan;$/;"	m	struct:universal_key	typeref:struct:universal_key::__anon11
+vlan_egress_proc_action	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct vlan_egress_proc_action {\/\/ sugar@40$/;"	s
+vlan_egress_proc_action	src/hardware_dep/dpdk/includes/actions.h	/^ struct vlan_egress_proc_action {\/\/ sugar@40$/;"	s
+vlan_egress_proc_add	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ vlan_egress_proc_add(\/\/ sugar@39$/;"	f
+vlan_egress_proc_add_table_entry	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ vlan_egress_proc_add_table_entry(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@84$/;"	f
+vlan_egress_proc_set_default_table_action	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ vlan_egress_proc_set_default_table_action(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@114$/;"	f
+vlan_egress_proc_setdefault	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ vlan_egress_proc_setdefault(struct vlan_egress_proc_action action)\/\/ sugar@76$/;"	f
+vlan_ingress_proc_action	build/l2l3_acl/src_hardware_indep/actions.h	/^ struct vlan_ingress_proc_action {\/\/ sugar@40$/;"	s
+vlan_ingress_proc_action	src/hardware_dep/dpdk/includes/actions.h	/^ struct vlan_ingress_proc_action {\/\/ sugar@40$/;"	s
+vlan_ingress_proc_add	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ vlan_ingress_proc_add(\/\/ sugar@39$/;"	f
+vlan_ingress_proc_add_table_entry	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ vlan_ingress_proc_add_table_entry(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@84$/;"	f
+vlan_ingress_proc_set_default_table_action	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ vlan_ingress_proc_set_default_table_action(struct p4_ctrl_msg* ctrl_m) {\/\/ sugar@114$/;"	f
+vlan_ingress_proc_setdefault	build/l2l3_acl/src_hardware_indep/controlplane.c	/^ vlan_ingress_proc_setdefault(struct vlan_ingress_proc_action action)\/\/ sugar@76$/;"	f
+warnings	src/utils/misc.py	/^warnings = []$/;"	v
+work_st	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^typedef struct work_st{$/;"	s	file:
+work_t	src/hardware_dep/shared/ctrl_plane/threadpool.c	/^} work_t;$/;"	t	typeref:struct:work_st	file:
+wrapper	src/hardware_dep/shared/includes/dataplane.h	/^    packet *            wrapper;$/;"	m	struct:packet_descriptor_s
+write_file	src/compiler.py	/^def write_file(filename, text):$/;"	f
+write_fix	src/hardware_dep/shared/ctrl_plane/sock_helpers.c	/^int write_fix(int sock, char* buffer, int nbytes)$/;"	f
+write_p4_msg	src/hardware_dep/shared/ctrl_plane/sock_helpers.c	/^int write_p4_msg(int sock, char* buffer, int length)$/;"	f
+xid	src/hardware_dep/shared/ctrl_plane/handlers.h	/^	uint32_t xid;$/;"	m	struct:p4_ctrl_msg
+xid	src/hardware_dep/shared/ctrl_plane/messages.h	/^	uint32_t xid;		\/* Transaction ID *\/$/;"	m	struct:p4_header
